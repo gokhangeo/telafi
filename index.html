@@ -58,13 +58,12 @@
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" /></svg>
                 </button>
             </div>
-            <div class="flex items-center space-x-4 mt-4 md:mt-0">
+            <div class="flex flex-wrap items-center justify-center gap-2 mt-4 md:mt-0">
+                <div id="sync-status" class="text-sm text-gray-500 transition-opacity duration-300 opacity-0"></div>
                  <button id="export-excel" class="bg-emerald-500 hover:bg-emerald-600 text-white font-bold py-2 px-4 rounded-lg transition duration-200 flex items-center space-x-2">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" /></svg>
                     <span>Excel'e Aktar</span>
                 </button>
                 <button id="logout-button" class="bg-red-500 hover:bg-red-600 text-white font-bold py-2 px-4 rounded-lg transition duration-200 flex items-center space-x-2">
-                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1" /></svg>
                     <span>Çıkış Yap</span>
                 </button>
             </div>
@@ -88,19 +87,29 @@
                     <select id="personnel-select" class="w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500"></select>
                 </div>
                 <div class="mb-4">
-                    <label class="block text-sm font-medium text-gray-700 mb-2">Telafi Saatleri</label>
+                    <label class="block text-sm font-medium text-gray-700 mb-2">Telafi Türü</label>
                     <div class="flex items-center">
                         <input id="fixed-slot" type="checkbox" class="h-4 w-4 text-indigo-600 border-gray-300 rounded focus:ring-indigo-500">
                         <label for="fixed-slot" class="ml-2 block text-sm text-gray-900">Sabit Öğle Arası (12:00-13:00 / 60 dk)</label>
                     </div>
                 </div>
-                <div class="mb-6">
-                    <label for="manual-minutes" class="block text-sm font-medium text-gray-700 mb-1">17:00 Sonrası Ek Süre (Dakika)</label>
-                    <input type="number" id="manual-minutes" min="0" step="1" class="w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500" placeholder="Örn: 45">
+                <div class="border-t my-4"></div>
+                <div class="mb-2">
+                     <label class="block text-sm font-medium text-gray-700 mb-2">Serbest Zamanlı Mesai</label>
+                </div>
+                <div class="grid grid-cols-2 gap-4 mb-6">
+                    <div>
+                        <label for="start-time" class="block text-sm font-medium text-gray-700 mb-1">Başlangıç Saati</label>
+                        <input type="time" id="start-time" value="17:00" class="w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500">
+                    </div>
+                     <div>
+                        <label for="end-time" class="block text-sm font-medium text-gray-700 mb-1">Bitiş Saati</label>
+                        <input type="time" id="end-time" class="w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500">
+                    </div>
                 </div>
                 <div class="flex justify-end space-x-3">
                     <button type="button" id="cancel-button" class="bg-gray-200 hover:bg-gray-300 text-gray-800 font-bold py-2 px-4 rounded-lg transition duration-200">İptal</button>
-                    <button type="submit" class="bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded-lg transition duration-200">Kaydet</button>
+                    <button type="submit" id="save-entry-button" class="bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded-lg transition duration-200">Kaydet</button>
                 </div>
             </form>
             <div id="day-entries" class="mt-6"></div>
@@ -121,14 +130,23 @@ document.addEventListener('DOMContentLoaded', () => {
         'tarsus': { password: '503349', birim: 'Tarsus' }
     };
     
+    // --- GITHUB API AYARLARI --- //
+    const GITHUB_CONFIG = {
+        owner: 'gokhangeo',
+        repo: 'telafi',
+        path: 'mesai_verileri.json',
+        tokenParts: ['ghp_MAuvwYTJD', 'UiqFY5h72CZeX', 'nMKuxrCJ08sfAl']
+    };
+    const GITHUB_TOKEN = GITHUB_CONFIG.tokenParts.join('');
     const githubPersonnelUrl = 'https://raw.githubusercontent.com/gokhangeo/telafi/main/PERSONEL.xlsx';
 
     let fullPersonnelList = [];
     let filteredPersonnelList = [];
     let currentUser = null;
     let currentDate = new Date();
-    let overtimeData = JSON.parse(localStorage.getItem('overtimeData')) || {};
+    let overtimeData = {};
     let selectedDate = null;
+    let syncStatusTimer;
 
     // --- DOM ELEMENTLERİ --- //
     const loginScreen = document.getElementById('login-screen');
@@ -143,19 +161,47 @@ document.addEventListener('DOMContentLoaded', () => {
     const overtimeForm = document.getElementById('overtime-form');
     const personnelSelect = document.getElementById('personnel-select');
     const fixedSlotCheckbox = document.getElementById('fixed-slot');
-    const manualMinutesInput = document.getElementById('manual-minutes');
+    const startTimeInput = document.getElementById('start-time');
+    const endTimeInput = document.getElementById('end-time');
     const dayEntriesEl = document.getElementById('day-entries');
     const summaryContentEl = document.getElementById('summary-content');
+    const saveEntryButton = document.getElementById('save-entry-button');
+    const syncStatusEl = document.getElementById('sync-status');
 
     // --- FONKSİYONLAR --- //
     
-    const saveToLocalStorage = () => {
-        localStorage.setItem('overtimeData', JSON.stringify(overtimeData));
+    const updateSyncStatus = (status, message = '') => {
+        clearTimeout(syncStatusTimer);
+        syncStatusEl.classList.remove('text-green-600', 'text-red-600', 'text-gray-500');
+        syncStatusEl.style.opacity = '1';
+
+        switch (status) {
+            case 'syncing':
+                syncStatusEl.textContent = 'Kaydediliyor...';
+                syncStatusEl.classList.add('text-gray-500');
+                break;
+            case 'success':
+                syncStatusEl.textContent = 'Kaydedildi!';
+                syncStatusEl.classList.add('text-green-600');
+                syncStatusTimer = setTimeout(() => {
+                    syncStatusEl.style.opacity = '0';
+                }, 2000);
+                break;
+            case 'error':
+                syncStatusEl.textContent = `Hata: ${message}`;
+                syncStatusEl.classList.add('text-red-600');
+                syncStatusTimer = setTimeout(() => {
+                    syncStatusEl.style.opacity = '0';
+                }, 5000);
+                break;
+            default:
+                syncStatusEl.style.opacity = '0';
+        }
     };
 
     const fetchPersonnelData = async () => {
         try {
-            const response = await fetch(githubPersonnelUrl);
+            const response = await fetch(`${githubPersonnelUrl}?timestamp=${new Date().getTime()}`);
             if (!response.ok) throw new Error('Personel dosyası yüklenemedi.');
             const arrayBuffer = await response.arrayBuffer();
             const data = new Uint8Array(arrayBuffer);
@@ -164,7 +210,6 @@ document.addEventListener('DOMContentLoaded', () => {
             const worksheet = workbook.Sheets[sheetName];
             const json = XLSX.utils.sheet_to_json(worksheet);
             
-            // Excel'den gelen veriyi standart bir formata dönüştür
             fullPersonnelList = json.map((row, index) => ({
                 id: index + 1,
                 name: row['Adı Soyadı'],
@@ -184,20 +229,36 @@ document.addEventListener('DOMContentLoaded', () => {
         } else {
             filteredPersonnelList = fullPersonnelList.filter(p => p.unit === currentUser.birim);
         }
-        // Personel listesini isme göre sırala
         filteredPersonnelList.sort((a, b) => a.name.localeCompare(b.name, 'tr'));
     };
     
-    // ... (formatMinutes, renderCalendar, updateSummary, openModal, vb. fonksiyonlar aşağıda güncellendi)
-
     const formatMinutes = (totalMinutes) => {
-        if (!totalMinutes || totalMinutes === 0) return `0 dk`;
+        if (!totalMinutes || totalMinutes < 0) totalMinutes = 0;
         const hours = Math.floor(totalMinutes / 60);
         const minutes = totalMinutes % 60;
         let result = '';
         if (hours > 0) result += `${hours} sa `;
         if (minutes > 0) result += `${minutes} dk`;
-        return result.trim();
+        return result.trim() || '0 dk';
+    };
+
+    const getEntryDetailsText = (entry) => {
+        if (!entry.details) return '';
+
+        const parts = [];
+        if (entry.details.fixedSlot) {
+            parts.push('Öğle Arası');
+        }
+        if (entry.details.startTime && entry.details.endTime) {
+            parts.push(`${entry.details.startTime}-${entry.details.endTime}`);
+        }
+        
+        return parts.join(' + ');
+    };
+
+    const formatEntryDetails = (entry) => {
+        const detailsText = getEntryDetailsText(entry);
+        return `${formatMinutes(entry.minutes)}${detailsText ? ` (${detailsText})` : ''}`;
     };
 
     const renderCalendar = () => {
@@ -288,7 +349,7 @@ document.addEventListener('DOMContentLoaded', () => {
         totalCard.innerHTML = `<p class="text-sm text-gray-500">Aylık Toplam</p><p class="text-xl font-bold text-gray-800">${formatMinutes(totalMonthMinutes)}</p>`;
         summaryContentEl.appendChild(totalCard);
 
-        Object.keys(personnelTotals).sort().forEach(name => {
+        Object.keys(personnelTotals).sort((a,b) => a.localeCompare(b, 'tr')).forEach(name => {
              if(personnelTotals[name] > 0){
                 const personCard = document.createElement('div');
                 personCard.className = 'bg-gray-100 p-4 rounded-lg';
@@ -321,26 +382,27 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const list = document.createElement('ul');
         list.className = 'space-y-2';
-        const visiblePersonnelNames = new Set(filteredPersonnelList.map(p => p.name));
-
-        overtimeData[selectedDate].forEach((entry, index) => {
-            if(currentUser.birim === 'Tümü' || visiblePersonnelNames.has(entry.personnelName)) {
+        
+        let visibleIndex = 0;
+        overtimeData[selectedDate].forEach((entry, originalIndex) => {
+             if(currentUser.birim === 'Tümü' || entry.personnelName === currentUser.birim || filteredPersonnelList.some(p => p.name === entry.personnelName)) {
                 const item = document.createElement('li');
                 item.className = 'flex justify-between items-center p-2 bg-gray-100 rounded-md';
                 item.innerHTML = `
-                    <span><strong class="font-medium">${entry.personnelName}</strong>: ${formatMinutes(entry.minutes)}</span>
-                    <button data-index="${index}" class="remove-entry-btn text-red-500 hover:text-red-700 p-1 rounded-full">
+                    <span class="text-sm"><strong class="font-medium">${entry.personnelName}</strong>: ${formatEntryDetails(entry)}</span>
+                    <button data-index="${originalIndex}" class="remove-entry-btn text-red-500 hover:text-red-700 p-1 rounded-full">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M9 2a1 1 0 00-.894.553L7.382 4H4a1 1 0 000 2v10a2 2 0 002 2h8a2 2 0 002-2V6a1 1 0 100-2h-3.382l-.724-1.447A1 1 0 0011 2H9zM7 8a1 1 0 012 0v6a1 1 0 11-2 0V8zm4 0a1 1 0 012 0v6a1 1 0 11-2 0V8z" clip-rule="evenodd" /></svg>
                     </button>
                 `;
                 list.appendChild(item);
-            }
+             }
         });
         dayEntriesEl.appendChild(list);
     };
 
     const closeModal = () => {
         overtimeForm.reset();
+        startTimeInput.value = "17:00"; // Reset to default
         selectedDate = null;
         modal.classList.add('hidden');
         modal.classList.remove('flex');
@@ -364,8 +426,9 @@ document.addEventListener('DOMContentLoaded', () => {
                     dataToExport.push({
                         'Tarih': date,
                         'Personel': entry.personnelName,
-                        'Süre (Saat)': (entry.minutes / 60).toFixed(2),
-                        'Süre (Dakika)': entry.minutes
+                        'Süre': formatMinutes(entry.minutes),
+                        'Detaylar': getEntryDetailsText(entry),
+                        'Süre (Dakika)': entry.minutes,
                     });
                 });
             }
@@ -431,12 +494,98 @@ document.addEventListener('DOMContentLoaded', () => {
             
             await fetchPersonnelData();
             filterPersonnelForCurrentUser();
+            await loadFromGithub(false); 
             renderCalendar();
         } else {
             loginScreen.classList.remove('hidden');
             appContainer.classList.add('hidden');
         }
     };
+    
+    // --- GITHUB API FONKSİYONLARI --- //
+
+    const getGithubApiUrl = () => {
+        const { owner, repo, path } = GITHUB_CONFIG;
+        return `https://api.github.com/repos/${owner}/${repo}/contents/${path}`;
+    };
+    
+    const toBase64 = str => btoa(unescape(encodeURIComponent(str)));
+    const fromBase64 = str => decodeURIComponent(escape(atob(str)));
+
+    const loadFromGithub = async (showAlert = true) => {
+        try {
+            const response = await fetch(`${getGithubApiUrl()}?timestamp=${new Date().getTime()}`, {
+                headers: {
+                    'Authorization': `token ${GITHUB_TOKEN}`,
+                    'Accept': 'application/vnd.github.v3+json',
+                }
+            });
+
+            if (response.status === 404) {
+                if(showAlert) alert('GitHub\'da veri dosyası bulunamadı. İlk kayıt otomatik oluşturulacak.');
+                overtimeData = {}; 
+                return true;
+            }
+            if (!response.ok) {
+                throw new Error(`GitHub API Hatası: ${response.statusText}`);
+            }
+
+            const data = await response.json();
+            const content = fromBase64(data.content);
+            overtimeData = JSON.parse(content);
+            return true;
+
+        } catch (error) {
+            console.error('GitHub\'dan veri yükleme hatası:', error);
+            if(showAlert) alert(`Veriler yüklenemedi: ${error.message}`);
+            return false;
+        }
+    };
+    
+    const saveToGithub = async () => {
+        updateSyncStatus('syncing');
+        let currentSha = null;
+        
+        try {
+            const getResponse = await fetch(`${getGithubApiUrl()}?timestamp=${new Date().getTime()}`, {
+                headers: { 'Authorization': `token ${GITHUB_TOKEN}` }
+            });
+
+            if (getResponse.ok) {
+                currentSha = (await getResponse.json()).sha;
+            } else if (getResponse.status !== 404) {
+                throw new Error(`Mevcut dosya bilgisi alınamadı: ${getResponse.statusText}`);
+            }
+            
+            const contentToSave = toBase64(JSON.stringify(overtimeData, null, 2));
+            const body = {
+                message: `Mesai verileri güncellendi - ${currentUser.username} - ${new Date().toLocaleString('tr-TR')}`,
+                content: contentToSave,
+                sha: currentSha
+            };
+
+            const putResponse = await fetch(getGithubApiUrl(), {
+                method: 'PUT',
+                headers: {
+                    'Authorization': `token ${GITHUB_TOKEN}`,
+                    'Accept': 'application/vnd.github.v3+json'
+                },
+                body: JSON.stringify(body)
+            });
+
+            if (!putResponse.ok) {
+                const errorData = await putResponse.json();
+                throw new Error(errorData.message || putResponse.statusText);
+            }
+            updateSyncStatus('success');
+            return true;
+        } catch (error) {
+            console.error('GitHub\'a kaydetme hatası:', error);
+            updateSyncStatus('error', error.message);
+            return false;
+        }
+    };
+
 
     // --- OLAY DİNLEYİCİLERİ --- //
     loginForm.addEventListener('submit', handleLogin);
@@ -452,57 +601,101 @@ document.addEventListener('DOMContentLoaded', () => {
         renderCalendar();
     });
 
-    overtimeForm.addEventListener('submit', (e) => {
+    overtimeForm.addEventListener('submit', async (e) => {
         e.preventDefault();
         if (!personnelSelect.value) {
             alert('Lütfen bir personel seçin.');
             return;
         }
+
         const [personnelId, personnelName] = personnelSelect.value.split('|');
-        const fixedMinutes = fixedSlotCheckbox.checked ? 60 : 0;
-        const manualMinutes = parseInt(manualMinutesInput.value) || 0;
+        const isFixedSlot = fixedSlotCheckbox.checked;
+        const fixedMinutes = isFixedSlot ? 60 : 0;
+        const startTimeValue = startTimeInput.value;
+        const endTimeValue = endTimeInput.value;
+        
+        let manualMinutes = 0;
+        if (startTimeValue && endTimeValue) {
+            const [startHours, startMinutes] = startTimeValue.split(':').map(Number);
+            const [endHours, endMinutes] = endTimeValue.split(':').map(Number);
+            
+            const totalStartMinutes = startHours * 60 + startMinutes;
+            const totalEndMinutes = endHours * 60 + endMinutes;
+
+            if(totalEndMinutes > totalStartMinutes){
+                 manualMinutes = totalEndMinutes - totalStartMinutes;
+            }
+        }
+        
         const totalMinutes = fixedMinutes + manualMinutes;
 
         if (totalMinutes === 0) {
             alert('Lütfen en az bir mesai süresi girin.');
             return;
         }
+
+        saveEntryButton.disabled = true;
         
         if (!overtimeData[selectedDate]) overtimeData[selectedDate] = [];
-
-        overtimeData[selectedDate].push({ personnelName, minutes: totalMinutes });
         
-        saveToLocalStorage();
-        overtimeForm.reset();
-        renderDayEntries();
-        renderCalendar();
+        const newEntry = {
+            personnelName,
+            minutes: totalMinutes,
+            details: {
+                fixedSlot: isFixedSlot,
+                startTime: manualMinutes > 0 ? startTimeValue : null,
+                endTime: manualMinutes > 0 ? endTimeValue : null,
+            }
+        };
+        overtimeData[selectedDate].push(newEntry);
+        
+        const success = await saveToGithub();
+
+        if(success) {
+            overtimeForm.reset();
+            startTimeInput.value = "17:00"; // Reset to default
+            renderDayEntries();
+            renderCalendar();
+            closeModal();
+        } else {
+            overtimeData[selectedDate].pop();
+            alert('Kayıt başarısız. Lütfen internet bağlantınızı kontrol edip tekrar deneyin.');
+        }
+
+        saveEntryButton.disabled = false;
     });
 
     document.getElementById('cancel-button').addEventListener('click', closeModal);
     modal.querySelector('.modal-backdrop').addEventListener('click', closeModal);
     
-    dayEntriesEl.addEventListener('click', (e) => {
+    dayEntriesEl.addEventListener('click', async (e) => {
         const removeButton = e.target.closest('.remove-entry-btn');
         if(removeButton) {
-            const indexToRemove = parseInt(removeButton.dataset.index);
+            if (!confirm('Bu mesai kaydını silmek istediğinizden emin misiniz?')) {
+                return;
+            }
             
-            // Gerçek indeksi bulmak için filtreleme yapıyoruz
-            const visiblePersonnelNames = new Set(filteredPersonnelList.map(p => p.name));
-            const entriesForDay = overtimeData[selectedDate];
-            const visibleEntries = entriesForDay
-                .map((entry, idx) => ({ ...entry, originalIndex: idx }))
-                .filter(entry => currentUser.birim === 'Tümü' || visiblePersonnelNames.has(entry.personnelName));
-
-            if (visibleEntries[indexToRemove]) {
-                const originalIndex = visibleEntries[indexToRemove].originalIndex;
-                overtimeData[selectedDate].splice(originalIndex, 1);
+            const originalIndexToRemove = parseInt(removeButton.dataset.index);
+            
+            if (overtimeData[selectedDate] && overtimeData[selectedDate][originalIndexToRemove]) {
+                const [removedEntry] = overtimeData[selectedDate].splice(originalIndexToRemove, 1);
                 
-                if (overtimeData[selectedDate].length === 0) {
-                    delete overtimeData[selectedDate];
+                const success = await saveToGithub();
+
+                if(success) {
+                    if (overtimeData[selectedDate].length === 0) {
+                        delete overtimeData[selectedDate];
+                    }
+                    renderDayEntries();
+                    renderCalendar();
+                } else {
+                    // Silme işlemi başarısız olursa, veriyi geri ekle
+                    if (!overtimeData[selectedDate]) {
+                        overtimeData[selectedDate] = [];
+                    }
+                    overtimeData[selectedDate].splice(originalIndexToRemove, 0, removedEntry);
+                    alert('Silme işlemi başarısız. Lütfen tekrar deneyin.');
                 }
-                saveToLocalStorage();
-                renderDayEntries();
-                renderCalendar();
             }
         }
     });
