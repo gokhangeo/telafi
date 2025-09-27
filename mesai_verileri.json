@@ -29,5 +29,16 @@
         "endTime": "19:05"
       }
     }
+  ],
+  "2025-09-28": [
+    {
+      "personnelName": "CİHAN KARA",
+      "minutes": 60,
+      "details": {
+        "fixedSlot": true,
+        "startTime": null,
+        "endTime": null
+      }
+    }
   ]
 }
