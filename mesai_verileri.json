@@ -9,5 +9,16 @@
         "endTime": "18:45"
       }
     }
+  ],
+  "2025-10-01": [
+    {
+      "personnelName": "HİLMİ MÜFTÜOĞLU",
+      "minutes": 125,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "19:05"
+      }
+    }
   ]
 }
