@@ -413,52 +413,77 @@ document.addEventListener('DOMContentLoaded', () => {
         const year = currentDate.getFullYear();
         const month = currentDate.getMonth();
         const monthName = currentDate.toLocaleString('tr-TR', { month: 'long' });
-        
-        const dataToExport = [];
-        const summaryData = [];
+
+        let allEntries = [];
         const visiblePersonnelNames = new Set(filteredPersonnelList.map(p => p.name));
 
         for (const date in overtimeData) {
             if (new Date(date).getFullYear() === year && new Date(date).getMonth() === month) {
                 overtimeData[date]
-                  .filter(entry => currentUser.birim === 'Tümü' || visiblePersonnelNames.has(entry.personnelName))
-                  .forEach(entry => {
-                    dataToExport.push({
-                        'Tarih': date,
-                        'Personel': entry.personnelName,
-                        'Süre': formatMinutes(entry.minutes),
-                        'Detaylar': getEntryDetailsText(entry),
-                        'Süre (Dakika)': entry.minutes,
+                    .filter(entry => currentUser.birim === 'Tümü' || visiblePersonnelNames.has(entry.personnelName))
+                    .forEach(entry => {
+                        allEntries.push({
+                            'Tarih': date,
+                            'Personel': entry.personnelName,
+                            'Süre': formatMinutes(entry.minutes),
+                            'Detaylar': getEntryDetailsText(entry),
+                            'İmza': '',
+                        });
                     });
-                });
             }
         }
-        
-        if (dataToExport.length === 0) {
+
+        if (allEntries.length === 0) {
             alert('Dışa aktarılacak veri bulunamadı.');
             return;
         }
 
-        const personnelTotals = {};
-        dataToExport.forEach(d => {
-            personnelTotals[d.Personel] = (personnelTotals[d.Personel] || 0) + d['Süre (Dakika)'];
-        });
-        
-        Object.keys(personnelTotals).sort().forEach(name => {
-            summaryData.push({
-                'Personel': name,
-                'Toplam Süre': formatMinutes(personnelTotals[name]),
-                'Toplam Dakika': personnelTotals[name]
-            });
+        allEntries.sort((a, b) => {
+            const nameCompare = a.Personel.localeCompare(b.Personel, 'tr');
+            if (nameCompare !== 0) return nameCompare;
+            return a.Tarih.localeCompare(b.Tarih);
         });
 
-        const wsDetail = XLSX.utils.json_to_sheet(dataToExport);
-        const wsSummary = XLSX.utils.json_to_sheet(summaryData);
+        const unitName = (currentUser.birim === 'Tümü' ? 'GENEL' : currentUser.birim).toUpperCase();
+        const reportTitle = `${unitName} ${monthName.toUpperCase()} AYI MESAİ TELAFİ CETVELİ`;
+        const headers = ['Tarih', 'Personel', 'Süre', 'Detaylar', 'İmza'];
+        
+        const dataForSheet = allEntries.map(row => Object.values(row));
+
+        const finalSheetData = [
+            [reportTitle],
+            [],
+            headers,
+            ...dataForSheet
+        ];
+        
+        const ws = XLSX.utils.aoa_to_sheet(finalSheetData);
+
+        ws['!merges'] = [{ s: { r: 0, c: 0 }, e: { r: 0, c: headers.length - 1 } }];
+        
+        const colWidths = headers.map((_, i) => ({
+             // Sütun genişliğini hesaplarken başlık ve başlık satırını da dahil et
+            wch: Math.max(
+                ...finalSheetData.map(r => (r[i] ? r[i].toString().length : 0)),
+                10 // Minimum genişlik
+            )
+        }));
+        ws['!cols'] = colWidths;
+
+        const signatureArea = [
+            [], [], [], // 3 boş satır
+            [null, 'İmza'],
+            [null, 'Birim a.']
+        ];
+        XLSX.utils.sheet_add_aoa(ws, signatureArea, { origin: -1 });
+
+        ws['!pageSetup'] = { orientation: 'landscape', fitToWidth: 1 };
+        
         const wb = XLSX.utils.book_new();
-        XLSX.utils.book_append_sheet(wb, wsDetail, 'Mesai Detayları');
-        XLSX.utils.book_append_sheet(wb, wsSummary, 'Aylık Özet');
+        XLSX.utils.book_append_sheet(wb, ws, 'Aylık Detaylı Rapor');
         XLSX.writeFile(wb, `${currentUser.birim}_${monthName}_${year}_Mesai_Raporu.xlsx`);
     };
+
 
     const handleLogin = (e) => {
         e.preventDefault();
