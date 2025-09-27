@@ -3,6 +3,14 @@
     {
       "personnelName": "AHMET ÇELİK",
       "minutes": 225
+    },
+    {
+      "personnelName": "KENAN BAYDEMİR",
+      "minutes": 105,
+      "details": {
+        "fixedSlot": false,
+        "endTime": "18:45"
+      }
     }
   ]
 }
