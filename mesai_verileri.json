@@ -11,5 +11,16 @@
       }
     }
   ],
-  "2025-09-28": []
+  "2025-09-28": [],
+  "2025-09-29": [
+    {
+      "personnelName": "ABDULKADİR BOBUŞ",
+      "minutes": 90,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "18:30"
+      }
+    }
+  ]
 }
