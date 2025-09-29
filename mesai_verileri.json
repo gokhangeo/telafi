@@ -23,5 +23,16 @@
         "endTime": "18:30"
       }
     }
+  ],
+  "2025-09-19": [
+    {
+      "personnelName": "MUSTAFA BICAK",
+      "minutes": 90,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "18:30"
+      }
+    }
   ]
 }
