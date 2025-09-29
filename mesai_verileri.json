@@ -21,6 +21,15 @@
         "startTime": null,
         "endTime": null
       }
+    },
+    {
+      "personnelName": "ÖZKAN AKBAŞ",
+      "minutes": 25,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "12:35",
+        "endTime": "13:00"
+      }
     }
   ]
 }
