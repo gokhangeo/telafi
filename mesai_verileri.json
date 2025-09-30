@@ -1,7 +1,17 @@
 {
   "2025-09-27": [],
   "2025-10-01": [],
-  "2025-09-28": [],
+  "2025-09-28": [
+    {
+      "personnelName": "MURAT SARI",
+      "minutes": 180,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "20:00",
+        "endTime": "23:00"
+      }
+    }
+  ],
   "2025-09-29": [
     {
       "personnelName": "EMİNE ALANLI KIRCILI",
