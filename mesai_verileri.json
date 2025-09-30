@@ -8,6 +8,15 @@
         "startTime": "15:00",
         "endTime": "17:30"
       }
+    },
+    {
+      "personnelName": "CANER OKAY",
+      "minutes": 180,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "14:00",
+        "endTime": "17:00"
+      }
     }
   ],
   "2025-10-01": [],
