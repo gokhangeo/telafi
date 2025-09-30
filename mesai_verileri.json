@@ -84,5 +84,16 @@
         "endTime": "19:00"
       }
     }
+  ],
+  "2025-09-04": [
+    {
+      "personnelName": "KAYHAN KARTPAK",
+      "minutes": 60,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "18:00",
+        "endTime": "19:00"
+      }
+    }
   ]
 }
