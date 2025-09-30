@@ -206,6 +206,15 @@
         "startTime": "10:00",
         "endTime": "13:30"
       }
+    },
+    {
+      "personnelName": "EMİNE ALANLI KIRCILI",
+      "minutes": 30,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "07:30",
+        "endTime": "08:00"
+      }
     }
   ]
 }
