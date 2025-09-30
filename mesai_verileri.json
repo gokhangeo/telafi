@@ -52,5 +52,16 @@
         "endTime": "18:30"
       }
     }
+  ],
+  "2025-09-25": [
+    {
+      "personnelName": "MURAT SARI",
+      "minutes": 60,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "18:00"
+      }
+    }
   ]
 }
