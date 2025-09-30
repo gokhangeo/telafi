@@ -257,5 +257,15 @@
       }
     }
   ],
-  "2025-09-24": []
+  "2025-09-24": [
+    {
+      "personnelName": "SITKI KIZILOLUK",
+      "minutes": 120,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "19:00"
+      }
+    }
+  ]
 }
