@@ -421,5 +421,16 @@
         "endTime": "18:00"
       }
     }
+  ],
+  "2025-09-12": [
+    {
+      "personnelName": "SÜLEYMAN YILMAZ",
+      "minutes": 135,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "19:15"
+      }
+    }
   ]
 }
