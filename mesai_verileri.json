@@ -134,6 +134,15 @@
         "startTime": "17:00",
         "endTime": "17:30"
       }
+    },
+    {
+      "personnelName": "MURAT AKAYDIN",
+      "minutes": 90,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "18:30"
+      }
     }
   ],
   "2025-09-25": [
