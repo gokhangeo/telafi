@@ -207,6 +207,15 @@
         "startTime": "17:00",
         "endTime": "20:00"
       }
+    },
+    {
+      "personnelName": "MÜMİN AKDOĞAN",
+      "minutes": 180,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "20:00"
+      }
     }
   ],
   "2025-09-09": [
