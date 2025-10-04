@@ -117,7 +117,7 @@
                 <div class="mb-2">
                      <label class="block text-sm font-medium text-gray-700 mb-2">Serbest Zamanlı Mesai</label>
                 </div>
-                <div class="grid grid-cols-2 gap-4 mb-6">
+                <div class="grid grid-cols-2 gap-4 mb-4">
                     <div>
                         <label for="start-time" class="block text-sm font-medium text-gray-700 mb-1">Başlangıç Saati</label>
                         <input type="time" id="start-time" value="17:00" class="w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500">
@@ -125,6 +125,17 @@
                      <div>
                         <label for="end-time" class="block text-sm font-medium text-gray-700 mb-1">Bitiş Saati</label>
                         <input type="time" id="end-time" class="w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500">
+                    </div>
+                </div>
+                <div class="border-t my-4"></div>
+                 <div class="grid grid-cols-2 gap-4 mb-6">
+                    <div>
+                        <label for="file-count" class="block text-sm font-medium text-gray-700 mb-1">Dosya Sayısı</label>
+                        <input type="number" id="file-count" min="0" class="w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500">
+                    </div>
+                    <div>
+                        <label for="fen-kayit-no" class="block text-sm font-medium text-gray-700 mb-1">Fen Kayıt No</label>
+                        <input type="text" id="fen-kayit-no" class="w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500">
                     </div>
                 </div>
                 <div class="flex justify-end space-x-3">
@@ -211,6 +222,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const fixedSlotCheckbox = document.getElementById('fixed-slot');
     const startTimeInput = document.getElementById('start-time');
     const endTimeInput = document.getElementById('end-time');
+    const fileCountInput = document.getElementById('file-count');
+    const fenKayitNoInput = document.getElementById('fen-kayit-no');
     const dayEntriesEl = document.getElementById('day-entries');
     const summaryContentEl = document.getElementById('summary-content');
     const saveEntryButton = document.getElementById('save-entry-button');
@@ -307,7 +320,25 @@ document.addEventListener('DOMContentLoaded', () => {
         if (entry.details.startTime && entry.details.endTime) {
             parts.push(`${entry.details.startTime}-${entry.details.endTime}`);
         }
+         if (entry.details.fileCount) {
+            parts.push(`Dosya: ${entry.details.fileCount}`);
+        }
+        if (entry.details.fenKayitNo) {
+            parts.push(`Fen No: ${entry.details.fenKayitNo}`);
+        }
         
+        return parts.join(', ');
+    };
+
+    const getTimeDetailsText = (entry) => {
+        if (!entry.details) return '';
+        const parts = [];
+        if (entry.details.fixedSlot) {
+            parts.push('Öğle Arası');
+        }
+        if (entry.details.startTime && entry.details.endTime) {
+            parts.push(`${entry.details.startTime}-${entry.details.endTime}`);
+        }
         return parts.join(' + ');
     };
 
@@ -495,7 +526,9 @@ document.addEventListener('DOMContentLoaded', () => {
                             'Tarih': date,
                             'Personel': entry.personnelName,
                             'Süre': formatMinutes(entry.minutes),
-                            'Detaylar': getEntryDetailsText(entry),
+                            'Detaylar': getTimeDetailsText(entry),
+                            'Dosya Sayısı': entry.details?.fileCount || '',
+                            'Fen Kayıt No': entry.details?.fenKayitNo || '',
                             'İmza': '',
                         });
                     });
@@ -515,7 +548,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const unitName = (currentUser.birim === 'Tümü' ? 'GENEL' : currentUser.birim).toUpperCase();
         const reportTitle = `${unitName} ${monthName.toUpperCase()} AYI MESAİ TELAFİ CETVELİ`;
-        const headers = ['Tarih', 'Personel', 'Süre', 'Detaylar', 'İmza'];
+        const headers = ['Tarih', 'Personel', 'Süre', 'Detaylar', 'Dosya Sayısı', 'Fen Kayıt No', 'İmza'];
         
         const dataForSheet = allEntries.map(row => Object.values(row));
 
@@ -557,9 +590,7 @@ document.addEventListener('DOMContentLoaded', () => {
         };
 
         const months = quarterMonths[quarter];
-        const startDate = new Date(year, months[0], 1);
-        const endDate = new Date(year, months[2] + 1, 0);
-
+        
         let allEntries = [];
         const visiblePersonnelNames = new Set(filteredPersonnelList.map(p => p.name));
 
@@ -570,8 +601,13 @@ document.addEventListener('DOMContentLoaded', () => {
                     .filter(entry => currentUser.birim === 'Tümü' || visiblePersonnelNames.has(entry.personnelName))
                     .forEach(entry => {
                         allEntries.push({
-                            'Tarih': date, 'Personel': entry.personnelName, 'Süre': formatMinutes(entry.minutes),
-                            'Detaylar': getEntryDetailsText(entry), 'İmza': '',
+                            'Tarih': date,
+                            'Personel': entry.personnelName,
+                            'Süre': formatMinutes(entry.minutes),
+                            'Detaylar': getTimeDetailsText(entry),
+                            'Dosya Sayısı': entry.details?.fileCount || '',
+                            'Fen Kayıt No': entry.details?.fenKayitNo || '',
+                            'İmza': '',
                         });
                     });
             }
@@ -586,7 +622,7 @@ document.addEventListener('DOMContentLoaded', () => {
         
         const unitName = (currentUser.birim === 'Tümü' ? 'GENEL' : currentUser.birim).toUpperCase();
         const reportTitle = `${unitName} ${year} YILI ${quarter}. ÇEYREK MESAİ TELAFİ CETVELİ`;
-        const headers = ['Tarih', 'Personel', 'Süre', 'Detaylar', 'İmza'];
+        const headers = ['Tarih', 'Personel', 'Süre', 'Detaylar', 'Dosya Sayısı', 'Fen Kayıt No', 'İmza'];
         
         const finalSheetData = [ [reportTitle], [], headers ];
 
@@ -782,6 +818,8 @@ document.addEventListener('DOMContentLoaded', () => {
         const fixedMinutes = isFixedSlot ? 60 : 0;
         const startTimeValue = startTimeInput.value;
         const endTimeValue = endTimeInput.value;
+        const fileCount = fileCountInput.value;
+        const fenKayitNo = fenKayitNoInput.value;
         
         let manualMinutes = 0;
         if (startTimeValue && endTimeValue) {
@@ -814,6 +852,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 fixedSlot: isFixedSlot,
                 startTime: manualMinutes > 0 ? startTimeValue : null,
                 endTime: manualMinutes > 0 ? endTimeValue : null,
+                fileCount: fileCount || null,
+                fenKayitNo: fenKayitNo || null,
             }
         };
         overtimeData[selectedDate].push(newEntry);
@@ -905,5 +945,4 @@ document.addEventListener('DOMContentLoaded', () => {
 
 </body>
 </html>
-
 
