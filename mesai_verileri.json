@@ -543,5 +543,18 @@
         "endTime": "18:30"
       }
     }
+  ],
+  "2025-10-08": [
+    {
+      "personnelName": "MURAT AKAYDIN",
+      "minutes": 135,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "19:15",
+        "fileCount": "1",
+        "fenKayitNo": "1268"
+      }
+    }
   ]
 }
