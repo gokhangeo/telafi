@@ -579,6 +579,17 @@
         "fileCount": "5",
         "fenKayitNo": "407-408-409-410-1274"
       }
+    },
+    {
+      "personnelName": "ABDULKADİR BOBUŞ",
+      "minutes": 180,
+      "details": {
+        "fixedSlot": true,
+        "startTime": "17:00",
+        "endTime": "19:00",
+        "fileCount": "4",
+        "fenKayitNo": "3549,3551,3522 ve 3553"
+      }
     }
   ]
 }
