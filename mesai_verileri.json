@@ -592,17 +592,5 @@
       }
     }
   ],
-  "2025-10-10": [
-    {
-      "personnelName": "ABDULKADİR BOBUŞ",
-      "minutes": 60,
-      "details": {
-        "fixedSlot": true,
-        "startTime": null,
-        "endTime": null,
-        "fileCount": null,
-        "fenKayitNo": null
-      }
-    }
-  ]
+  "2025-10-10": []
 }
