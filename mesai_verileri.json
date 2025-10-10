@@ -592,5 +592,17 @@
       }
     }
   ],
-  "2025-10-10": []
+  "2025-10-10": [
+    {
+      "personnelName": "MUSTAFA BICAK",
+      "minutes": 60,
+      "details": {
+        "fixedSlot": true,
+        "startTime": null,
+        "endTime": null,
+        "fileCount": null,
+        "fenKayitNo": null
+      }
+    }
+  ]
 }
