@@ -594,5 +594,17 @@
       }
     }
   ],
-  "2025-10-13": []
+  "2025-10-13": [
+    {
+      "personnelName": "ÖZKAN AKBAŞ",
+      "minutes": 20,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "12:40",
+        "endTime": "13:00",
+        "fileCount": "1",
+        "fenKayitNo": "3615"
+      }
+    }
+  ]
 }
