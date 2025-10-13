@@ -19,7 +19,6 @@
       }
     }
   ],
-  "2025-10-01": [],
   "2025-09-28": [
     {
       "personnelName": "MURAT SARI",
@@ -592,6 +591,19 @@
         "endTime": null,
         "fileCount": null,
         "fenKayitNo": null
+      }
+    }
+  ],
+  "2025-10-13": [
+    {
+      "personnelName": "ALİ BAŞKURT",
+      "minutes": 60,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "12:00",
+        "endTime": "13:00",
+        "fileCount": "1",
+        "fenKayitNo": "3615"
       }
     }
   ]
