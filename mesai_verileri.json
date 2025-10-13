@@ -594,17 +594,5 @@
       }
     }
   ],
-  "2025-10-13": [
-    {
-      "personnelName": "ALİ BAŞKURT",
-      "minutes": 60,
-      "details": {
-        "fixedSlot": false,
-        "startTime": "12:00",
-        "endTime": "13:00",
-        "fileCount": "1",
-        "fenKayitNo": "3615"
-      }
-    }
-  ]
+  "2025-10-13": []
 }
