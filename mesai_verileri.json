@@ -771,6 +771,17 @@
         "fileCount": "1",
         "fenKayitNo": "3615"
       }
+    },
+    {
+      "personnelName": "HİKMET GÜLCAN",
+      "minutes": 145,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "19:25",
+        "fileCount": "6",
+        "fenKayitNo": "431,432,433,434,435,436"
+      }
     }
   ]
 }
