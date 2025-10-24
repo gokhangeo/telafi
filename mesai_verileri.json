@@ -845,14 +845,14 @@
   ],
   "2025-10-24": [
     {
-      "personnelName": "SÜLEYMAN YILMAZ",
-      "minutes": 100,
+      "personnelName": "HALİL ÇETİNKAYA",
+      "minutes": 120,
       "details": {
-        "fixedSlot": true,
+        "fixedSlot": false,
         "startTime": "17:00",
-        "endTime": "17:40",
-        "fileCount": "2",
-        "fenKayitNo": "1354-1355"
+        "endTime": "19:00",
+        "fileCount": "4",
+        "fenKayitNo": "1356-1357-1358-1359"
       }
     }
   ]
