@@ -605,17 +605,6 @@
         "fileCount": "1",
         "fenKayitNo": "3615"
       }
-    },
-    {
-      "personnelName": "HALİL ÇETİNKAYA",
-      "minutes": 210,
-      "details": {
-        "fixedSlot": false,
-        "startTime": "17:00",
-        "endTime": "20:30",
-        "fileCount": "3",
-        "fenKayitNo": "1288-1289-1290"
-      }
     }
   ],
   "2025-10-14": [
@@ -723,17 +712,6 @@
         "fileCount": "1",
         "fenKayitNo": "3628"
       }
-    },
-    {
-      "personnelName": "HALİL ÇETİNKAYA",
-      "minutes": 75,
-      "details": {
-        "fixedSlot": false,
-        "startTime": "17:00",
-        "endTime": "18:15",
-        "fileCount": "1",
-        "fenKayitNo": "425"
-      }
     }
   ],
   "2025-10-21": [
@@ -757,6 +735,17 @@
         "endTime": "18:00",
         "fileCount": "1",
         "fenKayitNo": "3718"
+      }
+    },
+    {
+      "personnelName": "SABAHATTİN YAMAN",
+      "minutes": 60,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "18:00",
+        "fileCount": "2",
+        "fenKayitNo": "1327-1328"
       }
     }
   ],
