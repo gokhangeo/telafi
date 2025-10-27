@@ -888,5 +888,18 @@
         "fenKayitNo": "3719"
       }
     }
+  ],
+  "2025-10-25": [
+    {
+      "personnelName": "MUSTAFA BICAK",
+      "minutes": 600,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "09:00",
+        "endTime": "19:00",
+        "fileCount": "7",
+        "fenKayitNo": "3811,3812,3813,3814,3815,3816,3817"
+      }
+    }
   ]
 }
