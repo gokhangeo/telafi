@@ -901,5 +901,18 @@
         "fenKayitNo": "3811,3812,3813,3814,3815,3816,3817"
       }
     }
+  ],
+  "2025-10-28": [
+    {
+      "personnelName": "SABAHATTİN YAMAN",
+      "minutes": 60,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "18:00",
+        "fileCount": "1",
+        "fenKayitNo": "450"
+      }
+    }
   ]
 }
