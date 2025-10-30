@@ -995,5 +995,18 @@
         "fenKayitNo": "bozyazı 2025/394-395-396- anamur 2025/1241"
       }
     }
+  ],
+  "2025-10-30": [
+    {
+      "personnelName": "MURAT AKAYDIN",
+      "minutes": 180,
+      "details": {
+        "fixedSlot": true,
+        "startTime": "17:00",
+        "endTime": "19:00",
+        "fileCount": "5",
+        "fenKayitNo": "451-452-453-1380-1381"
+      }
+    }
   ]
 }
