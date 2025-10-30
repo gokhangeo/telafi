@@ -664,6 +664,17 @@
         "fileCount": "1",
         "fenKayitNo": "3611"
       }
+    },
+    {
+      "personnelName": "HİLMİ MÜFTÜOĞLU",
+      "minutes": 180,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "20:00",
+        "fileCount": "4",
+        "fenKayitNo": "2025/1247 2025/1343 2025/1344 2025/1345"
+      }
     }
   ],
   "2025-10-16": [
@@ -757,6 +768,17 @@
         "endTime": "18:00",
         "fileCount": "1",
         "fenKayitNo": "3718"
+      }
+    },
+    {
+      "personnelName": "HİLMİ MÜFTÜOĞLU",
+      "minutes": 150,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "19:30",
+        "fileCount": "3",
+        "fenKayitNo": "2025/1346 2025/1347 2025/1348"
       }
     }
   ],
@@ -936,19 +958,6 @@
         "endTime": "11:00",
         "fileCount": "1",
         "fenKayitNo": "2025/438"
-      }
-    }
-  ],
-  "2025-10-02": [
-    {
-      "personnelName": "MAHMUT GÖK",
-      "minutes": 100,
-      "details": {
-        "fixedSlot": true,
-        "startTime": "17:00",
-        "endTime": "17:40",
-        "fileCount": "4",
-        "fenKayitNo": "bozyazı 2025/394-395-396- anamur 2025/1241"
       }
     }
   ]
