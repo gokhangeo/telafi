@@ -1205,5 +1205,18 @@
         "fenKayitNo": "3742ila3745"
       }
     }
+  ],
+  "2025-10-31": [
+    {
+      "personnelName": "MAHMUT GÖK",
+      "minutes": 60,
+      "details": {
+        "fixedSlot": true,
+        "startTime": null,
+        "endTime": null,
+        "fileCount": "1",
+        "fenKayitNo": "bozyazı 2025/455"
+      }
+    }
   ]
 }
