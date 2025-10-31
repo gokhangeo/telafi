@@ -1100,5 +1100,18 @@
         "fenKayitNo": "3562,3563,3564,3565,3566"
       }
     }
+  ],
+  "2025-10-27": [
+    {
+      "personnelName": "CANER OKAY",
+      "minutes": 150,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "18:00",
+        "endTime": "20:30",
+        "fileCount": null,
+        "fenKayitNo": null
+      }
+    }
   ]
 }
