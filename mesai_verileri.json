@@ -1060,6 +1060,17 @@
         "fileCount": "4",
         "fenKayitNo": "bozyazı 2025/394-395-396- anamur 2025/1241"
       }
+    },
+    {
+      "personnelName": "KAYHAN KARTPAK",
+      "minutes": 150,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "19:30",
+        "fileCount": "2",
+        "fenKayitNo": "3485-3486"
+      }
     }
   ],
   "2025-10-30": [
