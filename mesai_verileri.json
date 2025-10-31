@@ -1010,17 +1010,6 @@
       }
     },
     {
-      "personnelName": "CANER OKAY",
-      "minutes": 150,
-      "details": {
-        "fixedSlot": false,
-        "startTime": "18:00",
-        "endTime": "20:30",
-        "fileCount": null,
-        "fenKayitNo": null
-      }
-    },
-    {
       "personnelName": "KAYHAN KARTPAK",
       "minutes": 180,
       "details": {
