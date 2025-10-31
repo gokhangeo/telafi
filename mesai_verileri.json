@@ -1167,6 +1167,17 @@
         "fileCount": null,
         "fenKayitNo": null
       }
+    },
+    {
+      "personnelName": "KAYHAN KARTPAK",
+      "minutes": 120,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "19:00",
+        "fileCount": "2",
+        "fenKayitNo": "3935,3936"
+      }
     }
   ],
   "2025-10-07": [
