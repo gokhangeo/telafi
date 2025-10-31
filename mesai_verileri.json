@@ -1008,5 +1008,18 @@
         "fenKayitNo": "451-452-453-1380-1381"
       }
     }
+  ],
+  "2025-10-01": [
+    {
+      "personnelName": "MÜMİN AKDOĞAN",
+      "minutes": 60,
+      "details": {
+        "fixedSlot": true,
+        "startTime": null,
+        "endTime": null,
+        "fileCount": "1",
+        "fenKayitNo": "3468"
+      }
+    }
   ]
 }
