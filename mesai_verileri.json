@@ -1010,6 +1010,17 @@
       }
     },
     {
+      "personnelName": "CANER OKAY",
+      "minutes": 150,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "18:00",
+        "endTime": "20:30",
+        "fileCount": null,
+        "fenKayitNo": null
+      }
+    },
+    {
       "personnelName": "KAYHAN KARTPAK",
       "minutes": 180,
       "details": {
@@ -1018,17 +1029,6 @@
         "endTime": "20:00",
         "fileCount": "2",
         "fenKayitNo": "3898,3899"
-      }
-    },
-    {
-      "personnelName": "CANER OKAY",
-      "minutes": 150,
-      "details": {
-        "fixedSlot": false,
-        "startTime": "18:00",
-        "endTime": "20:30",
-        "fileCount": "4",
-        "fenKayitNo": "aydıncık 293-294-295-296"
       }
     }
   ],
@@ -1165,9 +1165,42 @@
         "fileCount": "4",
         "fenKayitNo": "3527ila3530"
       }
+    },
+    {
+      "personnelName": "ABDULKADİR BOBUŞ",
+      "minutes": 90,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "18:30",
+        "fileCount": "1",
+        "fenKayitNo": "1065"
+      }
+    },
+    {
+      "personnelName": "MEHMET AKDENİZ",
+      "minutes": 90,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "18:30",
+        "fileCount": "1",
+        "fenKayitNo": "1065"
+      }
     }
   ],
   "2025-10-27": [
+    {
+      "personnelName": "CANER OKAY",
+      "minutes": 150,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "18:00",
+        "endTime": "20:30",
+        "fileCount": null,
+        "fenKayitNo": null
+      }
+    },
     {
       "personnelName": "KAYHAN KARTPAK",
       "minutes": 120,
