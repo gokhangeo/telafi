@@ -1189,6 +1189,17 @@
         "fileCount": "2",
         "fenKayitNo": "3935,3936"
       }
+    },
+    {
+      "personnelName": "CANER OKAY",
+      "minutes": 180,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "18:00",
+        "endTime": "21:00",
+        "fileCount": "3",
+        "fenKayitNo": "aydıncık 299-300-301"
+      }
     }
   ],
   "2025-10-07": [
