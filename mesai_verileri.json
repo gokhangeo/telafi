@@ -741,6 +741,17 @@
         "fileCount": "4",
         "fenKayitNo": "anamur 2025/1303,1304,1305,1306"
       }
+    },
+    {
+      "personnelName": "MEHMET AKDENİZ",
+      "minutes": 120,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "19:00",
+        "fileCount": "4",
+        "fenKayitNo": "978-980-1068-1069"
+      }
     }
   ],
   "2025-10-16": [
