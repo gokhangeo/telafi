@@ -1177,6 +1177,17 @@
         "fileCount": "1",
         "fenKayitNo": "2025/438"
       }
+    },
+    {
+      "personnelName": "MURAT SARI",
+      "minutes": 390,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "14:30",
+        "endTime": "21:00",
+        "fileCount": "6",
+        "fenKayitNo": "3866,3865,3864,3862,3863,3902"
+      }
     }
   ],
   "2025-10-29": [
