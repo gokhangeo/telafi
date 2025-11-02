@@ -958,6 +958,17 @@
         "fileCount": "1",
         "fenKayitNo": "1070"
       }
+    },
+    {
+      "personnelName": "MURAT SARI",
+      "minutes": 180,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "19:45",
+        "endTime": "22:45",
+        "fileCount": "3",
+        "fenKayitNo": "Silifke 3635,3633,3634"
+      }
     }
   ],
   "2025-10-23": [
