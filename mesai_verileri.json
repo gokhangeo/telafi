@@ -1177,6 +1177,17 @@
         "fileCount": "1",
         "fenKayitNo": "2025/438"
       }
+    },
+    {
+      "personnelName": "ABDULKADİR BOBUŞ",
+      "minutes": 390,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "14:00",
+        "endTime": "20:30",
+        "fileCount": "6",
+        "fenKayitNo": "Silifke 3866,3865,3864,3862,3863,"
+      }
     }
   ],
   "2025-10-29": [
