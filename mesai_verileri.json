@@ -1452,7 +1452,6 @@
       }
     }
   ],
-  "2025-10-26": [],
   "2025-10-11": [
     {
       "personnelName": "SITKI KIZILOLUK",
@@ -1463,6 +1462,19 @@
         "endTime": "17:00",
         "fileCount": "5",
         "fenKayitNo": "945 ila 949"
+      }
+    }
+  ],
+  "2025-10-26": [
+    {
+      "personnelName": "SITKI KIZILOLUK",
+      "minutes": 480,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "09:00",
+        "endTime": "17:00",
+        "fileCount": "5",
+        "fenKayitNo": "1046 ila 1050"
       }
     }
   ]
