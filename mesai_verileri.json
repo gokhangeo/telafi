@@ -1466,5 +1466,18 @@
         "fenKayitNo": "1046 ila 1050"
       }
     }
+  ],
+  "2025-11-03": [
+    {
+      "personnelName": "ÖZKAN AKBAŞ",
+      "minutes": 60,
+      "details": {
+        "fixedSlot": true,
+        "startTime": null,
+        "endTime": null,
+        "fileCount": "1",
+        "fenKayitNo": "3615"
+      }
+    }
   ]
 }
