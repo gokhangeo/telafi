@@ -1384,6 +1384,17 @@
         "fileCount": "5",
         "fenKayitNo": "983-984-985-1066-981"
       }
+    },
+    {
+      "personnelName": "SITKI KIZILOLUK",
+      "minutes": 240,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "10:00",
+        "endTime": "14:00",
+        "fileCount": null,
+        "fenKayitNo": null
+      }
     }
   ],
   "2025-10-11": [
