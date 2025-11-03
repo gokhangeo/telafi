@@ -1223,6 +1223,17 @@
         "fileCount": "1",
         "fenKayitNo": "2025/438"
       }
+    },
+    {
+      "personnelName": "HİLMİ MÜFTÜOĞLU",
+      "minutes": 180,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "13:00",
+        "endTime": "16:00",
+        "fileCount": "3",
+        "fenKayitNo": "2025/1247 2025/1343 2025/1344"
+      }
     }
   ],
   "2025-10-02": [
