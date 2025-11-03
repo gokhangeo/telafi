@@ -901,6 +901,17 @@
         "fileCount": "1",
         "fenKayitNo": "986"
       }
+    },
+    {
+      "personnelName": "HİLMİ MÜFTÜOĞLU",
+      "minutes": 180,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "20:00",
+        "fileCount": "3",
+        "fenKayitNo": "2025/1345 2025/1346 2025/1347"
+      }
     }
   ],
   "2025-10-22": [
