@@ -1409,6 +1409,17 @@
         "fileCount": "3",
         "fenKayitNo": "2025/1348 2025/1322 2025/1323"
       }
+    },
+    {
+      "personnelName": "MAHMUT GÖK",
+      "minutes": 60,
+      "details": {
+        "fixedSlot": true,
+        "startTime": null,
+        "endTime": null,
+        "fileCount": "2",
+        "fenKayitNo": "anamur 2025/1371 -bozyazı 2025/446 "
+      }
     }
   ],
   "2025-10-07": [
