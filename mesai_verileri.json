@@ -1627,6 +1627,17 @@
         "fileCount": "7",
         "fenKayitNo": "ANAMUR-2025/1413,2025/1414,2025/1415,2025/1416,2025/1417,--BOZYAZI-2025/468,2025/469"
       }
+    },
+    {
+      "personnelName": "HALİL ÇETİNKAYA",
+      "minutes": 90,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "18:30",
+        "fileCount": null,
+        "fenKayitNo": null
+      }
     }
   ]
 }
