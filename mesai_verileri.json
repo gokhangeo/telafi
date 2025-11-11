@@ -1697,6 +1697,17 @@
         "fileCount": "1",
         "fenKayitNo": "ANAMUR 2025/1441"
       }
+    },
+    {
+      "personnelName": "HİLMİ MÜFTÜOĞLU",
+      "minutes": 60,
+      "details": {
+        "fixedSlot": true,
+        "startTime": null,
+        "endTime": null,
+        "fileCount": "1",
+        "fenKayitNo": "ANAMUR-2025/1441"
+      }
     }
   ]
 }
