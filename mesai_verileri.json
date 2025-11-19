@@ -1746,5 +1746,18 @@
         "fenKayitNo": "ANAMUR-2025/1466,BOZYAZI-2025/498,2025/499"
       }
     }
+  ],
+  "2025-11-19": [
+    {
+      "personnelName": "MAHMUT GÖK",
+      "minutes": 120,
+      "details": {
+        "fixedSlot": true,
+        "startTime": "17:00",
+        "endTime": "18:00",
+        "fileCount": "4",
+        "fenKayitNo": "BOZYAZI-2025/500,2025/501,2025/502,2025/503"
+      }
+    }
   ]
 }
