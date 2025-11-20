@@ -1887,5 +1887,18 @@
       }
     }
   ],
-  "2025-11-15": []
+  "2025-11-15": [],
+  "2025-11-20": [
+    {
+      "personnelName": "SABAHATTİN YAMAN",
+      "minutes": 60,
+      "details": {
+        "fixedSlot": true,
+        "startTime": null,
+        "endTime": null,
+        "fileCount": "1",
+        "fenKayitNo": "1473"
+      }
+    }
+  ]
 }
