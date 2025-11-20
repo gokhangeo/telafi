@@ -1759,5 +1759,18 @@
         "fenKayitNo": "BOZYAZI-2025/500,2025/501,2025/502,2025/503"
       }
     }
+  ],
+  "2025-11-08": [
+    {
+      "personnelName": "EMİNE ALANLI KIRCILI",
+      "minutes": 300,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "12:00",
+        "endTime": "17:00",
+        "fileCount": "5",
+        "fenKayitNo": "3877"
+      }
+    }
   ]
 }
