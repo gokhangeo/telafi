@@ -1947,17 +1947,5 @@
       }
     }
   ],
-  "2025-11-24": [
-    {
-      "personnelName": "HALİL ÇETİNKAYA",
-      "minutes": 150,
-      "details": {
-        "fixedSlot": true,
-        "startTime": "17:00",
-        "endTime": "18:30",
-        "fileCount": null,
-        "fenKayitNo": null
-      }
-    }
-  ]
+  "2025-11-24": []
 }
