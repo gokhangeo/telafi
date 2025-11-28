@@ -2005,5 +2005,18 @@
         "fenKayitNo": "514-515"
       }
     }
+  ],
+  "2025-11-28": [
+    {
+      "personnelName": "HALİL ÇETİNKAYA",
+      "minutes": 150,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "19:30",
+        "fileCount": "1",
+        "fenKayitNo": "1526"
+      }
+    }
   ]
 }
