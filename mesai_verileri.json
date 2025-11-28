@@ -1877,6 +1877,17 @@
         "fileCount": "3",
         "fenKayitNo": "ANAMUR-2025/1466,BOZYAZI-2025/498,2025/499"
       }
+    },
+    {
+      "personnelName": "MEHMET AKDENİZ",
+      "minutes": 180,
+      "details": {
+        "fixedSlot": true,
+        "startTime": "17:00",
+        "endTime": "19:00",
+        "fileCount": "2",
+        "fenKayitNo": "1160-1161"
+      }
     }
   ],
   "2025-11-19": [
