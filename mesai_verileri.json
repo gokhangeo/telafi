@@ -1636,6 +1636,17 @@
         "fileCount": "3",
         "fenKayitNo": "4111-4112-4113"
       }
+    },
+    {
+      "personnelName": "CANER OKAY",
+      "minutes": 120,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:15",
+        "endTime": "19:15",
+        "fileCount": "1",
+        "fenKayitNo": "4071"
+      }
     }
   ],
   "2025-11-07": [
@@ -2019,6 +2030,7 @@
       }
     }
   ],
+  "2025-11-15": [],
   "2025-11-20": [
     {
       "personnelName": "SABAHATTİN YAMAN",
@@ -2247,30 +2259,6 @@
         "endTime": "12:00",
         "fileCount": "4",
         "fenKayitNo": "Silifke 4446,Silifke 4444,Silifke 4445,Silifke 4447"
-      }
-    },
-    {
-      "personnelName": "SITKI KIZILOLUK",
-      "minutes": 480,
-      "details": {
-        "fixedSlot": false,
-        "startTime": "09:00",
-        "endTime": "17:00",
-        "fileCount": "4",
-        "fenKayitNo": "1172 ila 1175"
-      }
-    }
-  ],
-  "2025-11-15": [
-    {
-      "personnelName": "SITKI KIZILOLUK",
-      "minutes": 480,
-      "details": {
-        "fixedSlot": false,
-        "startTime": "09:00",
-        "endTime": "17:00",
-        "fileCount": "9",
-        "fenKayitNo": "1111 ila 1119"
       }
     }
   ]
