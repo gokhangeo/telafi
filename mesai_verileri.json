@@ -2248,6 +2248,17 @@
         "fileCount": "4",
         "fenKayitNo": "Silifke 4446,Silifke 4444,Silifke 4445,Silifke 4447"
       }
+    },
+    {
+      "personnelName": "SITKI KIZILOLUK",
+      "minutes": 480,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "09:00",
+        "endTime": "17:00",
+        "fileCount": "4",
+        "fenKayitNo": "1172 ila 1175"
+      }
     }
   ],
   "2025-11-15": [
