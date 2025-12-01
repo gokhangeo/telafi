@@ -2237,5 +2237,18 @@
         "fenKayitNo": "Silifke 4088"
       }
     }
+  ],
+  "2025-11-29": [
+    {
+      "personnelName": "MURAT SARI",
+      "minutes": 180,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "09:00",
+        "endTime": "12:00",
+        "fileCount": "4",
+        "fenKayitNo": "Silifke 4446,Silifke 4444,Silifke 4445,Silifke 4447"
+      }
+    }
   ]
 }
