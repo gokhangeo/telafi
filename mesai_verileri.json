@@ -1651,17 +1651,6 @@
       }
     },
     {
-      "personnelName": "HALİL ÇETİNKAYA",
-      "minutes": 90,
-      "details": {
-        "fixedSlot": false,
-        "startTime": "17:00",
-        "endTime": "18:30",
-        "fileCount": null,
-        "fenKayitNo": null
-      }
-    },
-    {
       "personnelName": "SABAHATTİN YAMAN",
       "minutes": 90,
       "details": {
