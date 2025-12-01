@@ -1671,6 +1671,17 @@
         "fileCount": "5",
         "fenKayitNo": "3877"
       }
+    },
+    {
+      "personnelName": "HALİL ÇETİNKAYA",
+      "minutes": 90,
+      "details": {
+        "fixedSlot": true,
+        "startTime": "17:00",
+        "endTime": "17:30",
+        "fileCount": "1",
+        "fenKayitNo": "1418"
+      }
     }
   ],
   "2025-11-10": [
