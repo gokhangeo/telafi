@@ -1693,6 +1693,17 @@
         "fileCount": "1",
         "fenKayitNo": "1418"
       }
+    },
+    {
+      "personnelName": "CANER OKAY",
+      "minutes": 90,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:30",
+        "endTime": "19:00",
+        "fileCount": "1",
+        "fenKayitNo": "4090"
+      }
     }
   ],
   "2025-11-10": [
