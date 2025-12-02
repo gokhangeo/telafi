@@ -2320,6 +2320,17 @@
         "fileCount": "3",
         "fenKayitNo": "BOZYAZI-2025/528-ANAMUR-2025/1537,2025/1536"
       }
+    },
+    {
+      "personnelName": "ÖZKAN AKBAŞ",
+      "minutes": 60,
+      "details": {
+        "fixedSlot": true,
+        "startTime": null,
+        "endTime": null,
+        "fileCount": "1",
+        "fenKayitNo": "4300"
+      }
     }
   ]
 }
