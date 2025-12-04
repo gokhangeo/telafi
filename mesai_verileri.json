@@ -2318,6 +2318,17 @@
         "fileCount": "3",
         "fenKayitNo": "ANAMUR-2025/1541,1542,1543"
       }
+    },
+    {
+      "personnelName": "EMİNE ALANLI KIRCILI",
+      "minutes": 60,
+      "details": {
+        "fixedSlot": true,
+        "startTime": null,
+        "endTime": null,
+        "fileCount": "1",
+        "fenKayitNo": "4322"
+      }
     }
   ],
   "2025-12-02": [
