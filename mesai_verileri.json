@@ -2626,6 +2626,17 @@
         "fileCount": "1",
         "fenKayitNo": "4542"
       }
+    },
+    {
+      "personnelName": "MAHMUT GÖK",
+      "minutes": 60,
+      "details": {
+        "fixedSlot": true,
+        "startTime": null,
+        "endTime": null,
+        "fileCount": "2",
+        "fenKayitNo": "BOZYAZI-2025/557,558"
+      }
     }
   ]
 }
