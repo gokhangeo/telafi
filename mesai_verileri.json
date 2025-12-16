@@ -2637,6 +2637,17 @@
         "fileCount": "2",
         "fenKayitNo": "BOZYAZI-2025/557,558"
       }
+    },
+    {
+      "personnelName": "ÖZKAN AKBAŞ",
+      "minutes": 30,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "17:30",
+        "fileCount": "1",
+        "fenKayitNo": "4300"
+      }
     }
   ]
 }
