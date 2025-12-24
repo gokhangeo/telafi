@@ -2769,5 +2769,18 @@
         "fenKayitNo": "4300"
       }
     }
+  ],
+  "2025-12-24": [
+    {
+      "personnelName": "ALİ BAŞKURT",
+      "minutes": 30,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "12:00",
+        "endTime": "12:30",
+        "fileCount": null,
+        "fenKayitNo": null
+      }
+    }
   ]
 }
