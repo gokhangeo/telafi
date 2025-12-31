@@ -2845,5 +2845,18 @@
         "fenKayitNo": "1260-1621-1262"
       }
     }
+  ],
+  "2025-12-10": [
+    {
+      "personnelName": "ABDULKADİR BOBUŞ",
+      "minutes": 180,
+      "details": {
+        "fixedSlot": true,
+        "startTime": "17:00",
+        "endTime": "19:00",
+        "fileCount": "3",
+        "fenKayitNo": "1263-1264-1265"
+      }
+    }
   ]
 }
