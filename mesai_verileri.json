@@ -2846,5 +2846,17 @@
       }
     }
   ],
-  "2025-12-10": []
+  "2025-12-10": [
+    {
+      "personnelName": "MEHMET AKDENİZ",
+      "minutes": 120,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "19:00",
+        "fileCount": "3",
+        "fenKayitNo": "1263-1264-1265"
+      }
+    }
+  ]
 }
