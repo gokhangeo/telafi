@@ -3100,17 +3100,6 @@
   ],
   "2026-01-06": [
     {
-      "personnelName": "ÖZKAN AKBAŞ",
-      "minutes": 30,
-      "details": {
-        "fixedSlot": false,
-        "startTime": "12:00",
-        "endTime": "12:30",
-        "fileCount": "1",
-        "fenKayitNo": "4766"
-      }
-    },
-    {
       "personnelName": "MURAT AKAYDIN",
       "minutes": 60,
       "details": {
