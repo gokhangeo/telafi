@@ -3146,6 +3146,17 @@
         "fileCount": "1",
         "fenKayitNo": "4766"
       }
+    },
+    {
+      "personnelName": "MURAT AKAYDIN",
+      "minutes": 60,
+      "details": {
+        "fixedSlot": true,
+        "startTime": null,
+        "endTime": null,
+        "fileCount": "1",
+        "fenKayitNo": "62"
+      }
     }
   ],
   "2026-01-12": [
