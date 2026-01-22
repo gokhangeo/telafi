@@ -3196,6 +3196,17 @@
         "fileCount": "2",
         "fenKayitNo": "76-77"
       }
+    },
+    {
+      "personnelName": "MAHMUT GÖK",
+      "minutes": 90,
+      "details": {
+        "fixedSlot": true,
+        "startTime": "17:00",
+        "endTime": "17:30",
+        "fileCount": "2",
+        "fenKayitNo": "ANAMUR- 2026/86,87"
+      }
     }
   ],
   "2026-01-20": [
