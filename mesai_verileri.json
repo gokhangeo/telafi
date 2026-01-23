@@ -3269,5 +3269,18 @@
         "fenKayitNo": "ANAMUR-2026/88,89,90,91 - BOZYAZI- 2026/28,29,30"
       }
     }
+  ],
+  "2026-01-23": [
+    {
+      "personnelName": "HALİL ÇETİNKAYA",
+      "minutes": 120,
+      "details": {
+        "fixedSlot": true,
+        "startTime": "17:00",
+        "endTime": "18:00",
+        "fileCount": "4",
+        "fenKayitNo": "40,41,112,113"
+      }
+    }
   ]
 }
