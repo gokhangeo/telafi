@@ -3281,6 +3281,17 @@
         "fileCount": "4",
         "fenKayitNo": "40,41,112,113"
       }
+    },
+    {
+      "personnelName": "SABAHATTİN YAMAN",
+      "minutes": 60,
+      "details": {
+        "fixedSlot": true,
+        "startTime": null,
+        "endTime": null,
+        "fileCount": "2",
+        "fenKayitNo": "42,114"
+      }
     }
   ]
 }
