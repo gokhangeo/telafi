@@ -3306,5 +3306,18 @@
         "fenKayitNo": "128"
       }
     }
+  ],
+  "2026-01-27": [
+    {
+      "personnelName": "SABAHATTİN YAMAN",
+      "minutes": 150,
+      "details": {
+        "fixedSlot": true,
+        "startTime": "17:00",
+        "endTime": "18:30",
+        "fileCount": "3",
+        "fenKayitNo": "136,137,138"
+      }
+    }
   ]
 }
