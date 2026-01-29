@@ -3392,5 +3392,17 @@
       }
     }
   ],
-  "2026-01-24": []
+  "2026-01-24": [
+    {
+      "personnelName": "MEHMET AKDENİZ",
+      "minutes": 120,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "16:00",
+        "endTime": "18:00",
+        "fileCount": "3",
+        "fenKayitNo": "137,138,139"
+      }
+    }
+  ]
 }
