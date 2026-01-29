@@ -3391,5 +3391,18 @@
         "fenKayitNo": "105,106,108,109,125,110,111,112"
       }
     }
+  ],
+  "2026-01-24": [
+    {
+      "personnelName": "ABDULKADİR BOBUŞ",
+      "minutes": 120,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "16:00",
+        "endTime": "18:00",
+        "fileCount": "3",
+        "fenKayitNo": "137,138,139"
+      }
+    }
   ]
 }
