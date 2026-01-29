@@ -3332,5 +3332,18 @@
         "fenKayitNo": "BOZYAZI-2026/47"
       }
     }
+  ],
+  "2026-01-10": [
+    {
+      "personnelName": "MEHMET AKDENİZ",
+      "minutes": 300,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "18:00",
+        "endTime": "23:00",
+        "fileCount": "10",
+        "fenKayitNo": "67,68,69,70,71,72,73,74,75,76"
+      }
+    }
   ]
 }
