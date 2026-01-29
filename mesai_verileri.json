@@ -3344,6 +3344,17 @@
         "fileCount": "10",
         "fenKayitNo": "67,68,69,70,71,72,73,74,75,76"
       }
+    },
+    {
+      "personnelName": "MEHMET AKDENİZ",
+      "minutes": 240,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "13:00",
+        "endTime": "17:00",
+        "fileCount": "5",
+        "fenKayitNo": "76,83,84,85,86,87"
+      }
     }
   ]
 }
