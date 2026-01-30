@@ -3450,5 +3450,18 @@
         "fenKayitNo": "ANAMUR- 2026/199,200,201,202,203,204,205"
       }
     }
+  ],
+  "2026-01-19": [
+    {
+      "personnelName": "HİKMET GÜLCAN",
+      "minutes": 210,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "20:30",
+        "fileCount": "1",
+        "fenKayitNo": "2026/20"
+      }
+    }
   ]
 }
