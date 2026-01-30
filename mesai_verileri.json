@@ -3229,6 +3229,17 @@
         "fileCount": "2",
         "fenKayitNo": "ANAMUR- 2026/86,87"
       }
+    },
+    {
+      "personnelName": "CANER OKAY",
+      "minutes": 60,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "18:00",
+        "fileCount": "1",
+        "fenKayitNo": "187"
+      }
     }
   ],
   "2026-01-20": [
