@@ -3096,6 +3096,17 @@
         "fileCount": "1",
         "fenKayitNo": "4301"
       }
+    },
+    {
+      "personnelName": "KAYHAN KARTPAK",
+      "minutes": 60,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "18:00",
+        "fileCount": null,
+        "fenKayitNo": null
+      }
     }
   ],
   "2026-01-06": [
@@ -3597,19 +3608,6 @@
         "endTime": "18:30",
         "fileCount": "1",
         "fenKayitNo": "12(aydıncık)"
-      }
-    }
-  ],
-  "2026-01-30": [
-    {
-      "personnelName": "MAHMUT GÖK",
-      "minutes": 150,
-      "details": {
-        "fixedSlot": true,
-        "startTime": "17:00",
-        "endTime": "18:30",
-        "fileCount": "10",
-        "fenKayitNo": "ANAMUR -2026/209,210--BOZYAZI-50,51,52,53,54,55,56,57"
       }
     }
   ]
