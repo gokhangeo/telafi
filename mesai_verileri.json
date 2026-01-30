@@ -3508,5 +3508,17 @@
       }
     }
   ],
-  "2026-01-17": []
+  "2026-01-17": [
+    {
+      "personnelName": "SERDAR ŞAHİN",
+      "minutes": 150,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "10:00",
+        "endTime": "12:30",
+        "fileCount": null,
+        "fenKayitNo": null
+      }
+    }
+  ]
 }
