@@ -3179,6 +3179,17 @@
         "fileCount": "3",
         "fenKayitNo": "ANAMUR-2026/66,67,68"
       }
+    },
+    {
+      "personnelName": "KAYHAN KARTPAK",
+      "minutes": 60,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "18:00",
+        "fileCount": "2",
+        "fenKayitNo": "140-141"
+      }
     }
   ],
   "2026-01-12": [
