@@ -3654,5 +3654,18 @@
         "fenKayitNo": "12(aydıncık)"
       }
     }
+  ],
+  "2026-01-30": [
+    {
+      "personnelName": "MAHMUT GÖK",
+      "minutes": 120,
+      "details": {
+        "fixedSlot": true,
+        "startTime": "17:00",
+        "endTime": "18:00",
+        "fileCount": "10",
+        "fenKayitNo": "ANAMUR -2026/209,210--BOZYAZI-50,51,52,53,54,55,56,57"
+      }
+    }
   ]
 }
