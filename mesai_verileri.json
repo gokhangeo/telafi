@@ -3675,6 +3675,17 @@
         "fileCount": "1",
         "fenKayitNo": "12(aydıncık)"
       }
+    },
+    {
+      "personnelName": "MÜMİN AKDOĞAN",
+      "minutes": 210,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "20:30",
+        "fileCount": "4",
+        "fenKayitNo": "318,319,320,321"
+      }
     }
   ],
   "2026-01-30": [
