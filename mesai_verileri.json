@@ -3354,6 +3354,17 @@
         "fileCount": "10",
         "fenKayitNo": "ANAMUR-2026/45,46,47,48,49,50,51,52,53,54"
       }
+    },
+    {
+      "personnelName": "MÜMİN AKDOĞAN",
+      "minutes": 150,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "19:30",
+        "fileCount": "3",
+        "fenKayitNo": "108,109,110"
+      }
     }
   ],
   "2026-01-16": [
