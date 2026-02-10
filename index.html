@@ -193,11 +193,12 @@ document.addEventListener('DOMContentLoaded', () => {
     // --- YARDIMCI FONKSİYONLAR --- //
     const updateSyncStatus = (status, message = '') => {
         clearTimeout(syncStatusTimer);
+        if (!syncStatusEl) return;
         syncStatusEl.style.opacity = '1';
         if (status === 'syncing') { syncStatusEl.textContent = '🔄 Kaydediliyor...'; syncStatusEl.className = 'text-blue-600 font-bold'; }
         else if (status === 'success') { syncStatusEl.textContent = '✅ Sunucu Güncellendi'; syncStatusEl.className = 'text-green-600 font-bold'; }
         else { syncStatusEl.textContent = '❌ Hata: ' + message; syncStatusEl.className = 'text-red-600 font-bold'; }
-        syncStatusTimer = setTimeout(() => syncStatusEl.style.opacity = '0', 3000);
+        syncStatusTimer = setTimeout(() => { if(syncStatusEl) syncStatusEl.style.opacity = '0'; }, 3000);
     };
 
     const formatMinutes = (m) => {
@@ -220,7 +221,7 @@ document.addEventListener('DOMContentLoaded', () => {
         filteredPersonnelList.sort((a, b) => a.name.localeCompare(b.name, 'tr'));
     };
 
-    // --- GITHUB İŞLEMLERİ (TEK DOSYA) --- //
+    // --- GITHUB İŞLEMLERİ --- //
     const getGithubApiUrl = () => `https://api.github.com/repos/${GITHUB_CONFIG.owner}/${GITHUB_CONFIG.repo}/contents/${GITHUB_CONFIG.path}`;
     const toBase64 = str => btoa(unescape(encodeURIComponent(str)));
     const fromBase64 = str => decodeURIComponent(escape(atob(str)));
@@ -239,7 +240,7 @@ document.addEventListener('DOMContentLoaded', () => {
             overtimeData = JSON.parse(fromBase64(data.content));
             return true;
         } catch (err) {
-            if(showAlert) alert('Veriler yüklenemedi! Lütfen GitHub tokenınızı ve internetinizi kontrol edin.');
+            if(showAlert) alert('Veriler yüklenemedi! İnternet bağlantınızı kontrol edin.');
             return false;
         }
     };
@@ -282,6 +283,26 @@ document.addEventListener('DOMContentLoaded', () => {
         } catch (err) {
             updateSyncStatus('error', err.message);
             return false;
+        }
+    };
+
+    // --- OTURUM YÖNETİMİ (YENİ) --- //
+    const startApp = async (user) => {
+        currentUser = user;
+        sessionStorage.setItem('telafi_session', JSON.stringify(user));
+        document.getElementById('login-screen').classList.add('hidden');
+        document.getElementById('app-container').classList.remove('hidden');
+        document.body.className = 'bg-gray-100 p-4 md:p-8';
+        await fetchPersonnelData();
+        filterPersonnelForCurrentUser();
+        await loadFromGithub();
+        renderCalendar();
+    };
+
+    const checkExistingSession = () => {
+        const savedSession = sessionStorage.getItem('telafi_session');
+        if (savedSession) {
+            startApp(JSON.parse(savedSession));
         }
     };
 
@@ -415,14 +436,8 @@ document.addEventListener('DOMContentLoaded', () => {
         e.preventDefault();
         const user = users[document.getElementById('username').value];
         if (user && user.password === document.getElementById('password').value) {
-            currentUser = user;
-            document.getElementById('login-screen').classList.add('hidden');
-            document.getElementById('app-container').classList.remove('hidden');
-            document.body.className = 'bg-gray-100 p-4 md:p-8';
-            await fetchPersonnelData();
-            filterPersonnelForCurrentUser();
-            await loadFromGithub();
-            renderCalendar();
+            user.username = document.getElementById('username').value; // username'i nesneye ekle
+            startApp(user);
         } else {
             const err = document.getElementById('login-error');
             err.textContent = 'Giriş bilgileri hatalı!';
@@ -465,7 +480,10 @@ document.addEventListener('DOMContentLoaded', () => {
     };
 
     document.getElementById('cancel-button').onclick = () => document.getElementById('overtime-modal').classList.add('hidden');
-    document.getElementById('logout-button').onclick = () => location.reload();
+    document.getElementById('logout-button').onclick = () => {
+        sessionStorage.removeItem('telafi_session');
+        location.reload();
+    };
     document.getElementById('prev-month').onclick = () => { currentDate.setMonth(currentDate.getMonth() - 1); renderCalendar(); };
     document.getElementById('next-month').onclick = () => { currentDate.setMonth(currentDate.getMonth() + 1); renderCalendar(); };
 
@@ -585,6 +603,9 @@ document.addEventListener('DOMContentLoaded', () => {
     };
 
     document.getElementById('cancel-quarterly-report').onclick = () => document.getElementById('quarterly-report-modal').classList.add('hidden');
+
+    // Başlangıçta oturum kontrolü yap
+    checkExistingSession();
 });
 </script>
 </body>
