@@ -51,7 +51,6 @@
         <header class="flex flex-col md:flex-row justify-between items-center mb-6 pb-4 border-b">
             <div>
                 <h1 class="text-2xl font-bold text-gray-800">Bilirkişi Telafi Mesai Cetveli</h1>
-                <p class="text-xs text-gray-400 mt-1 uppercase font-semibold">Aktif Veri Tabanı: mesai_verileri.json</p>
             </div>
             <div class="flex items-center space-x-2 my-4 md:my-0">
                 <button id="prev-month" class="bg-gray-200 p-2 rounded-lg hover:bg-gray-300 transition shadow-sm">
@@ -76,7 +75,7 @@
         <div id="calendar" class="grid grid-cols-7 gap-1 bg-gray-100 p-1 rounded-xl"></div>
 
         <div id="summary" class="mt-8 pt-4 border-t">
-            <h3 class="text-xl font-bold text-gray-800 mb-4">Müdürüm, Aylık Özet Cetveli</h3>
+            <h3 class="text-xl font-bold text-gray-800 mb-4">Aylık Özet Cetveli</h3>
             <div id="summary-content" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4"></div>
         </div>
     </div>
@@ -240,7 +239,7 @@ document.addEventListener('DOMContentLoaded', () => {
             overtimeData = JSON.parse(fromBase64(data.content));
             return true;
         } catch (err) {
-            if(showAlert) alert('Müdürüm, veriler yüklenemedi! Lütfen GitHub tokenınızı ve internetinizi kontrol edin.');
+            if(showAlert) alert('Veriler yüklenemedi! Lütfen GitHub tokenınızı ve internetinizi kontrol edin.');
             return false;
         }
     };
@@ -248,7 +247,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const saveToGithub = async () => {
         updateSyncStatus('syncing');
         try {
-            // Önce sunucudaki en güncel hali çek (Conflict Prevention)
             const getResp = await fetch(`${getGithubApiUrl()}?t=${Date.now()}`, {
                 headers: { 'Authorization': `token ${GITHUB_TOKEN}` }
             });
@@ -262,8 +260,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 currentServerData = JSON.parse(fromBase64(data.content));
             }
 
-            // MERGE: Sunucu verisiyle yerel veriyi birleştir
-            // Yerel verideki güncel değişiklikleri sunucu verisinin üzerine yazıyoruz
             const mergedData = { ...currentServerData, ...overtimeData };
             
             const body = {
@@ -407,7 +403,7 @@ document.addEventListener('DOMContentLoaded', () => {
     };
 
     window.deleteEntry = async (idx) => {
-        if (!confirm('Müdürüm, bu kaydı silmek istediğinizden emin misiniz?')) return;
+        if (!confirm('Bu kaydı silmek istediğinizden emin misiniz?')) return;
         overtimeData[selectedDate].splice(idx, 1);
         if (overtimeData[selectedDate].length === 0) delete overtimeData[selectedDate];
         const success = await saveToGithub();
@@ -429,7 +425,7 @@ document.addEventListener('DOMContentLoaded', () => {
             renderCalendar();
         } else {
             const err = document.getElementById('login-error');
-            err.textContent = 'Müdürüm, giriş bilgileri hatalı!';
+            err.textContent = 'Giriş bilgileri hatalı!';
             err.classList.remove('hidden');
         }
     };
@@ -477,7 +473,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const blob = new Blob([JSON.stringify(overtimeData, null, 2)], { type: 'application/json' });
         const a = document.createElement('a');
         a.href = URL.createObjectURL(blob);
-        a.download = `telafi_tum_veriler_yedek_${new Date().toISOString().slice(0,10)}.json`;
+        a.download = `telafi_yedek_${new Date().toISOString().slice(0,10)}.json`;
         a.click();
     };
 
@@ -512,7 +508,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 });
             }
         }
-        if (rows.length === 0) return alert('Müdürüm, bu aya ait veri yok.');
+        if (rows.length === 0) return alert('Bu aya ait veri yok.');
         rows.sort((a,b) => a.Personel.localeCompare(b.Personel, 'tr') || a.Tarih.localeCompare(b.Tarih));
         
         const unitName = (currentUser.birim === 'Tümü' ? 'GENEL' : currentUser.birim).toUpperCase();
@@ -558,7 +554,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         }
 
-        if (rows.length === 0) return alert('Müdürüm, seçilen dönemde veri bulunamadı.');
+        if (rows.length === 0) return alert('Seçilen dönemde veri bulunamadı.');
         rows.sort((a,b) => a.Tarih.localeCompare(b.Tarih) || a.Personel.localeCompare(b.Personel, 'tr'));
         
         const unitName = (currentUser.birim === 'Tümü' ? 'GENEL' : currentUser.birim).toUpperCase();
