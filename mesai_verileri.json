@@ -1,5 +1,1883 @@
 {
-  "2026-02-10": [
+  "2025-09-27": [
+    {
+      "personnelName": "MEHMET AKDENİZ",
+      "minutes": 150,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "15:00",
+        "endTime": "17:30"
+      }
+    },
+    {
+      "personnelName": "CANER OKAY",
+      "minutes": 180,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "14:00",
+        "endTime": "17:00"
+      }
+    }
+  ],
+  "2025-09-28": [
+    {
+      "personnelName": "MURAT SARI",
+      "minutes": 180,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "20:00",
+        "endTime": "23:00"
+      }
+    },
+    {
+      "personnelName": "MEHMET AKDENİZ",
+      "minutes": 120,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "12:00",
+        "endTime": "14:00"
+      }
+    },
+    {
+      "personnelName": "CANER OKAY",
+      "minutes": 180,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "20:00",
+        "endTime": "23:00"
+      }
+    }
+  ],
+  "2025-09-29": [
+    {
+      "personnelName": "EMİNE ALANLI KIRCILI",
+      "minutes": 60,
+      "details": {
+        "fixedSlot": true,
+        "startTime": null,
+        "endTime": null
+      }
+    },
+    {
+      "personnelName": "ÖZKAN AKBAŞ",
+      "minutes": 25,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "12:35",
+        "endTime": "13:00"
+      }
+    },
+    {
+      "personnelName": "KAYHAN KARTPAK",
+      "minutes": 120,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "19:00"
+      }
+    },
+    {
+      "personnelName": "SITKI KIZILOLUK",
+      "minutes": 120,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "19:00"
+      }
+    },
+    {
+      "personnelName": "SÜLEYMAN YILMAZ",
+      "minutes": 140,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "19:20"
+      }
+    }
+  ],
+  "2025-09-18": [
+    {
+      "personnelName": "MUSTAFA BICAK",
+      "minutes": 90,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "18:30"
+      }
+    },
+    {
+      "personnelName": "MURAT SARI",
+      "minutes": 60,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "18:00"
+      }
+    },
+    {
+      "personnelName": "MAHMUT GÖK",
+      "minutes": 60,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "18:00"
+      }
+    }
+  ],
+  "2025-09-19": [
+    {
+      "personnelName": "MUSTAFA BICAK",
+      "minutes": 90,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "18:30"
+      }
+    },
+    {
+      "personnelName": "HALİL ÇETİNKAYA",
+      "minutes": 30,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "17:30"
+      }
+    },
+    {
+      "personnelName": "MURAT AKAYDIN",
+      "minutes": 90,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "18:30"
+      }
+    },
+    {
+      "personnelName": "HALİL ÇETİNKAYA",
+      "minutes": 240,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "21:00"
+      }
+    }
+  ],
+  "2025-09-25": [
+    {
+      "personnelName": "MURAT SARI",
+      "minutes": 60,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "18:00"
+      }
+    },
+    {
+      "personnelName": "SITKI KIZILOLUK",
+      "minutes": 120,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "19:00"
+      }
+    },
+    {
+      "personnelName": "HALİL ÇETİNKAYA",
+      "minutes": 165,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "19:45"
+      }
+    }
+  ],
+  "2025-09-26": [
+    {
+      "personnelName": "MURAT SARI",
+      "minutes": 120,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "19:00"
+      }
+    },
+    {
+      "personnelName": "MÜMİN AKDOĞAN",
+      "minutes": 360,
+      "details": {
+        "fixedSlot": true,
+        "startTime": "17:00",
+        "endTime": "22:00"
+      }
+    }
+  ],
+  "2025-09-04": [
+    {
+      "personnelName": "KAYHAN KARTPAK",
+      "minutes": 60,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "18:00",
+        "endTime": "19:00"
+      }
+    }
+  ],
+  "2025-09-11": [
+    {
+      "personnelName": "KAYHAN KARTPAK",
+      "minutes": 180,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:30",
+        "endTime": "20:30"
+      }
+    },
+    {
+      "personnelName": "MEHMET AKDENİZ",
+      "minutes": 120,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "19:00"
+      }
+    },
+    {
+      "personnelName": "HALİL ÇETİNKAYA",
+      "minutes": 150,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "19:30"
+      }
+    },
+    {
+      "personnelName": "MURAT AKAYDIN",
+      "minutes": 60,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "18:00"
+      }
+    }
+  ],
+  "2025-09-15": [
+    {
+      "personnelName": "KAYHAN KARTPAK",
+      "minutes": 120,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "18:00",
+        "endTime": "20:00"
+      }
+    },
+    {
+      "personnelName": "MÜMİN AKDOĞAN",
+      "minutes": 180,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "20:00"
+      }
+    }
+  ],
+  "2025-09-09": [
+    {
+      "personnelName": "MEHMET AKDENİZ",
+      "minutes": 120,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "19:00"
+      }
+    },
+    {
+      "personnelName": "MÜMİN AKDOĞAN",
+      "minutes": 30,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "17:30"
+      }
+    }
+  ],
+  "2025-09-13": [
+    {
+      "personnelName": "MEHMET AKDENİZ",
+      "minutes": 180,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "10:00",
+        "endTime": "13:00"
+      }
+    }
+  ],
+  "2025-09-17": [
+    {
+      "personnelName": "MEHMET AKDENİZ",
+      "minutes": 120,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "19:00"
+      }
+    }
+  ],
+  "2025-09-30": [
+    {
+      "personnelName": "MEHMET AKDENİZ",
+      "minutes": 210,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "10:00",
+        "endTime": "13:30"
+      }
+    },
+    {
+      "personnelName": "EMİNE ALANLI KIRCILI",
+      "minutes": 30,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "07:30",
+        "endTime": "08:00"
+      }
+    },
+    {
+      "personnelName": "SITKI KIZILOLUK",
+      "minutes": 120,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "19:00"
+      }
+    },
+    {
+      "personnelName": "HALİL ÇETİNKAYA",
+      "minutes": 90,
+      "details": {
+        "fixedSlot": true,
+        "startTime": "17:00",
+        "endTime": "17:30"
+      }
+    }
+  ],
+  "2025-09-22": [
+    {
+      "personnelName": "SITKI KIZILOLUK",
+      "minutes": 120,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "19:00"
+      }
+    },
+    {
+      "personnelName": "MÜMİN AKDOĞAN",
+      "minutes": 60,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "18:00"
+      }
+    },
+    {
+      "personnelName": "HALİL ÇETİNKAYA",
+      "minutes": 120,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "19:00"
+      }
+    },
+    {
+      "personnelName": "SÜLEYMAN YILMAZ",
+      "minutes": 70,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "18:10"
+      }
+    }
+  ],
+  "2025-09-23": [
+    {
+      "personnelName": "SITKI KIZILOLUK",
+      "minutes": 120,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "19:00"
+      }
+    },
+    {
+      "personnelName": "MÜMİN AKDOĞAN",
+      "minutes": 30,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "12:00",
+        "endTime": "12:30"
+      }
+    }
+  ],
+  "2025-09-24": [
+    {
+      "personnelName": "SITKI KIZILOLUK",
+      "minutes": 120,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "19:00"
+      }
+    }
+  ],
+  "2025-09-20": [
+    {
+      "personnelName": "SITKI KIZILOLUK",
+      "minutes": 240,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "12:00",
+        "endTime": "16:00"
+      }
+    }
+  ],
+  "2025-09-21": [
+    {
+      "personnelName": "SITKI KIZILOLUK",
+      "minutes": 240,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "13:00",
+        "endTime": "17:00"
+      }
+    }
+  ],
+  "2025-09-08": [
+    {
+      "personnelName": "MÜMİN AKDOĞAN",
+      "minutes": 90,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "18:30"
+      }
+    },
+    {
+      "personnelName": "HALİL ÇETİNKAYA",
+      "minutes": 120,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "19:00"
+      }
+    }
+  ],
+  "2025-09-05": [
+    {
+      "personnelName": "MAHMUT GÖK",
+      "minutes": 60,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "18:00"
+      }
+    },
+    {
+      "personnelName": "MURAT AKAYDIN",
+      "minutes": 60,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "18:00"
+      }
+    }
+  ],
+  "2025-09-10": [
+    {
+      "personnelName": "MAHMUT GÖK",
+      "minutes": 60,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "18:00"
+      }
+    }
+  ],
+  "2025-09-12": [
+    {
+      "personnelName": "SÜLEYMAN YILMAZ",
+      "minutes": 135,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "19:15"
+      }
+    },
+    {
+      "personnelName": "HALİL ÇETİNKAYA",
+      "minutes": 210,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "20:30"
+      }
+    }
+  ],
+  "2025-09-16": [
+    {
+      "personnelName": "HALİL ÇETİNKAYA",
+      "minutes": 90,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "18:30"
+      }
+    }
+  ],
+  "2025-10-08": [
+    {
+      "personnelName": "MURAT AKAYDIN",
+      "minutes": 135,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "19:15",
+        "fileCount": "1",
+        "fenKayitNo": "1268"
+      }
+    },
+    {
+      "personnelName": "MUSTAFA BICAK",
+      "minutes": 180,
+      "details": {
+        "fixedSlot": true,
+        "startTime": "17:00",
+        "endTime": "19:00",
+        "fileCount": "4",
+        "fenKayitNo": "3544,3545,3547 ve 3548"
+      }
+    },
+    {
+      "personnelName": "MÜMİN AKDOĞAN",
+      "minutes": 120,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "19:00",
+        "fileCount": "2",
+        "fenKayitNo": "3606,3607"
+      }
+    }
+  ],
+  "2025-10-09": [
+    {
+      "personnelName": "MURAT AKAYDIN",
+      "minutes": 180,
+      "details": {
+        "fixedSlot": true,
+        "startTime": "17:00",
+        "endTime": "19:00",
+        "fileCount": "5",
+        "fenKayitNo": "407-408-409-410-1274"
+      }
+    },
+    {
+      "personnelName": "MUSTAFA BICAK",
+      "minutes": 180,
+      "details": {
+        "fixedSlot": true,
+        "startTime": "17:00",
+        "endTime": "19:00",
+        "fileCount": "4",
+        "fenKayitNo": "3549,3551,3522 ve 3553"
+      }
+    },
+    {
+      "personnelName": "MAHMUT GÖK",
+      "minutes": 90,
+      "details": {
+        "fixedSlot": true,
+        "startTime": "17:00",
+        "endTime": "17:30",
+        "fileCount": "4",
+        "fenKayitNo": "anamur 2025/1282,1283,1284"
+      }
+    },
+    {
+      "personnelName": "MÜMİN AKDOĞAN",
+      "minutes": 90,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "18:30",
+        "fileCount": "3",
+        "fenKayitNo": "3617,3618,3619"
+      }
+    },
+    {
+      "personnelName": "MURAT SARI",
+      "minutes": 120,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "18:30",
+        "endTime": "20:30",
+        "fileCount": "1",
+        "fenKayitNo": "Silifke 3509"
+      }
+    }
+  ],
+  "2025-10-10": [
+    {
+      "personnelName": "MUSTAFA BICAK",
+      "minutes": 60,
+      "details": {
+        "fixedSlot": true,
+        "startTime": null,
+        "endTime": null,
+        "fileCount": null,
+        "fenKayitNo": null
+      }
+    },
+    {
+      "personnelName": "MAHMUT GÖK",
+      "minutes": 60,
+      "details": {
+        "fixedSlot": true,
+        "startTime": null,
+        "endTime": null,
+        "fileCount": "2",
+        "fenKayitNo": "anamur2025/1280,1281"
+      }
+    }
+  ],
+  "2025-10-13": [
+    {
+      "personnelName": "ÖZKAN AKBAŞ",
+      "minutes": 20,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "12:40",
+        "endTime": "13:00",
+        "fileCount": "1",
+        "fenKayitNo": "3615"
+      }
+    },
+    {
+      "personnelName": "HALİL ÇETİNKAYA",
+      "minutes": 210,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "20:30",
+        "fileCount": "3",
+        "fenKayitNo": "1288-1289-1290"
+      }
+    },
+    {
+      "personnelName": "MEHMET AKDENİZ",
+      "minutes": 120,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "19:00",
+        "fileCount": "3",
+        "fenKayitNo": "976-977-1067"
+      }
+    }
+  ],
+  "2025-10-14": [
+    {
+      "personnelName": "ÖZKAN AKBAŞ",
+      "minutes": 30,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "17:30",
+        "fileCount": "1",
+        "fenKayitNo": "3606"
+      }
+    },
+    {
+      "personnelName": "EMİNE ALANLI KIRCILI",
+      "minutes": 30,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "17:30",
+        "fileCount": "1",
+        "fenKayitNo": "3610"
+      }
+    },
+    {
+      "personnelName": "MÜMİN AKDOĞAN",
+      "minutes": 240,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "21:00",
+        "fileCount": "2",
+        "fenKayitNo": "3680,3681"
+      }
+    },
+    {
+      "personnelName": "MURAT SARI",
+      "minutes": 60,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "18:00",
+        "fileCount": "1",
+        "fenKayitNo": "Silifke3531"
+      }
+    }
+  ],
+  "2025-10-15": [
+    {
+      "personnelName": "ÖZKAN AKBAŞ",
+      "minutes": 25,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "17:25",
+        "fileCount": "1",
+        "fenKayitNo": "3607"
+      }
+    },
+    {
+      "personnelName": "EMİNE ALANLI KIRCILI",
+      "minutes": 30,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "12:00",
+        "endTime": "12:30",
+        "fileCount": "1",
+        "fenKayitNo": "3611"
+      }
+    },
+    {
+      "personnelName": "MAHMUT GÖK",
+      "minutes": 100,
+      "details": {
+        "fixedSlot": true,
+        "startTime": "17:00",
+        "endTime": "17:40",
+        "fileCount": "4",
+        "fenKayitNo": "anamur 2025/1303,1304,1305,1306"
+      }
+    },
+    {
+      "personnelName": "MEHMET AKDENİZ",
+      "minutes": 120,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "19:00",
+        "fileCount": "4",
+        "fenKayitNo": "978-980-1068-1069"
+      }
+    }
+  ],
+  "2025-10-16": [
+    {
+      "personnelName": "MURAT AKAYDIN",
+      "minutes": 180,
+      "details": {
+        "fixedSlot": true,
+        "startTime": "17:00",
+        "endTime": "19:00",
+        "fileCount": "3",
+        "fenKayitNo": "422-423-1308"
+      }
+    },
+    {
+      "personnelName": "EMİNE ALANLI KIRCILI",
+      "minutes": 30,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "07:30",
+        "endTime": "08:00",
+        "fileCount": "1",
+        "fenKayitNo": "3628"
+      }
+    },
+    {
+      "personnelName": "ÖZKAN AKBAŞ",
+      "minutes": 30,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "17:30",
+        "fileCount": "1",
+        "fenKayitNo": "3615"
+      }
+    },
+    {
+      "personnelName": "MÜMİN AKDOĞAN",
+      "minutes": 360,
+      "details": {
+        "fixedSlot": true,
+        "startTime": "17:00",
+        "endTime": "22:00",
+        "fileCount": "7",
+        "fenKayitNo": "3772,3773,3774,3775,3776,3777,3778"
+      }
+    },
+    {
+      "personnelName": "MEHMET AKDENİZ",
+      "minutes": 120,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "19:00",
+        "fileCount": "3",
+        "fenKayitNo": "988-987-1071"
+      }
+    }
+  ],
+  "2025-10-17": [
+    {
+      "personnelName": "EMİNE ALANLI KIRCILI",
+      "minutes": 30,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "07:30",
+        "endTime": "08:00",
+        "fileCount": "1",
+        "fenKayitNo": "3628"
+      }
+    },
+    {
+      "personnelName": "EMİNE ALANLI KIRCILI",
+      "minutes": 60,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "12:00",
+        "endTime": "13:00",
+        "fileCount": "1",
+        "fenKayitNo": "3628"
+      }
+    },
+    {
+      "personnelName": "HALİL ÇETİNKAYA",
+      "minutes": 75,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "18:15",
+        "fileCount": "1",
+        "fenKayitNo": "425"
+      }
+    }
+  ],
+  "2025-10-21": [
+    {
+      "personnelName": "EMİNE ALANLI KIRCILI",
+      "minutes": 30,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "07:30",
+        "endTime": "08:00",
+        "fileCount": "1",
+        "fenKayitNo": "3628"
+      }
+    },
+    {
+      "personnelName": "EMİNE ALANLI KIRCILI",
+      "minutes": 60,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "18:00",
+        "fileCount": "1",
+        "fenKayitNo": "3718"
+      }
+    },
+    {
+      "personnelName": "MEHMET AKDENİZ",
+      "minutes": 150,
+      "details": {
+        "fixedSlot": true,
+        "startTime": "17:00",
+        "endTime": "18:30",
+        "fileCount": "1",
+        "fenKayitNo": "986"
+      }
+    },
+    {
+      "personnelName": "HİLMİ MÜFTÜOĞLU",
+      "minutes": 180,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "20:00",
+        "fileCount": "3",
+        "fenKayitNo": "2025/1345 2025/1346 2025/1347"
+      }
+    }
+  ],
+  "2025-10-22": [
+    {
+      "personnelName": "EMİNE ALANLI KIRCILI",
+      "minutes": 60,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "07:00",
+        "endTime": "08:00",
+        "fileCount": "0",
+        "fenKayitNo": "3719"
+      }
+    },
+    {
+      "personnelName": "EMİNE ALANLI KIRCILI",
+      "minutes": 60,
+      "details": {
+        "fixedSlot": true,
+        "startTime": null,
+        "endTime": null,
+        "fileCount": "1",
+        "fenKayitNo": "3719"
+      }
+    },
+    {
+      "personnelName": "ÖZKAN AKBAŞ",
+      "minutes": 40,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "12:20",
+        "endTime": "13:00",
+        "fileCount": "1",
+        "fenKayitNo": "3615"
+      }
+    },
+    {
+      "personnelName": "HİKMET GÜLCAN",
+      "minutes": 145,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "19:25",
+        "fileCount": "6",
+        "fenKayitNo": "431,432,433,434,435,436"
+      }
+    },
+    {
+      "personnelName": "MEHMET AKDENİZ",
+      "minutes": 60,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "18:00",
+        "fileCount": "1",
+        "fenKayitNo": "1070"
+      }
+    },
+    {
+      "personnelName": "MURAT SARI",
+      "minutes": 240,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "18:30",
+        "endTime": "22:30",
+        "fileCount": "4",
+        "fenKayitNo": "Silifke3635,3633,3634,3748"
+      }
+    }
+  ],
+  "2025-10-23": [
+    {
+      "personnelName": "MURAT AKAYDIN",
+      "minutes": 60,
+      "details": {
+        "fixedSlot": true,
+        "startTime": null,
+        "endTime": null,
+        "fileCount": "2",
+        "fenKayitNo": "1352-1353"
+      }
+    },
+    {
+      "personnelName": "SABAHATTİN YAMAN",
+      "minutes": 240,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "21:00",
+        "fileCount": "1",
+        "fenKayitNo": "439"
+      }
+    },
+    {
+      "personnelName": "EMİNE ALANLI KIRCILI",
+      "minutes": 30,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "07:30",
+        "endTime": "08:00",
+        "fileCount": "2",
+        "fenKayitNo": "3719"
+      }
+    },
+    {
+      "personnelName": "MAHMUT GÖK",
+      "minutes": 90,
+      "details": {
+        "fixedSlot": true,
+        "startTime": "17:00",
+        "endTime": "17:30",
+        "fileCount": "3",
+        "fenKayitNo": "anamur 2025/1368,1369 bozyazı 2025/443"
+      }
+    },
+    {
+      "personnelName": "KAYHAN KARTPAK",
+      "minutes": 60,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "18:00",
+        "fileCount": "1",
+        "fenKayitNo": "3887"
+      }
+    },
+    {
+      "personnelName": "MEHMET AKDENİZ",
+      "minutes": 90,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "18:30",
+        "fileCount": "1",
+        "fenKayitNo": "4008"
+      }
+    }
+  ],
+  "2025-10-20": [
+    {
+      "personnelName": "HALİL ÇETİNKAYA",
+      "minutes": 180,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "20:00",
+        "fileCount": null,
+        "fenKayitNo": "1319-1320"
+      }
+    },
+    {
+      "personnelName": "MÜMİN AKDOĞAN",
+      "minutes": 120,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "19:00",
+        "fileCount": "1",
+        "fenKayitNo": "3810"
+      }
+    },
+    {
+      "personnelName": "KAYHAN KARTPAK",
+      "minutes": 180,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "20:00",
+        "fileCount": "4",
+        "fenKayitNo": "3748,3783,3784,3787"
+      }
+    },
+    {
+      "personnelName": "MURAT SARI",
+      "minutes": 150,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "19:30",
+        "fileCount": "2",
+        "fenKayitNo": "Silifke 3532,3533"
+      }
+    }
+  ],
+  "2025-10-24": [
+    {
+      "personnelName": "HALİL ÇETİNKAYA",
+      "minutes": 120,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "19:00",
+        "fileCount": "4",
+        "fenKayitNo": "1356-1357-1358-1359"
+      }
+    },
+    {
+      "personnelName": "EMİNE ALANLI KIRCILI",
+      "minutes": 30,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "12:30",
+        "endTime": "13:00",
+        "fileCount": "2",
+        "fenKayitNo": "3719"
+      }
+    },
+    {
+      "personnelName": "EMİNE ALANLI KIRCILI",
+      "minutes": 30,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "07:30",
+        "endTime": "08:00",
+        "fileCount": "2",
+        "fenKayitNo": "3719"
+      }
+    },
+    {
+      "personnelName": "CANER OKAY",
+      "minutes": 150,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "18:00",
+        "endTime": "20:30",
+        "fileCount": null,
+        "fenKayitNo": null
+      }
+    },
+    {
+      "personnelName": "KAYHAN KARTPAK",
+      "minutes": 180,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "20:00",
+        "fileCount": "2",
+        "fenKayitNo": "3898,3899"
+      }
+    },
+    {
+      "personnelName": "SÜLEYMAN YILMAZ",
+      "minutes": 105,
+      "details": {
+        "fixedSlot": true,
+        "startTime": "17:00",
+        "endTime": "17:45",
+        "fileCount": "2",
+        "fenKayitNo": "1354-1355"
+      }
+    }
+  ],
+  "2025-10-25": [
+    {
+      "personnelName": "MUSTAFA BICAK",
+      "minutes": 600,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "09:00",
+        "endTime": "19:00",
+        "fileCount": "7",
+        "fenKayitNo": "3811,3812,3813,3814,3815,3816,3817"
+      }
+    },
+    {
+      "personnelName": "SITKI KIZILOLUK",
+      "minutes": 480,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "09:00",
+        "endTime": "17:00",
+        "fileCount": "6",
+        "fenKayitNo": "1027 ila 1032"
+      }
+    }
+  ],
+  "2025-10-28": [
+    {
+      "personnelName": "SABAHATTİN YAMAN",
+      "minutes": 60,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "18:00",
+        "fileCount": "1",
+        "fenKayitNo": "450"
+      }
+    },
+    {
+      "personnelName": "HİKMET GÜLCAN",
+      "minutes": 120,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "13:00",
+        "endTime": "15:00",
+        "fileCount": "1",
+        "fenKayitNo": "2025/438"
+      }
+    },
+    {
+      "personnelName": "MURAT SARI",
+      "minutes": 390,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "14:30",
+        "endTime": "21:00",
+        "fileCount": "6",
+        "fenKayitNo": "3866,3865,3864,3862,3863,3902"
+      }
+    }
+  ],
+  "2025-10-29": [
+    {
+      "personnelName": "HİKMET GÜLCAN",
+      "minutes": 120,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "09:00",
+        "endTime": "11:00",
+        "fileCount": "1",
+        "fenKayitNo": "2025/438"
+      }
+    },
+    {
+      "personnelName": "HİLMİ MÜFTÜOĞLU",
+      "minutes": 180,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "13:00",
+        "endTime": "16:00",
+        "fileCount": "3",
+        "fenKayitNo": "2025/1247 2025/1343 2025/1344"
+      }
+    },
+    {
+      "personnelName": "EMİNE ALANLI KIRCILI",
+      "minutes": 60,
+      "details": {
+        "fixedSlot": true,
+        "startTime": null,
+        "endTime": null,
+        "fileCount": "2",
+        "fenKayitNo": "3792"
+      }
+    }
+  ],
+  "2025-10-02": [
+    {
+      "personnelName": "MAHMUT GÖK",
+      "minutes": 100,
+      "details": {
+        "fixedSlot": true,
+        "startTime": "17:00",
+        "endTime": "17:40",
+        "fileCount": "4",
+        "fenKayitNo": "bozyazı 2025/394-395-396- anamur 2025/1241"
+      }
+    },
+    {
+      "personnelName": "KAYHAN KARTPAK",
+      "minutes": 150,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "19:30",
+        "fileCount": "2",
+        "fenKayitNo": "3485-3486"
+      }
+    },
+    {
+      "personnelName": "MURAT AKAYDIN",
+      "minutes": 120,
+      "details": {
+        "fixedSlot": true,
+        "startTime": "17:00",
+        "endTime": "18:00",
+        "fileCount": "1",
+        "fenKayitNo": "1230"
+      }
+    }
+  ],
+  "2025-10-30": [
+    {
+      "personnelName": "MURAT AKAYDIN",
+      "minutes": 180,
+      "details": {
+        "fixedSlot": true,
+        "startTime": "17:00",
+        "endTime": "19:00",
+        "fileCount": "5",
+        "fenKayitNo": "451-452-453-1380-1381"
+      }
+    },
+    {
+      "personnelName": "HİLMİ MÜFTÜOĞLU",
+      "minutes": 120,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "19:00",
+        "fileCount": "2",
+        "fenKayitNo": "2025/1324 2025/1325"
+      }
+    },
+    {
+      "personnelName": "EMİNE ALANLI KIRCILI",
+      "minutes": 60,
+      "details": {
+        "fixedSlot": true,
+        "startTime": null,
+        "endTime": null,
+        "fileCount": "2",
+        "fenKayitNo": "3792"
+      }
+    }
+  ],
+  "2025-10-01": [
+    {
+      "personnelName": "MÜMİN AKDOĞAN",
+      "minutes": 60,
+      "details": {
+        "fixedSlot": true,
+        "startTime": null,
+        "endTime": null,
+        "fileCount": "1",
+        "fenKayitNo": "3468"
+      }
+    }
+  ],
+  "2025-10-06": [
+    {
+      "personnelName": "MÜMİN AKDOĞAN",
+      "minutes": 300,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "22:00",
+        "fileCount": "5",
+        "fenKayitNo": "3562,3563,3564,3565,3566"
+      }
+    },
+    {
+      "personnelName": "MEHMET AKDENİZ",
+      "minutes": 90,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "18:30",
+        "fileCount": "1",
+        "fenKayitNo": "1065"
+      }
+    },
+    {
+      "personnelName": "KAYHAN KARTPAK",
+      "minutes": 180,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "20:00",
+        "fileCount": "4",
+        "fenKayitNo": "3527ila3530"
+      }
+    }
+  ],
+  "2025-10-27": [
+    {
+      "personnelName": "CANER OKAY",
+      "minutes": 150,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "18:00",
+        "endTime": "20:30",
+        "fileCount": null,
+        "fenKayitNo": null
+      }
+    },
+    {
+      "personnelName": "KAYHAN KARTPAK",
+      "minutes": 120,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "19:00",
+        "fileCount": "2",
+        "fenKayitNo": "3935,3936"
+      }
+    },
+    {
+      "personnelName": "HİLMİ MÜFTÜOĞLU",
+      "minutes": 180,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "20:00",
+        "fileCount": "3",
+        "fenKayitNo": "2025/1348 2025/1322 2025/1323"
+      }
+    },
+    {
+      "personnelName": "MAHMUT GÖK",
+      "minutes": 60,
+      "details": {
+        "fixedSlot": true,
+        "startTime": null,
+        "endTime": null,
+        "fileCount": "2",
+        "fenKayitNo": "anamur 2025/1371 -bozyazı 2025/446 "
+      }
+    }
+  ],
+  "2025-10-07": [
+    {
+      "personnelName": "KAYHAN KARTPAK",
+      "minutes": 180,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "20:00",
+        "fileCount": "1",
+        "fenKayitNo": "3581"
+      }
+    }
+  ],
+  "2025-10-18": [
+    {
+      "personnelName": "KAYHAN KARTPAK",
+      "minutes": 240,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "09:00",
+        "endTime": "13:00",
+        "fileCount": "4",
+        "fenKayitNo": "3742ila3745"
+      }
+    }
+  ],
+  "2025-10-31": [
+    {
+      "personnelName": "MAHMUT GÖK",
+      "minutes": 60,
+      "details": {
+        "fixedSlot": true,
+        "startTime": null,
+        "endTime": null,
+        "fileCount": "1",
+        "fenKayitNo": "bozyazı 2025/455"
+      }
+    }
+  ],
+  "2025-10-12": [
+    {
+      "personnelName": "MEHMET AKDENİZ",
+      "minutes": 240,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "10:30",
+        "endTime": "14:30",
+        "fileCount": "5",
+        "fenKayitNo": "983-984-985-1066-981"
+      }
+    }
+  ],
+  "2025-10-11": [
+    {
+      "personnelName": "SITKI KIZILOLUK",
+      "minutes": 480,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "09:00",
+        "endTime": "17:00",
+        "fileCount": "5",
+        "fenKayitNo": "945 ila 949"
+      }
+    }
+  ],
+  "2025-10-26": [
+    {
+      "personnelName": "SITKI KIZILOLUK",
+      "minutes": 480,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "09:00",
+        "endTime": "17:00",
+        "fileCount": "5",
+        "fenKayitNo": "1046 ila 1050"
+      }
+    }
+  ],
+  "2025-11-03": [
+    {
+      "personnelName": "ÖZKAN AKBAŞ",
+      "minutes": 60,
+      "details": {
+        "fixedSlot": true,
+        "startTime": null,
+        "endTime": null,
+        "fileCount": "1",
+        "fenKayitNo": "3615"
+      }
+    }
+  ],
+  "2025-11-04": [
+    {
+      "personnelName": "ÖZKAN AKBAŞ",
+      "minutes": 30,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "07:30",
+        "endTime": "08:00",
+        "fileCount": "1",
+        "fenKayitNo": "3615"
+      }
+    },
+    {
+      "personnelName": "MURAT AKAYDIN",
+      "minutes": 40,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "17:40",
+        "fileCount": "1",
+        "fenKayitNo": "1397"
+      }
+    },
+    {
+      "personnelName": "HALİL ÇETİNKAYA",
+      "minutes": 180,
+      "details": {
+        "fixedSlot": true,
+        "startTime": "17:00",
+        "endTime": "19:00",
+        "fileCount": "5",
+        "fenKayitNo": "1394-457-458-459-460"
+      }
+    },
+    {
+      "personnelName": "ÖZKAN AKBAŞ",
+      "minutes": 120,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "19:00",
+        "fileCount": "1",
+        "fenKayitNo": "3615"
+      }
+    },
+    {
+      "personnelName": "EMİNE ALANLI KIRCILI",
+      "minutes": 60,
+      "details": {
+        "fixedSlot": true,
+        "startTime": null,
+        "endTime": null,
+        "fileCount": "5",
+        "fenKayitNo": "3877"
+      }
+    },
+    {
+      "personnelName": "MÜMİN AKDOĞAN",
+      "minutes": 120,
+      "details": {
+        "fixedSlot": true,
+        "startTime": "17:00",
+        "endTime": "18:00",
+        "fileCount": "3",
+        "fenKayitNo": "4064-4065-4066"
+      }
+    }
+  ],
+  "2025-11-06": [
+    {
+      "personnelName": "EMİNE ALANLI KIRCILI",
+      "minutes": 30,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "07:30",
+        "endTime": "08:00",
+        "fileCount": "5",
+        "fenKayitNo": "3877"
+      }
+    },
+    {
+      "personnelName": "EMİNE ALANLI KIRCILI",
+      "minutes": 60,
+      "details": {
+        "fixedSlot": true,
+        "startTime": null,
+        "endTime": null,
+        "fileCount": "5",
+        "fenKayitNo": "3877"
+      }
+    },
+    {
+      "personnelName": "MURAT AKAYDIN",
+      "minutes": 180,
+      "details": {
+        "fixedSlot": true,
+        "startTime": "17:00",
+        "endTime": "19:00",
+        "fileCount": "1",
+        "fenKayitNo": "1408"
+      }
+    },
+    {
+      "personnelName": "ÖZKAN AKBAŞ",
+      "minutes": 30,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "17:30",
+        "fileCount": "1",
+        "fenKayitNo": "3615"
+      }
+    },
+    {
+      "personnelName": "MÜMİN AKDOĞAN",
+      "minutes": 270,
+      "details": {
+        "fixedSlot": true,
+        "startTime": "17:00",
+        "endTime": "20:30",
+        "fileCount": "3",
+        "fenKayitNo": "4111-4112-4113"
+      }
+    },
+    {
+      "personnelName": "CANER OKAY",
+      "minutes": 120,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:15",
+        "endTime": "19:15",
+        "fileCount": "1",
+        "fenKayitNo": "4071"
+      }
+    }
+  ],
+  "2025-11-07": [
+    {
+      "personnelName": "MAHMUT GÖK",
+      "minutes": 150,
+      "details": {
+        "fixedSlot": true,
+        "startTime": "17:00",
+        "endTime": "18:30",
+        "fileCount": "7",
+        "fenKayitNo": "ANAMUR-2025/1413,2025/1414,2025/1415,2025/1416,2025/1417,--BOZYAZI-2025/468,2025/469"
+      }
+    },
+    {
+      "personnelName": "SABAHATTİN YAMAN",
+      "minutes": 90,
+      "details": {
+        "fixedSlot": true,
+        "startTime": "17:00",
+        "endTime": "17:30",
+        "fileCount": "2",
+        "fenKayitNo": "470-1419"
+      }
+    },
+    {
+      "personnelName": "EMİNE ALANLI KIRCILI",
+      "minutes": 45,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "07:15",
+        "endTime": "08:00",
+        "fileCount": "5",
+        "fenKayitNo": "3877"
+      }
+    },
+    {
+      "personnelName": "HALİL ÇETİNKAYA",
+      "minutes": 90,
+      "details": {
+        "fixedSlot": true,
+        "startTime": "17:00",
+        "endTime": "17:30",
+        "fileCount": "1",
+        "fenKayitNo": "1418"
+      }
+    },
+    {
+      "personnelName": "CANER OKAY",
+      "minutes": 90,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:30",
+        "endTime": "19:00",
+        "fileCount": "1",
+        "fenKayitNo": "4090"
+      }
+    }
+  ],
+  "2025-11-10": [
+    {
+      "personnelName": "HALİL ÇETİNKAYA",
+      "minutes": 240,
+      "details": {
+        "fixedSlot": true,
+        "startTime": "17:00",
+        "endTime": "20:00",
+        "fileCount": "6",
+        "fenKayitNo": "478,479,1428,1429,14301431"
+      }
+    },
+    {
+      "personnelName": "EMİNE ALANLI KIRCILI",
+      "minutes": 30,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "07:30",
+        "endTime": "08:00",
+        "fileCount": "5",
+        "fenKayitNo": "3877"
+      }
+    },
+    {
+      "personnelName": "EMİNE ALANLI KIRCILI",
+      "minutes": 60,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "12:00",
+        "endTime": "13:00",
+        "fileCount": "5",
+        "fenKayitNo": "3877"
+      }
+    },
+    {
+      "personnelName": "MÜMİN AKDOĞAN",
+      "minutes": 120,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "19:00",
+        "fileCount": "1",
+        "fenKayitNo": "4132"
+      }
+    }
+  ],
+  "2025-11-11": [
+    {
+      "personnelName": "HALİL ÇETİNKAYA",
+      "minutes": 120,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "19:00",
+        "fileCount": "2",
+        "fenKayitNo": "1438,484"
+      }
+    },
+    {
+      "personnelName": "MAHMUT GÖK",
+      "minutes": 60,
+      "details": {
+        "fixedSlot": true,
+        "startTime": null,
+        "endTime": null,
+        "fileCount": "1",
+        "fenKayitNo": "ANAMUR 2025/1441"
+      }
+    },
+    {
+      "personnelName": "HİLMİ MÜFTÜOĞLU",
+      "minutes": 60,
+      "details": {
+        "fixedSlot": true,
+        "startTime": null,
+        "endTime": null,
+        "fileCount": "1",
+        "fenKayitNo": "ANAMUR-2025/1441"
+      }
+    },
+    {
+      "personnelName": "EMİNE ALANLI KIRCILI",
+      "minutes": 30,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "07:30",
+        "endTime": "08:00",
+        "fileCount": "5",
+        "fenKayitNo": "3877"
+      }
+    },
+    {
+      "personnelName": "EMİNE ALANLI KIRCILI",
+      "minutes": 60,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "12:00",
+        "endTime": "13:00",
+        "fileCount": "5",
+        "fenKayitNo": "3877"
+      }
+    },
+    {
+      "personnelName": "MÜMİN AKDOĞAN",
+      "minutes": 240,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "21:00",
+        "fileCount": "6",
+        "fenKayitNo": "4167-4168-4169-4170-4171-4172"
+      }
+    },
+    {
+      "personnelName": "MEHMET AKDENİZ",
+      "minutes": 330,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "18:00",
+        "endTime": "23:30",
+        "fileCount": "6",
+        "fenKayitNo": "1075-1077-1078-1079-1080-1120"
+      }
+    }
+  ],
+  "2025-11-14": [
+    {
+      "personnelName": "SABAHATTİN YAMAN",
+      "minutes": 60,
+      "details": {
+        "fixedSlot": true,
+        "startTime": null,
+        "endTime": null,
+        "fileCount": "1",
+        "fenKayitNo": "1446"
+      }
+    },
+    {
+      "personnelName": "EMİNE ALANLI KIRCILI",
+      "minutes": 30,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "07:30",
+        "endTime": "08:00",
+        "fileCount": "5",
+        "fenKayitNo": "3877"
+      }
+    },
+    {
+      "personnelName": "EMİNE ALANLI KIRCILI",
+      "minutes": 60,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "12:00",
+        "endTime": "13:00",
+        "fileCount": "5",
+        "fenKayitNo": "3877"
+      }
+    },
+    {
+      "personnelName": "MEHMET AKDENİZ",
+      "minutes": 180,
+      "details": {
+        "fixedSlot": true,
+        "startTime": "17:00",
+        "endTime": "19:00",
+        "fileCount": "2",
+        "fenKayitNo": "1154-1155"
+      }
+    }
+  ],
+  "2025-11-18": [
     {
       "personnelName": "MURAT AKAYDIN",
       "minutes": 60,
@@ -8,20 +1886,1883 @@
         "startTime": null,
         "endTime": null,
         "fileCount": "1",
-        "fenKayitNo": "275"
+        "fenKayitNo": "495"
+      }
+    },
+    {
+      "personnelName": "MAHMUT GÖK",
+      "minutes": 90,
+      "details": {
+        "fixedSlot": true,
+        "startTime": "17:00",
+        "endTime": "17:30",
+        "fileCount": "3",
+        "fenKayitNo": "ANAMUR-2025/1466,BOZYAZI-2025/498,2025/499"
+      }
+    },
+    {
+      "personnelName": "MEHMET AKDENİZ",
+      "minutes": 180,
+      "details": {
+        "fixedSlot": true,
+        "startTime": "17:00",
+        "endTime": "19:00",
+        "fileCount": "2",
+        "fenKayitNo": "1160-1161"
+      }
+    },
+    {
+      "personnelName": "MURAT SARI",
+      "minutes": 180,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "20:45",
+        "endTime": "23:45",
+        "fileCount": "2",
+        "fenKayitNo": "Silifke 4009, Silifke 4011"
       }
     }
   ],
-  "2026-02-09": [
+  "2025-11-19": [
+    {
+      "personnelName": "MAHMUT GÖK",
+      "minutes": 120,
+      "details": {
+        "fixedSlot": true,
+        "startTime": "17:00",
+        "endTime": "18:00",
+        "fileCount": "4",
+        "fenKayitNo": "BOZYAZI-2025/500,2025/501,2025/502,2025/503"
+      }
+    },
+    {
+      "personnelName": "HİLMİ MÜFTÜOĞLU",
+      "minutes": 120,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "19:00",
+        "fileCount": "1",
+        "fenKayitNo": "2025/505"
+      }
+    }
+  ],
+  "2025-11-08": [
+    {
+      "personnelName": "EMİNE ALANLI KIRCILI",
+      "minutes": 300,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "12:00",
+        "endTime": "17:00",
+        "fileCount": "5",
+        "fenKayitNo": "3877"
+      }
+    }
+  ],
+  "2025-11-12": [
+    {
+      "personnelName": "EMİNE ALANLI KIRCILI",
+      "minutes": 30,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "07:30",
+        "endTime": "08:00",
+        "fileCount": "5",
+        "fenKayitNo": "3877"
+      }
+    },
+    {
+      "personnelName": "EMİNE ALANLI KIRCILI",
+      "minutes": 60,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "12:00",
+        "endTime": "13:00",
+        "fileCount": "5",
+        "fenKayitNo": "3877"
+      }
+    },
+    {
+      "personnelName": "MEHMET AKDENİZ",
+      "minutes": 360,
+      "details": {
+        "fixedSlot": true,
+        "startTime": "18:00",
+        "endTime": "23:00",
+        "fileCount": "5",
+        "fenKayitNo": "1121-1122-1123-1124-1125"
+      }
+    }
+  ],
+  "2025-11-13": [
+    {
+      "personnelName": "EMİNE ALANLI KIRCILI",
+      "minutes": 30,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "07:30",
+        "endTime": "08:00",
+        "fileCount": "5",
+        "fenKayitNo": "3877"
+      }
+    },
+    {
+      "personnelName": "EMİNE ALANLI KIRCILI",
+      "minutes": 60,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "12:00",
+        "endTime": "13:00",
+        "fileCount": "5",
+        "fenKayitNo": "3877"
+      }
+    },
+    {
+      "personnelName": "MÜMİN AKDOĞAN",
+      "minutes": 180,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "20:00",
+        "fileCount": "5",
+        "fenKayitNo": "4210-4211-4212-4213-4214"
+      }
+    },
+    {
+      "personnelName": "MEHMET AKDENİZ",
+      "minutes": 360,
+      "details": {
+        "fixedSlot": true,
+        "startTime": "18:00",
+        "endTime": "23:00",
+        "fileCount": "6",
+        "fenKayitNo": "1126-1127-1128-1129-1152-1153"
+      }
+    }
+  ],
+  "2025-11-15": [
+    {
+      "personnelName": "SITKI KIZILOLUK",
+      "minutes": 480,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "09:00",
+        "endTime": "17:00",
+        "fileCount": "9",
+        "fenKayitNo": "1111 ila 1119"
+      }
+    }
+  ],
+  "2025-11-20": [
+    {
+      "personnelName": "SABAHATTİN YAMAN",
+      "minutes": 60,
+      "details": {
+        "fixedSlot": true,
+        "startTime": null,
+        "endTime": null,
+        "fileCount": "1",
+        "fenKayitNo": "1473"
+      }
+    },
     {
       "personnelName": "MURAT AKAYDIN",
+      "minutes": 60,
+      "details": {
+        "fixedSlot": true,
+        "startTime": null,
+        "endTime": null,
+        "fileCount": "1",
+        "fenKayitNo": "1469"
+      }
+    }
+  ],
+  "2025-11-21": [
+    {
+      "personnelName": "SABAHATTİN YAMAN",
+      "minutes": 60,
+      "details": {
+        "fixedSlot": true,
+        "startTime": null,
+        "endTime": null,
+        "fileCount": "1",
+        "fenKayitNo": "1478"
+      }
+    },
+    {
+      "personnelName": "MURAT AKAYDIN",
+      "minutes": 60,
+      "details": {
+        "fixedSlot": true,
+        "startTime": null,
+        "endTime": null,
+        "fileCount": "1",
+        "fenKayitNo": "1482"
+      }
+    },
+    {
+      "personnelName": "MAHMUT GÖK",
+      "minutes": 90,
+      "details": {
+        "fixedSlot": true,
+        "startTime": "17:00",
+        "endTime": "17:30",
+        "fileCount": "4",
+        "fenKayitNo": "ANAMUR-2025/1483,1484,1485 BOZYAZI-2025/509"
+      }
+    }
+  ],
+  "2025-11-24": [
+    {
+      "personnelName": "HALİL ÇETİNKAYA",
       "minutes": 150,
       "details": {
         "fixedSlot": true,
         "startTime": "17:00",
         "endTime": "18:30",
+        "fileCount": "1",
+        "fenKayitNo": "512"
+      }
+    },
+    {
+      "personnelName": "ÖZKAN AKBAŞ",
+      "minutes": 30,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "12:30",
+        "endTime": "13:00",
+        "fileCount": "1",
+        "fenKayitNo": "3615"
+      }
+    },
+    {
+      "personnelName": "ÖZKAN AKBAŞ",
+      "minutes": 75,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "18:15",
+        "fileCount": "1",
+        "fenKayitNo": "3615"
+      }
+    }
+  ],
+  "2025-11-25": [
+    {
+      "personnelName": "MURAT AKAYDIN",
+      "minutes": 90,
+      "details": {
+        "fixedSlot": true,
+        "startTime": "17:00",
+        "endTime": "17:30",
+        "fileCount": "2",
+        "fenKayitNo": "514-515"
+      }
+    },
+    {
+      "personnelName": "MÜMİN AKDOĞAN",
+      "minutes": 60,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "18:00",
+        "endTime": "19:00",
+        "fileCount": "1",
+        "fenKayitNo": "4411"
+      }
+    }
+  ],
+  "2025-11-28": [
+    {
+      "personnelName": "SABAHATTİN YAMAN",
+      "minutes": 150,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "19:30",
+        "fileCount": "1",
+        "fenKayitNo": "1526"
+      }
+    }
+  ],
+  "2025-11-05": [
+    {
+      "personnelName": "MÜMİN AKDOĞAN",
+      "minutes": 30,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "12:00",
+        "endTime": "12:30",
+        "fileCount": "1",
+        "fenKayitNo": "4067"
+      }
+    }
+  ],
+  "2025-11-26": [
+    {
+      "personnelName": "MÜMİN AKDOĞAN",
+      "minutes": 60,
+      "details": {
+        "fixedSlot": true,
+        "startTime": null,
+        "endTime": null,
+        "fileCount": "1",
+        "fenKayitNo": "4410"
+      }
+    },
+    {
+      "personnelName": "HİKMET GÜLCAN",
+      "minutes": 240,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "21:00",
+        "fileCount": "9",
+        "fenKayitNo": "2025/1499,1500,1501,1502,1503,1504,1505,1506,1507"
+      }
+    }
+  ],
+  "2025-11-17": [
+    {
+      "personnelName": "MEHMET AKDENİZ",
+      "minutes": 180,
+      "details": {
+        "fixedSlot": true,
+        "startTime": "17:00",
+        "endTime": "19:00",
+        "fileCount": "2",
+        "fenKayitNo": "1158-1159"
+      }
+    }
+  ],
+  "2025-11-30": [
+    {
+      "personnelName": "HİKMET GÜLCAN",
+      "minutes": 390,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "10:00",
+        "endTime": "16:30",
+        "fileCount": "2",
+        "fenKayitNo": "2025/1390,2025/1517"
+      }
+    }
+  ],
+  "2025-11-27": [
+    {
+      "personnelName": "KAYHAN KARTPAK",
+      "minutes": 150,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "19:30",
+        "fileCount": "6",
+        "fenKayitNo": "4417ila4422"
+      }
+    },
+    {
+      "personnelName": "MURAT SARI",
+      "minutes": 120,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "18:45",
+        "endTime": "20:45",
+        "fileCount": "1",
+        "fenKayitNo": "Silifke 4088"
+      }
+    }
+  ],
+  "2025-11-29": [
+    {
+      "personnelName": "MURAT SARI",
+      "minutes": 180,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "09:00",
+        "endTime": "12:00",
         "fileCount": "4",
-        "fenKayitNo": "72-270-271-272"
+        "fenKayitNo": "Silifke 4446,Silifke 4444,Silifke 4445,Silifke 4447"
+      }
+    },
+    {
+      "personnelName": "SITKI KIZILOLUK",
+      "minutes": 480,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "09:00",
+        "endTime": "17:00",
+        "fileCount": "4",
+        "fenKayitNo": "1172 ila 1175"
+      }
+    }
+  ],
+  "2025-12-01": [
+    {
+      "personnelName": "ÖZKAN AKBAŞ",
+      "minutes": 30,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "17:30",
+        "fileCount": "1",
+        "fenKayitNo": "4300"
+      }
+    },
+    {
+      "personnelName": "MAHMUT GÖK",
+      "minutes": 90,
+      "details": {
+        "fixedSlot": true,
+        "startTime": "17:00",
+        "endTime": "17:30",
+        "fileCount": "3",
+        "fenKayitNo": "ANAMUR-2025/1541,1542,1543"
+      }
+    },
+    {
+      "personnelName": "EMİNE ALANLI KIRCILI",
+      "minutes": 60,
+      "details": {
+        "fixedSlot": true,
+        "startTime": null,
+        "endTime": null,
+        "fileCount": "1",
+        "fenKayitNo": "4322"
+      }
+    }
+  ],
+  "2025-12-02": [
+    {
+      "personnelName": "MAHMUT GÖK",
+      "minutes": 90,
+      "details": {
+        "fixedSlot": true,
+        "startTime": "17:00",
+        "endTime": "17:30",
+        "fileCount": "3",
+        "fenKayitNo": "BOZYAZI-2025/528-ANAMUR-2025/1537,2025/1536"
+      }
+    },
+    {
+      "personnelName": "ÖZKAN AKBAŞ",
+      "minutes": 60,
+      "details": {
+        "fixedSlot": true,
+        "startTime": null,
+        "endTime": null,
+        "fileCount": "1",
+        "fenKayitNo": "4300"
+      }
+    },
+    {
+      "personnelName": "ÖZKAN AKBAŞ",
+      "minutes": 60,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "18:00",
+        "fileCount": "1",
+        "fenKayitNo": "4300"
+      }
+    },
+    {
+      "personnelName": "SERDAR ARSLAN",
+      "minutes": 40,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "17:40",
+        "fileCount": "1",
+        "fenKayitNo": "4300"
+      }
+    },
+    {
+      "personnelName": "MAHMUT GÖK",
+      "minutes": 90,
+      "details": {
+        "fixedSlot": true,
+        "startTime": "17:00",
+        "endTime": "17:30",
+        "fileCount": "1",
+        "fenKayitNo": "ANAMUR-2025/410"
+      }
+    }
+  ],
+  "2025-12-03": [
+    {
+      "personnelName": "HALİL ÇETİNKAYA",
+      "minutes": 60,
+      "details": {
+        "fixedSlot": true,
+        "startTime": null,
+        "endTime": null,
+        "fileCount": "1",
+        "fenKayitNo": "1608"
+      }
+    },
+    {
+      "personnelName": "EMİNE ALANLI KIRCILI",
+      "minutes": 60,
+      "details": {
+        "fixedSlot": true,
+        "startTime": null,
+        "endTime": null,
+        "fileCount": "2",
+        "fenKayitNo": "4337"
+      }
+    },
+    {
+      "personnelName": "SERDAR ARSLAN",
+      "minutes": 30,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "17:30",
+        "fileCount": "1",
+        "fenKayitNo": "4301"
+      }
+    },
+    {
+      "personnelName": "HİKMET GÜLCAN",
+      "minutes": 150,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "19:00",
+        "endTime": "21:30",
+        "fileCount": "1",
+        "fenKayitNo": "2025/1540"
+      }
+    }
+  ],
+  "2025-12-04": [
+    {
+      "personnelName": "ÖZKAN AKBAŞ",
+      "minutes": 60,
+      "details": {
+        "fixedSlot": true,
+        "startTime": null,
+        "endTime": null,
+        "fileCount": "1",
+        "fenKayitNo": "4300"
+      }
+    },
+    {
+      "personnelName": "EMİNE ALANLI KIRCILI",
+      "minutes": 60,
+      "details": {
+        "fixedSlot": true,
+        "startTime": null,
+        "endTime": null,
+        "fileCount": "1",
+        "fenKayitNo": "4338"
+      }
+    },
+    {
+      "personnelName": "MURAT AKAYDIN",
+      "minutes": 120,
+      "details": {
+        "fixedSlot": true,
+        "startTime": "17:00",
+        "endTime": "18:00",
+        "fileCount": "3",
+        "fenKayitNo": "536-537-538"
+      }
+    }
+  ],
+  "2025-12-05": [
+    {
+      "personnelName": "HİLMİ MÜFTÜOĞLU",
+      "minutes": 180,
+      "details": {
+        "fixedSlot": true,
+        "startTime": "17:00",
+        "endTime": "19:00",
+        "fileCount": "3",
+        "fenKayitNo": "2025/1567 2025/1566 2025/1565"
+      }
+    }
+  ],
+  "2025-12-06": [
+    {
+      "personnelName": "HİLMİ MÜFTÜOĞLU",
+      "minutes": 180,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "13:00",
+        "endTime": "16:00",
+        "fileCount": "3",
+        "fenKayitNo": "2025/1570 2025/1569 2025/1568"
+      }
+    }
+  ],
+  "2025-12-07": [
+    {
+      "personnelName": "HİLMİ MÜFTÜOĞLU",
+      "minutes": 120,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "13:00",
+        "endTime": "15:00",
+        "fileCount": "2",
+        "fenKayitNo": "2025/1572 2025/1571"
+      }
+    }
+  ],
+  "2025-12-12": [
+    {
+      "personnelName": "HALİL ÇETİNKAYA",
+      "minutes": 60,
+      "details": {
+        "fixedSlot": true,
+        "startTime": null,
+        "endTime": null,
+        "fileCount": "2",
+        "fenKayitNo": "547,548"
+      }
+    },
+    {
+      "personnelName": "MURAT AKAYDIN",
+      "minutes": 90,
+      "details": {
+        "fixedSlot": true,
+        "startTime": "17:00",
+        "endTime": "17:30",
+        "fileCount": "2",
+        "fenKayitNo": "549-1595"
+      }
+    },
+    {
+      "personnelName": "ÖZKAN AKBAŞ",
+      "minutes": 40,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "12:00",
+        "endTime": "12:40",
+        "fileCount": "1",
+        "fenKayitNo": "4300"
+      }
+    },
+    {
+      "personnelName": "ÖZKAN AKBAŞ",
+      "minutes": 30,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "17:30",
+        "fileCount": "1",
+        "fenKayitNo": "4300"
+      }
+    }
+  ],
+  "2025-12-11": [
+    {
+      "personnelName": "MURAT AKAYDIN",
+      "minutes": 120,
+      "details": {
+        "fixedSlot": true,
+        "startTime": "17:00",
+        "endTime": "18:00",
+        "fileCount": "5",
+        "fenKayitNo": "1586-1587-1588-1589-1590"
+      }
+    },
+    {
+      "personnelName": "MAHMUT GÖK",
+      "minutes": 90,
+      "details": {
+        "fixedSlot": true,
+        "startTime": "17:00",
+        "endTime": "17:30",
+        "fileCount": "2",
+        "fenKayitNo": "ANAMUR-2025/1603,1604"
+      }
+    },
+    {
+      "personnelName": "MÜMİN AKDOĞAN",
+      "minutes": 120,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "19:00",
+        "fileCount": "2",
+        "fenKayitNo": "4738-4739"
+      }
+    },
+    {
+      "personnelName": "KAYHAN KARTPAK",
+      "minutes": 180,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "20:00",
+        "fileCount": "2",
+        "fenKayitNo": "4726-4727"
+      }
+    }
+  ],
+  "2025-12-13": [
+    {
+      "personnelName": "HİLMİ MÜFTÜOĞLU",
+      "minutes": 120,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "13:00",
+        "endTime": "15:00",
+        "fileCount": "2",
+        "fenKayitNo": "2025/544 2025/545"
+      }
+    },
+    {
+      "personnelName": "SITKI KIZILOLUK",
+      "minutes": 480,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "09:00",
+        "endTime": "17:00",
+        "fileCount": "10",
+        "fenKayitNo": "1266 ila 1275"
+      }
+    }
+  ],
+  "2025-12-15": [
+    {
+      "personnelName": "ÖZKAN AKBAŞ",
+      "minutes": 20,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "17:20",
+        "fileCount": "1",
+        "fenKayitNo": "4300"
+      }
+    },
+    {
+      "personnelName": "SERDAR ARSLAN",
+      "minutes": 20,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "17:20",
+        "fileCount": "1",
+        "fenKayitNo": "4300"
+      }
+    },
+    {
+      "personnelName": "KAYHAN KARTPAK",
+      "minutes": 150,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "19:30",
+        "fileCount": "4",
+        "fenKayitNo": "4767ila4770"
+      }
+    }
+  ],
+  "2025-12-16": [
+    {
+      "personnelName": "EMİNE ALANLI KIRCILI",
+      "minutes": 50,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "07:10",
+        "endTime": "08:00",
+        "fileCount": "1",
+        "fenKayitNo": "4542"
+      }
+    },
+    {
+      "personnelName": "MAHMUT GÖK",
+      "minutes": 60,
+      "details": {
+        "fixedSlot": true,
+        "startTime": null,
+        "endTime": null,
+        "fileCount": "2",
+        "fenKayitNo": "BOZYAZI-2025/557,558"
+      }
+    },
+    {
+      "personnelName": "ÖZKAN AKBAŞ",
+      "minutes": 30,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "17:30",
+        "fileCount": "1",
+        "fenKayitNo": "4300"
+      }
+    },
+    {
+      "personnelName": "SERDAR ARSLAN",
+      "minutes": 30,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "17:30",
+        "fileCount": "1",
+        "fenKayitNo": "4301"
+      }
+    }
+  ],
+  "2025-12-17": [
+    {
+      "personnelName": "ÖZKAN AKBAŞ",
+      "minutes": 30,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "17:30",
+        "fileCount": "1",
+        "fenKayitNo": "4300"
+      }
+    },
+    {
+      "personnelName": "SERDAR ARSLAN",
+      "minutes": 30,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "17:30",
+        "fileCount": "1",
+        "fenKayitNo": "4300"
+      }
+    },
+    {
+      "personnelName": "EMİNE ALANLI KIRCILI",
+      "minutes": 30,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "17:30",
+        "fileCount": "2",
+        "fenKayitNo": "4556"
+      }
+    }
+  ],
+  "2025-12-18": [
+    {
+      "personnelName": "ÖZKAN AKBAŞ",
+      "minutes": 30,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "17:30",
+        "fileCount": "1",
+        "fenKayitNo": "4300"
+      }
+    },
+    {
+      "personnelName": "SERDAR ARSLAN",
+      "minutes": 30,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "17:30",
+        "fileCount": "1",
+        "fenKayitNo": "4301"
+      }
+    }
+  ],
+  "2025-12-19": [
+    {
+      "personnelName": "MAHMUT GÖK",
+      "minutes": 90,
+      "details": {
+        "fixedSlot": true,
+        "startTime": "17:00",
+        "endTime": "17:30",
+        "fileCount": "17",
+        "fenKayitNo": "1624,1625,1626,1627,1628,1629,1630,1631,1632,1633,1634,1635,1636,1637,1638,1639,1640"
+      }
+    },
+    {
+      "personnelName": "MEHTAP AKDOĞAN",
+      "minutes": 60,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "18:00",
+        "fileCount": "1",
+        "fenKayitNo": "4954"
+      }
+    }
+  ],
+  "2025-12-22": [
+    {
+      "personnelName": "HALİL ÇETİNKAYA",
+      "minutes": 60,
+      "details": {
+        "fixedSlot": true,
+        "startTime": null,
+        "endTime": null,
+        "fileCount": "2",
+        "fenKayitNo": "569,1645"
+      }
+    },
+    {
+      "personnelName": "MÜMİN AKDOĞAN",
+      "minutes": 270,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "21:30",
+        "fileCount": "5",
+        "fenKayitNo": "4949-4950-4952-4954-4955"
+      }
+    },
+    {
+      "personnelName": "KAYHAN KARTPAK",
+      "minutes": 180,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "20:00",
+        "fileCount": "3",
+        "fenKayitNo": "4892-4894-4895"
+      }
+    }
+  ],
+  "2025-12-23": [
+    {
+      "personnelName": "HALİL ÇETİNKAYA",
+      "minutes": 180,
+      "details": {
+        "fixedSlot": true,
+        "startTime": "17:00",
+        "endTime": "19:00",
+        "fileCount": "9",
+        "fenKayitNo": "571,572,573,574,1656,1657,1658,1659,1660"
+      }
+    },
+    {
+      "personnelName": "ÖZKAN AKBAŞ",
+      "minutes": 45,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "12:15",
+        "endTime": "13:00",
+        "fileCount": "1",
+        "fenKayitNo": "4300"
+      }
+    },
+    {
+      "personnelName": "SERDAR ARSLAN",
+      "minutes": 30,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "17:30",
+        "fileCount": "1",
+        "fenKayitNo": "4301"
+      }
+    },
+    {
+      "personnelName": "MÜMİN AKDOĞAN",
+      "minutes": 330,
+      "details": {
+        "fixedSlot": true,
+        "startTime": "17:00",
+        "endTime": "21:30",
+        "fileCount": "9",
+        "fenKayitNo": "4956-4957-4958-4959-4960-4961-4962-4963-4964"
+      }
+    },
+    {
+      "personnelName": "MEHTAP AKDOĞAN",
+      "minutes": 60,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "18:00",
+        "fileCount": "1",
+        "fenKayitNo": "4962"
+      }
+    }
+  ],
+  "2025-12-24": [
+    {
+      "personnelName": "ÖZKAN AKBAŞ",
+      "minutes": 30,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "12:00",
+        "endTime": "12:30",
+        "fileCount": "1",
+        "fenKayitNo": "4300"
+      }
+    }
+  ],
+  "2025-12-26": [
+    {
+      "personnelName": "SABAHATTİN YAMAN",
+      "minutes": 120,
+      "details": {
+        "fixedSlot": true,
+        "startTime": "17:00",
+        "endTime": "18:00",
+        "fileCount": "3",
+        "fenKayitNo": "587,588,1673"
+      }
+    }
+  ],
+  "2025-12-30": [
+    {
+      "personnelName": "HALİL ÇETİNKAYA",
+      "minutes": 60,
+      "details": {
+        "fixedSlot": true,
+        "startTime": null,
+        "endTime": null,
+        "fileCount": "2",
+        "fenKayitNo": "1684,1685"
+      }
+    },
+    {
+      "personnelName": "MEHMET AKDENİZ",
+      "minutes": 180,
+      "details": {
+        "fixedSlot": true,
+        "startTime": "17:00",
+        "endTime": "19:00",
+        "fileCount": "3",
+        "fenKayitNo": "1279-1280-1281"
+      }
+    },
+    {
+      "personnelName": "SERDAR ARSLAN",
+      "minutes": 30,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "17:30",
+        "fileCount": "1",
+        "fenKayitNo": "4301"
+      }
+    },
+    {
+      "personnelName": "ÖZKAN AKBAŞ",
+      "minutes": 45,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "17:45",
+        "fileCount": "1",
+        "fenKayitNo": "4766"
+      }
+    },
+    {
+      "personnelName": "MURAT SARI",
+      "minutes": 195,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "20:15",
+        "endTime": "23:30",
+        "fileCount": "2",
+        "fenKayitNo": "4581, 4582"
+      }
+    }
+  ],
+  "2025-12-29": [
+    {
+      "personnelName": "ÖZKAN AKBAŞ",
+      "minutes": 60,
+      "details": {
+        "fixedSlot": true,
+        "startTime": null,
+        "endTime": null,
+        "fileCount": "1",
+        "fenKayitNo": "4765"
+      }
+    },
+    {
+      "personnelName": "MÜMİN AKDOĞAN",
+      "minutes": 30,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "12:00",
+        "endTime": "12:30",
+        "fileCount": "1",
+        "fenKayitNo": "5127"
+      }
+    },
+    {
+      "personnelName": "MURAT SARI",
+      "minutes": 120,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "20:00",
+        "endTime": "22:00",
+        "fileCount": "1",
+        "fenKayitNo": "4612"
+      }
+    }
+  ],
+  "2025-12-09": [
+    {
+      "personnelName": "MEHMET AKDENİZ",
+      "minutes": 180,
+      "details": {
+        "fixedSlot": true,
+        "startTime": "17:00",
+        "endTime": "19:00",
+        "fileCount": "3",
+        "fenKayitNo": "1260-1621-1262"
+      }
+    }
+  ],
+  "2025-12-10": [
+    {
+      "personnelName": "MEHMET AKDENİZ",
+      "minutes": 120,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "19:00",
+        "fileCount": "3",
+        "fenKayitNo": "1263-1264-1265"
+      }
+    }
+  ],
+  "2025-12-25": [
+    {
+      "personnelName": "MEHMET AKDENİZ",
+      "minutes": 120,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "19:00",
+        "fileCount": "3",
+        "fenKayitNo": "1276-1277-1278"
+      }
+    }
+  ],
+  "2025-12-08": [
+    {
+      "personnelName": "MÜMİN AKDOĞAN",
+      "minutes": 240,
+      "details": {
+        "fixedSlot": true,
+        "startTime": "17:00",
+        "endTime": "20:00",
+        "fileCount": "3",
+        "fenKayitNo": "4684-4685-4686"
+      }
+    },
+    {
+      "personnelName": "MEHTAP AKDOĞAN",
+      "minutes": 120,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "19:00",
+        "fileCount": "2",
+        "fenKayitNo": "4684-4685"
+      }
+    }
+  ],
+  "2025-12-20": [
+    {
+      "personnelName": "SITKI KIZILOLUK",
+      "minutes": 480,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "09:00",
+        "endTime": "17:00",
+        "fileCount": "2",
+        "fenKayitNo": "1292, 1293"
+      }
+    }
+  ],
+  "2026-01-05": [
+    {
+      "personnelName": "ÖZKAN AKBAŞ",
+      "minutes": 60,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "18:00",
+        "fileCount": "1",
+        "fenKayitNo": "4766"
+      }
+    },
+    {
+      "personnelName": "SERDAR ARSLAN",
+      "minutes": 60,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "18:00",
+        "fileCount": "1",
+        "fenKayitNo": "4301"
+      }
+    },
+    {
+      "personnelName": "KAYHAN KARTPAK",
+      "minutes": 60,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "18:00",
+        "fileCount": "2",
+        "fenKayitNo": "18-19"
+      }
+    },
+    {
+      "personnelName": "MÜMİN AKDOĞAN",
+      "minutes": 30,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "12:00",
+        "endTime": "12:30",
+        "fileCount": "1",
+        "fenKayitNo": "27"
+      }
+    }
+  ],
+  "2026-01-06": [
+    {
+      "personnelName": "MURAT AKAYDIN",
+      "minutes": 60,
+      "details": {
+        "fixedSlot": true,
+        "startTime": null,
+        "endTime": null,
+        "fileCount": "1",
+        "fenKayitNo": "8"
+      }
+    },
+    {
+      "personnelName": "ÖZKAN AKBAŞ",
+      "minutes": 60,
+      "details": {
+        "fixedSlot": true,
+        "startTime": null,
+        "endTime": null,
+        "fileCount": "1",
+        "fenKayitNo": "4766"
+      }
+    }
+  ],
+  "2025-12-28": [
+    {
+      "personnelName": "MURAT AKAYDIN",
+      "minutes": 60,
+      "details": {
+        "fixedSlot": true,
+        "startTime": null,
+        "endTime": null,
+        "fileCount": "1",
+        "fenKayitNo": "1655"
+      }
+    }
+  ],
+  "2026-01-13": [
+    {
+      "personnelName": "ÖZKAN AKBAŞ",
+      "minutes": 60,
+      "details": {
+        "fixedSlot": true,
+        "startTime": null,
+        "endTime": null,
+        "fileCount": "1",
+        "fenKayitNo": "4766"
+      }
+    },
+    {
+      "personnelName": "MURAT AKAYDIN",
+      "minutes": 60,
+      "details": {
+        "fixedSlot": true,
+        "startTime": null,
+        "endTime": null,
+        "fileCount": "1",
+        "fenKayitNo": "62"
+      }
+    },
+    {
+      "personnelName": "MAHMUT GÖK",
+      "minutes": 90,
+      "details": {
+        "fixedSlot": true,
+        "startTime": "17:00",
+        "endTime": "17:30",
+        "fileCount": "3",
+        "fenKayitNo": "ANAMUR-2026/66,67,68"
+      }
+    },
+    {
+      "personnelName": "KAYHAN KARTPAK",
+      "minutes": 60,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "18:00",
+        "fileCount": "2",
+        "fenKayitNo": "140-141"
+      }
+    }
+  ],
+  "2026-01-12": [
+    {
+      "personnelName": "SERDAR ARSLAN",
+      "minutes": 60,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "18:00",
+        "fileCount": "1",
+        "fenKayitNo": "4301"
+      }
+    },
+    {
+      "personnelName": "MEHMET AKDENİZ",
+      "minutes": 180,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "18:00",
+        "endTime": "21:00",
+        "fileCount": "5",
+        "fenKayitNo": "113,114,115,116,117"
+      }
+    },
+    {
+      "personnelName": "KAYHAN KARTPAK",
+      "minutes": 60,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "18:00",
+        "fileCount": "1",
+        "fenKayitNo": "117"
+      }
+    }
+  ],
+  "2026-01-14": [
+    {
+      "personnelName": "MURAT AKAYDIN",
+      "minutes": 60,
+      "details": {
+        "fixedSlot": true,
+        "startTime": null,
+        "endTime": null,
+        "fileCount": "2",
+        "fenKayitNo": "63-64"
+      }
+    }
+  ],
+  "2026-01-15": [
+    {
+      "personnelName": "MURAT AKAYDIN",
+      "minutes": 60,
+      "details": {
+        "fixedSlot": true,
+        "startTime": null,
+        "endTime": null,
+        "fileCount": "2",
+        "fenKayitNo": "76-77"
+      }
+    },
+    {
+      "personnelName": "MAHMUT GÖK",
+      "minutes": 90,
+      "details": {
+        "fixedSlot": true,
+        "startTime": "17:00",
+        "endTime": "17:30",
+        "fileCount": "2",
+        "fenKayitNo": "ANAMUR- 2026/86,87"
+      }
+    },
+    {
+      "personnelName": "CANER OKAY",
+      "minutes": 60,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "18:00",
+        "fileCount": "1",
+        "fenKayitNo": "187"
+      }
+    }
+  ],
+  "2026-01-20": [
+    {
+      "personnelName": "HALİL ÇETİNKAYA",
+      "minutes": 60,
+      "details": {
+        "fixedSlot": true,
+        "startTime": null,
+        "endTime": null,
+        "fileCount": "3",
+        "fenKayitNo": "33,97,98"
+      }
+    },
+    {
+      "personnelName": "ÖZKAN AKBAŞ",
+      "minutes": 30,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "17:30",
+        "fileCount": "1",
+        "fenKayitNo": "4766"
+      }
+    },
+    {
+      "personnelName": "MEHMET AKDENİZ",
+      "minutes": 359,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "18:00",
+        "endTime": "23:59",
+        "fileCount": "10",
+        "fenKayitNo": "118,119,121,122,123,124,133,134,135,136"
+      }
+    },
+    {
+      "personnelName": "HİKMET GÜLCAN",
+      "minutes": 240,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "21:00",
+        "fileCount": "2",
+        "fenKayitNo": "2026/26,2026/27"
+      }
+    },
+    {
+      "personnelName": "CANER OKAY",
+      "minutes": 90,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "18:30",
+        "fileCount": "1",
+        "fenKayitNo": "12(aydıncık)"
+      }
+    }
+  ],
+  "2026-01-09": [
+    {
+      "personnelName": "MAHMUT GÖK",
+      "minutes": 150,
+      "details": {
+        "fixedSlot": true,
+        "startTime": "17:00",
+        "endTime": "18:30",
+        "fileCount": "10",
+        "fenKayitNo": "ANAMUR-2026/45,46,47,48,49,50,51,52,53,54"
+      }
+    },
+    {
+      "personnelName": "MÜMİN AKDOĞAN",
+      "minutes": 150,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "19:30",
+        "fileCount": "3",
+        "fenKayitNo": "108,109,110"
+      }
+    }
+  ],
+  "2026-01-16": [
+    {
+      "personnelName": "MAHMUT GÖK",
+      "minutes": 150,
+      "details": {
+        "fixedSlot": true,
+        "startTime": "17:00",
+        "endTime": "18:30",
+        "fileCount": "7",
+        "fenKayitNo": "ANAMUR-2026/88,89,90,91 - BOZYAZI- 2026/28,29,30"
+      }
+    }
+  ],
+  "2026-01-23": [
+    {
+      "personnelName": "HALİL ÇETİNKAYA",
+      "minutes": 120,
+      "details": {
+        "fixedSlot": true,
+        "startTime": "17:00",
+        "endTime": "18:00",
+        "fileCount": "4",
+        "fenKayitNo": "40,41,112,113"
+      }
+    },
+    {
+      "personnelName": "SABAHATTİN YAMAN",
+      "minutes": 60,
+      "details": {
+        "fixedSlot": true,
+        "startTime": null,
+        "endTime": null,
+        "fileCount": "2",
+        "fenKayitNo": "42,114"
+      }
+    },
+    {
+      "personnelName": "SERDAR ŞAHİN",
+      "minutes": 90,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "18:30",
+        "fileCount": "1",
+        "fenKayitNo": "334"
+      }
+    },
+    {
+      "personnelName": "CANER OKAY",
+      "minutes": 120,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "19:00",
+        "fileCount": "2",
+        "fenKayitNo": "335-336"
+      }
+    }
+  ],
+  "2026-01-26": [
+    {
+      "personnelName": "HALİL ÇETİNKAYA",
+      "minutes": 120,
+      "details": {
+        "fixedSlot": true,
+        "startTime": "17:00",
+        "endTime": "18:00",
+        "fileCount": "1",
+        "fenKayitNo": "128"
+      }
+    },
+    {
+      "personnelName": "MEHMET AKDENİZ",
+      "minutes": 300,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "18:00",
+        "endTime": "23:00",
+        "fileCount": "7",
+        "fenKayitNo": "140,141,142,143,183,184,185"
+      }
+    }
+  ],
+  "2026-01-27": [
+    {
+      "personnelName": "SABAHATTİN YAMAN",
+      "minutes": 150,
+      "details": {
+        "fixedSlot": true,
+        "startTime": "17:00",
+        "endTime": "18:30",
+        "fileCount": "3",
+        "fenKayitNo": "136,137,138"
+      }
+    },
+    {
+      "personnelName": "MEHMET AKDENİZ",
+      "minutes": 300,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "18:00",
+        "endTime": "23:00",
+        "fileCount": "7",
+        "fenKayitNo": "186,187,188,189,190,191,192"
+      }
+    },
+    {
+      "personnelName": "MURAT SARI",
+      "minutes": 120,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "09:00",
+        "endTime": "11:00",
+        "fileCount": "1",
+        "fenKayitNo": "92"
+      }
+    },
+    {
+      "personnelName": "SERDAR ŞAHİN",
+      "minutes": 120,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "19:00",
+        "fileCount": "2",
+        "fenKayitNo": "349-350"
+      }
+    }
+  ],
+  "2026-01-28": [
+    {
+      "personnelName": "MAHMUT GÖK",
+      "minutes": 60,
+      "details": {
+        "fixedSlot": true,
+        "startTime": null,
+        "endTime": null,
+        "fileCount": "1",
+        "fenKayitNo": "BOZYAZI-2026/47"
+      }
+    },
+    {
+      "personnelName": "MEHMET AKDENİZ",
+      "minutes": 60,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "12:00",
+        "endTime": "13:00",
+        "fileCount": "3",
+        "fenKayitNo": "193,194,195"
+      }
+    },
+    {
+      "personnelName": "MURAT SARI",
+      "minutes": 240,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "13:00",
+        "endTime": "17:00",
+        "fileCount": "3",
+        "fenKayitNo": "204,205,206"
+      }
+    }
+  ],
+  "2026-01-10": [
+    {
+      "personnelName": "MEHMET AKDENİZ",
+      "minutes": 359,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "18:00",
+        "endTime": "23:59",
+        "fileCount": "10",
+        "fenKayitNo": "67,68,69,70,71,72,73,74,75,76"
+      }
+    },
+    {
+      "personnelName": "MEHMET AKDENİZ",
+      "minutes": 240,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "13:00",
+        "endTime": "17:00",
+        "fileCount": "5",
+        "fenKayitNo": "76,83,84,85,86,87"
+      }
+    },
+    {
+      "personnelName": "SITKI KIZILOLUK",
+      "minutes": 480,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "09:00",
+        "endTime": "17:00",
+        "fileCount": "7",
+        "fenKayitNo": "58 ila 64"
+      }
+    }
+  ],
+  "2026-01-11": [
+    {
+      "personnelName": "MEHMET AKDENİZ",
+      "minutes": 359,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "18:00",
+        "endTime": "23:59",
+        "fileCount": "8",
+        "fenKayitNo": "105,106,108,109,125,110,111,112"
+      }
+    }
+  ],
+  "2026-01-24": [
+    {
+      "personnelName": "MEHMET AKDENİZ",
+      "minutes": 120,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "16:00",
+        "endTime": "18:00",
+        "fileCount": "3",
+        "fenKayitNo": "137,138,139"
+      }
+    }
+  ],
+  "2026-01-29": [
+    {
+      "personnelName": "MAHMUT GÖK",
+      "minutes": 120,
+      "details": {
+        "fixedSlot": true,
+        "startTime": "17:00",
+        "endTime": "18:00",
+        "fileCount": "7",
+        "fenKayitNo": "ANAMUR- 2026/199,200,201,202,203,204,205"
+      }
+    },
+    {
+      "personnelName": "HİKMET GÜLCAN",
+      "minutes": 120,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "19:00",
+        "fileCount": "1",
+        "fenKayitNo": "2026/85"
+      }
+    },
+    {
+      "personnelName": "SERDAR ŞAHİN",
+      "minutes": 180,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "20:00",
+        "fileCount": "3",
+        "fenKayitNo": "430-431-432"
+      }
+    }
+  ],
+  "2026-01-19": [
+    {
+      "personnelName": "HİKMET GÜLCAN",
+      "minutes": 210,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "20:30",
+        "fileCount": "1",
+        "fenKayitNo": "2026/20"
+      }
+    }
+  ],
+  "2026-01-17": [
+    {
+      "personnelName": "SERDAR ŞAHİN",
+      "minutes": 150,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "10:00",
+        "endTime": "12:30",
+        "fileCount": "2",
+        "fenKayitNo": "227-228"
+      }
+    },
+    {
+      "personnelName": "SITKI KIZILOLUK",
+      "minutes": 480,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "09:00",
+        "endTime": "17:00",
+        "fileCount": "15",
+        "fenKayitNo": "90 ila 104"
+      }
+    }
+  ],
+  "2026-01-22": [
+    {
+      "personnelName": "CANER OKAY",
+      "minutes": 90,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "18:30",
+        "fileCount": "1",
+        "fenKayitNo": "12(aydıncık)"
+      }
+    },
+    {
+      "personnelName": "MÜMİN AKDOĞAN",
+      "minutes": 210,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "20:30",
+        "fileCount": "4",
+        "fenKayitNo": "318,319,320,321"
+      }
+    }
+  ],
+  "2026-01-30": [
+    {
+      "personnelName": "MAHMUT GÖK",
+      "minutes": 120,
+      "details": {
+        "fixedSlot": true,
+        "startTime": "17:00",
+        "endTime": "18:00",
+        "fileCount": "10",
+        "fenKayitNo": "ANAMUR -2026/209,210--BOZYAZI-50,51,52,53,54,55,56,57"
+      }
+    }
+  ],
+  "2026-02-02": [
+    {
+      "personnelName": "HALİL ÇETİNKAYA",
+      "minutes": 60,
+      "details": {
+        "fixedSlot": true,
+        "startTime": null,
+        "endTime": null,
+        "fileCount": "1",
+        "fenKayitNo": "213"
+      }
+    }
+  ],
+  "2026-01-07": [
+    {
+      "personnelName": "MÜMİN AKDOĞAN",
+      "minutes": 60,
+      "details": {
+        "fixedSlot": true,
+        "startTime": null,
+        "endTime": null,
+        "fileCount": "1",
+        "fenKayitNo": "50"
+      }
+    }
+  ],
+  "2026-01-08": [
+    {
+      "personnelName": "MÜMİN AKDOĞAN",
+      "minutes": 240,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "21:00",
+        "fileCount": "3",
+        "fenKayitNo": "84,85,86"
+      }
+    }
+  ],
+  "2026-02-06": [
+    {
+      "personnelName": "SABAHATTİN YAMAN",
+      "minutes": 90,
+      "details": {
+        "fixedSlot": true,
+        "startTime": "17:00",
+        "endTime": "17:30",
+        "fileCount": "2",
+        "fenKayitNo": "69-234"
+      }
+    }
+  ],
+  "2026-02-09": [
+    {
+      "personnelName": "HALİL ÇETİNKAYA",
+      "minutes": 210,
+      "details": {
+        "fixedSlot": true,
+        "startTime": "17:00",
+        "endTime": "19:30",
+        "fileCount": "4",
+        "fenKayitNo": "71,264,265,266"
       }
     }
   ]
