@@ -3823,6 +3823,17 @@
         "fileCount": "2",
         "fenKayitNo": "283-284"
       }
+    },
+    {
+      "personnelName": "MUSTAFA BICAK",
+      "minutes": 60,
+      "details": {
+        "fixedSlot": true,
+        "startTime": "17:00",
+        "endTime": "",
+        "fileCount": "",
+        "fenKayitNo": ""
+      }
     }
   ],
   "2026-02-07": [
@@ -3848,6 +3859,32 @@
         "endTime": "17:00",
         "fileCount": "9",
         "fenKayitNo": "461,462 503 İLA 506 584,585 VE 586"
+      }
+    }
+  ],
+  "2026-02-03": [
+    {
+      "personnelName": "MUSTAFA BICAK",
+      "minutes": 60,
+      "details": {
+        "fixedSlot": true,
+        "startTime": "17:00",
+        "endTime": "",
+        "fileCount": "",
+        "fenKayitNo": ""
+      }
+    }
+  ],
+  "2026-02-12": [
+    {
+      "personnelName": "MUSTAFA BICAK",
+      "minutes": 60,
+      "details": {
+        "fixedSlot": true,
+        "startTime": "17:00",
+        "endTime": "",
+        "fileCount": "",
+        "fenKayitNo": ""
       }
     }
   ]
