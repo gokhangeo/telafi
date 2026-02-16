@@ -4053,6 +4053,28 @@
         "fileCount": "",
         "fenKayitNo": ""
       }
+    },
+    {
+      "personnelName": "ALİ BAŞKURT",
+      "minutes": 30,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "07:30",
+        "endTime": "08:00",
+        "fileCount": "2",
+        "fenKayitNo": "547"
+      }
+    },
+    {
+      "personnelName": "EMİNE ALANLI KIRCILI",
+      "minutes": 30,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "07:30",
+        "endTime": "08:00",
+        "fileCount": "2",
+        "fenKayitNo": "547"
+      }
     }
   ],
   "2026-02-04": [
