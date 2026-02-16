@@ -3903,5 +3903,18 @@
         "fenKayitNo": "356 İLA 361 VE 453 İLA 457"
       }
     }
+  ],
+  "2026-02-08": [
+    {
+      "personnelName": "MUSTAFA BICAK",
+      "minutes": 480,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "09:00",
+        "endTime": "17:00",
+        "fileCount": "9",
+        "fenKayitNo": "461,462 503 İLA 506 584,585 VE 586"
+      }
+    }
   ]
 }
