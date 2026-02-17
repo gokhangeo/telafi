@@ -4159,5 +4159,29 @@
         "fenKayitNo": "575"
       }
     }
+  ],
+  "2026-02-17": [
+    {
+      "personnelName": "SABAHATTİN YAMAN",
+      "minutes": 90,
+      "details": {
+        "fixedSlot": true,
+        "startTime": "17:00",
+        "endTime": "17:30",
+        "fileCount": "2",
+        "fenKayitNo": "309-310"
+      }
+    },
+    {
+      "personnelName": "SABAHATTİN YAMAN",
+      "minutes": 90,
+      "details": {
+        "fixedSlot": true,
+        "startTime": "17:00",
+        "endTime": "17:30",
+        "fileCount": "2",
+        "fenKayitNo": "309-310"
+      }
+    }
   ]
 }
