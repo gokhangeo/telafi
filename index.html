@@ -155,13 +155,64 @@ document.addEventListener('DOMContentLoaded', () => {
     // --- KULLANICI & VERİ YAPILANDIRMASI --- //
     const users = {
         'mersintelafi': { password: '334450', birim: 'Tümü' },
-        'mersin': { password: '503344', birim: 'Merkez' },
+        'mersin': { password: '503344', birim: 'Mersin' },
         'anamur': { password: '503345', birim: 'Anamur' },
         'silifke': { password: '503346', birim: 'Silifke' },
         'erdemli': { password: '503347', birim: 'Erdemli' },
         'mut': { password: '503348', birim: 'Mut' },
         'tarsus': { password: '503349', birim: 'Tarsus' }
     };
+
+    // --- GÖMÜLÜ PERSONEL LİSTESİ --- //
+    const EMBEDDED_PERSONNEL = [
+        { name: 'HAVVA NİLGÜN KIYMAÇ', unit: 'Mersin' }, { name: 'HÜSEYİN KURT', unit: 'Mersin' },
+        { name: 'KEMAL KORKMAZ', unit: 'Mersin' }, { name: 'LOKMAN ALKAN', unit: 'Mersin' },
+        { name: 'MEHMET NEJAT AY', unit: 'Mersin' }, { name: 'SARİYE KUŞÇU', unit: 'Mersin' },
+        { name: 'SERVET ATA', unit: 'Mersin' }, { name: 'CİHAN KARA', unit: 'Mersin' },
+        { name: 'TEVFİK YILDIZ', unit: 'Mersin' }, { name: 'VOLKAN İZCİ', unit: 'Mersin' },
+        { name: 'GÜLİZAR YILDIZ', unit: 'Mersin' }, { name: 'MUSTAFA DIKI', unit: 'Mersin' },
+        { name: 'İSMAİL AKLAN', unit: 'Mersin' }, { name: 'HÜSEYİN POYRAZ', unit: 'Mersin' },
+        { name: 'KENAN BAYDEMİR', unit: 'Mersin' }, { name: 'MUSTAFA GÜRBÜZ', unit: 'Mersin' },
+        { name: 'ŞEHMUS ÖZTÜRK', unit: 'Mersin' }, { name: 'ENGİN UĞURLU', unit: 'Mersin' },
+        { name: 'AHMET ÇELİK', unit: 'Mersin' }, { name: 'AYŞE ÇAKICI PEKÇETİN', unit: 'Mersin' },
+        { name: 'DUDU POYRAZ', unit: 'Mersin' }, { name: 'HASAN İN', unit: 'Mersin' },
+        { name: 'MEHMET CEYLAN', unit: 'Mersin' }, { name: 'MUSTAFA BAYSAL', unit: 'Mersin' },
+        { name: 'MÜJDE TÜRKMEN', unit: 'Mersin' }, { name: 'NURHAN ARSLAN', unit: 'Mersin' },
+        { name: 'ÖZLEM AYDINLI', unit: 'Mersin' }, { name: 'SEVAL ÇELİK', unit: 'Mersin' },
+        { name: 'ŞEKİP KORKMAZ', unit: 'Mersin' }, { name: 'NURETTİN KELEŞ', unit: 'Mersin' },
+        { name: 'FATİH KOÇAK', unit: 'Mersin' }, { name: 'MEHMET EMİNOĞLU', unit: 'Mersin' },
+        { name: 'SALİHA NAS', unit: 'Mersin' }, { name: 'ALİ ÜNEL', unit: 'Mersin' },
+        { name: 'ARZU ÜLKÜ', unit: 'Mersin' }, { name: 'HASAN AKŞEKER', unit: 'Mersin' },
+        { name: 'MEHMET SARI', unit: 'Mersin' }, { name: 'MEHMET ZÜLFÜ DEMİRAĞ', unit: 'Mersin' },
+        { name: 'MUSTAFA ŞAHİN', unit: 'Mersin' }, { name: 'SİDAR SEYFİOĞLU', unit: 'Mersin' },
+        { name: 'HİKMET GÜLCAN', unit: 'Anamur' }, { name: 'HİLMİ MÜFTÜOĞLU', unit: 'Anamur' },
+        { name: 'MAHMUT GÖK', unit: 'Anamur' }, { name: 'HALİL ÇETİNKAYA', unit: 'Anamur' },
+        { name: 'MURAT AKAYDIN', unit: 'Anamur' }, { name: 'HÜSEYİN BÜYÜK', unit: 'Anamur' },
+        { name: 'SABAHATTİN YAMAN', unit: 'Anamur' }, { name: 'SÜLEYMAN YILMAZ', unit: 'Anamur' },
+        { name: 'EMİNE ALANLI KIRCILI', unit: 'Erdemli' }, { name: 'ÖZKAN AKBAŞ', unit: 'Erdemli' },
+        { name: 'ALİ BAŞKURT', unit: 'Erdemli' }, { name: 'ENDER NUSRET ÖNAL GÜLSOY', unit: 'Erdemli' },
+        { name: 'AYHAN KARADAYI', unit: 'Erdemli' }, { name: 'CEMAL TİMUROĞLU', unit: 'Erdemli' },
+        { name: 'EBRU ŞİMŞEK', unit: 'Erdemli' }, { name: 'SERDAR ARSLAN', unit: 'Erdemli' },
+        { name: 'SEVİL SARAÇER', unit: 'Erdemli' }, { name: 'ALİ KILIN', unit: 'Erdemli' },
+        { name: 'HÜSEYİN TAŞLIALAN', unit: 'Erdemli' }, { name: 'TEKİN ER', unit: 'Erdemli' },
+        { name: 'HALİL BİLGEN', unit: 'Erdemli' }, { name: 'AHMET TÜRKOĞLU', unit: 'Mut' },
+        { name: 'YALÇIN SEÇKİN', unit: 'Mut' }, { name: 'ÖMER ÇEVİK', unit: 'Mut' },
+        { name: 'HÜSEYİN AVNİ İNCE', unit: 'Mut' }, { name: 'MEHTAP AKDOĞAN', unit: 'Silifke' },
+        { name: 'BURAK AKBAŞ', unit: 'Silifke' }, { name: 'MEHMET AKDENİZ', unit: 'Silifke' },
+        { name: 'MUSTAFA BICAK', unit: 'Silifke' }, { name: 'MÜMİN AKDOĞAN', unit: 'Silifke' },
+        { name: 'ABDULKADİR BOBUŞ', unit: 'Silifke' }, { name: 'CANER OKAY', unit: 'Silifke' },
+        { name: 'KAYHAN KARTPAK', unit: 'Silifke' }, { name: 'MURAT SARI', unit: 'Silifke' },
+        { name: 'NEZİHE GÜLMEZ', unit: 'Silifke' }, { name: 'SERDAR ŞAHİN', unit: 'Silifke' },
+        { name: 'SITKI KIZILOLUK', unit: 'Silifke' }, { name: 'AHMET TAŞ', unit: 'Silifke' },
+        { name: 'BEKİR BONCUK', unit: 'Silifke' }, { name: 'NİHAT YALÇINKAYA', unit: 'Silifke' },
+        { name: 'ESMEN TOKALI', unit: 'Tarsus' }, { name: 'TAHA GÜRKAN', unit: 'Tarsus' },
+        { name: 'MEHMET AKGÜN KOLUKIRIK', unit: 'Tarsus' }, { name: 'SETENAY AKSU', unit: 'Tarsus' },
+        { name: 'MUHAMMED FURKAN KAPLAN', unit: 'Tarsus' }, { name: 'TEMUR ARSLAN', unit: 'Tarsus' },
+        { name: 'NEJDET TULUKÇU', unit: 'Tarsus' }, { name: 'BARIŞ YAYLAGÜL', unit: 'Tarsus' },
+        { name: 'MAHMUT MELEMEN', unit: 'Tarsus' }, { name: 'NAZLI ÇELİK', unit: 'Tarsus' },
+        { name: 'RÜYA USLU', unit: 'Tarsus' }, { name: 'SERHAT DEMİR', unit: 'Tarsus' },
+        { name: 'ZEYNEP EKİCİ', unit: 'Tarsus' }, { name: 'FIRAT TEMÜR', unit: 'Tarsus' }
+    ];
     
     const GITHUB_CONFIG = {
         owner: 'gokhangeo',
@@ -170,9 +221,7 @@ document.addEventListener('DOMContentLoaded', () => {
         tokenParts: ['ghp_2KS6iY7t1', 'ka6bKyHwONJk', 'XdwOUVhrU3PqlSX']
     };
     const GITHUB_TOKEN = GITHUB_CONFIG.tokenParts.join('');
-    const githubPersonnelUrl = 'https://raw.githubusercontent.com/gokhangeo/telafi/main/PERSONEL.xlsx';
 
-    let fullPersonnelList = [];
     let filteredPersonnelList = [];
     let currentUser = null;
     let currentDate = new Date();
@@ -207,11 +256,11 @@ document.addEventListener('DOMContentLoaded', () => {
     const filterPersonnelForCurrentUser = () => {
         if (!currentUser) return;
         if (currentUser.birim === 'Tümü') {
-            filteredPersonnelList = [...fullPersonnelList];
+            filteredPersonnelList = [...EMBEDDED_PERSONNEL];
         } else {
-            filteredPersonnelList = fullPersonnelList.filter(p => {
+            const currentBirim = currentUser.birim.trim().toLowerCase();
+            filteredPersonnelList = EMBEDDED_PERSONNEL.filter(p => {
                 const unit = p.unit ? p.unit.trim().toLowerCase() : "";
-                const currentBirim = currentUser.birim.trim().toLowerCase();
                 return unit.includes(currentBirim) || currentBirim.includes(unit);
             });
         }
@@ -290,7 +339,7 @@ document.addEventListener('DOMContentLoaded', () => {
         document.getElementById('login-screen').classList.add('hidden');
         document.getElementById('app-container').classList.remove('hidden');
         document.body.className = 'bg-gray-100 p-4 md:p-8';
-        await fetchPersonnelData();
+        
         filterPersonnelForCurrentUser();
         await loadFromGithub();
         renderCalendar();
@@ -385,7 +434,7 @@ document.addEventListener('DOMContentLoaded', () => {
         selectedDate = dateStr;
         const dispDate = new Date(dateStr).toLocaleDateString('tr-TR', { day:'numeric', month:'long', year:'numeric' });
         document.getElementById('modal-title').textContent = dispDate;
-        personnelSelect.innerHTML = filteredPersonnelList.map(p => `<option value="${p.id}|${p.name}">${p.name}</option>`).join('');
+        personnelSelect.innerHTML = filteredPersonnelList.map((p, idx) => `<option value="${idx}|${p.name}">${p.name}</option>`).join('');
         renderDayEntries();
         document.getElementById('overtime-modal').classList.remove('hidden');
         document.getElementById('overtime-modal').classList.add('flex');
@@ -431,9 +480,10 @@ document.addEventListener('DOMContentLoaded', () => {
     // --- OLAYLAR --- //
     document.getElementById('login-form').onsubmit = async (e) => {
         e.preventDefault();
-        const user = users[document.getElementById('username').value];
+        const username = document.getElementById('username').value;
+        const user = users[username];
         if (user && user.password === document.getElementById('password').value) {
-            user.username = document.getElementById('username').value;
+            user.username = username;
             startApp(user);
         } else {
             const err = document.getElementById('login-error');
@@ -444,7 +494,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
     document.getElementById('overtime-form').onsubmit = async (e) => {
         e.preventDefault();
-        const [id, name] = personnelSelect.value.split('|');
+        const personnelValue = personnelSelect.value;
+        if (!personnelValue) return alert('Lütfen bir personel seçin.');
+        
+        const [idx, name] = personnelValue.split('|');
         const isFixed = document.getElementById('fixed-slot').checked;
         const start = document.getElementById('start-time').value;
         const end = document.getElementById('end-time').value;
@@ -483,15 +536,6 @@ document.addEventListener('DOMContentLoaded', () => {
     };
     document.getElementById('prev-month').onclick = () => { currentDate.setMonth(currentDate.getMonth() - 1); renderCalendar(); };
     document.getElementById('next-month').onclick = () => { currentDate.setMonth(currentDate.getMonth() + 1); renderCalendar(); };
-
-    const fetchPersonnelData = async () => {
-        try {
-            const resp = await fetch(`${githubPersonnelUrl}?t=${Date.now()}`);
-            const workbook = XLSX.read(await resp.arrayBuffer(), { type: 'array' });
-            const json = XLSX.utils.sheet_to_json(workbook.Sheets[workbook.SheetNames[0]]);
-            fullPersonnelList = json.map((r, i) => ({ id: i, name: r['Adı Soyadı'], unit: r['Görevli Olduğu Birim'] }));
-        } catch (e) { console.error('Personel listesi yüklenemedi', e); }
-    };
 
     // --- RAPORLAMA --- //
     document.getElementById('export-excel').onclick = () => {
