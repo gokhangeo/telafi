@@ -4263,6 +4263,17 @@
         "fileCount": "9",
         "fenKayitNo": "ANAMUR-2026/339,340,341-BOZYAZI-92,93,94,95,96,97"
       }
+    },
+    {
+      "personnelName": "ÖZKAN AKBAŞ",
+      "minutes": 60,
+      "details": {
+        "fixedSlot": true,
+        "startTime": "17:00",
+        "endTime": "",
+        "fileCount": "5",
+        "fenKayitNo": "575"
+      }
     }
   ],
   "2026-02-23": [
