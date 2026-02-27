@@ -4163,6 +4163,17 @@
         "fileCount": "9",
         "fenKayitNo": "ANAMUR-2026/298,299,300,301,302,303,304-BOZYAZI 2026/80,81"
       }
+    },
+    {
+      "personnelName": "HİKMET GÜLCAN",
+      "minutes": 240,
+      "details": {
+        "fixedSlot": true,
+        "startTime": "17:00",
+        "endTime": "20:00",
+        "fileCount": "5",
+        "fenKayitNo": "2026/77,78,79,289,290"
+      }
     }
   ],
   "2026-02-04": [
