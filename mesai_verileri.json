@@ -4095,6 +4095,17 @@
         "fileCount": "5",
         "fenKayitNo": "575"
       }
+    },
+    {
+      "personnelName": "SITKI KIZILOLUK",
+      "minutes": 180,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "20:00",
+        "fileCount": "3",
+        "fenKayitNo": "271 ila 273"
+      }
     }
   ],
   "2026-02-13": [
