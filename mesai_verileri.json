@@ -4060,6 +4060,17 @@
         "fileCount": "1",
         "fenKayitNo": "ANAMUR 2026/236"
       }
+    },
+    {
+      "personnelName": "MEHMET AKDENİZ",
+      "minutes": 120,
+      "details": {
+        "fixedSlot": true,
+        "startTime": "17:00",
+        "endTime": "18:00",
+        "fileCount": "2",
+        "fenKayitNo": "323-324"
+      }
     }
   ],
   "2026-02-12": [
