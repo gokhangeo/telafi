@@ -4516,5 +4516,18 @@
         "fenKayitNo": "2026/1 2026/3 2026/12 2026/36 2026/38"
       }
     }
+  ],
+  "2026-02-21": [
+    {
+      "personnelName": "SITKI KIZILOLUK",
+      "minutes": 480,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "09:00",
+        "endTime": "17:00",
+        "fileCount": "8",
+        "fenKayitNo": "342 ila 349"
+      }
+    }
   ]
 }
