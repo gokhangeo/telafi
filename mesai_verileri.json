@@ -4480,6 +4480,17 @@
         "fileCount": "1",
         "fenKayitNo": "2026/371"
       }
+    },
+    {
+      "personnelName": "HİLMİ MÜFTÜOĞLU",
+      "minutes": 60,
+      "details": {
+        "fixedSlot": true,
+        "startTime": "17:00",
+        "endTime": "",
+        "fileCount": "2",
+        "fenKayitNo": "2025/178 2025/125"
+      }
     }
   ],
   "2026-02-26": [
