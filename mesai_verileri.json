@@ -4014,6 +4014,17 @@
         "fileCount": "9",
         "fenKayitNo": "461,462 503 İLA 506 584,585 VE 586"
       }
+    },
+    {
+      "personnelName": "CANER OKAY",
+      "minutes": 150,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "20:00",
+        "endTime": "22:30",
+        "fileCount": "4",
+        "fenKayitNo": " aydıncık 22-23-24-25"
+      }
     }
   ],
   "2026-02-03": [
