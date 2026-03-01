@@ -4627,6 +4627,17 @@
         "fileCount": "3",
         "fenKayitNo": "silifke 755-756-757"
       }
+    },
+    {
+      "personnelName": "CANER OKAY",
+      "minutes": 210,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "13:00",
+        "endTime": "16:30",
+        "fileCount": "3",
+        "fenKayitNo": "silifke 755-756-757"
+      }
     }
   ],
   "2026-02-14": [
