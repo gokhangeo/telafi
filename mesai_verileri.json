@@ -4731,5 +4731,18 @@
         "fenKayitNo": "798,799,800,801"
       }
     }
+  ],
+  "2026-02-28": [
+    {
+      "personnelName": "MÜMİN AKDOĞAN",
+      "minutes": 300,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "10:00",
+        "endTime": "15:00",
+        "fileCount": "4",
+        "fenKayitNo": "1062,1064,1065,1066"
+      }
+    }
   ]
 }
