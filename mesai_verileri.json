@@ -4719,17 +4719,6 @@
         "fileCount": "4",
         "fenKayitNo": "798,799,800,801"
       }
-    },
-    {
-      "personnelName": "MÜMİN AKDOĞAN",
-      "minutes": 90,
-      "details": {
-        "fixedSlot": false,
-        "startTime": "17:00",
-        "endTime": "18:30",
-        "fileCount": "4",
-        "fenKayitNo": "798,799,800,801"
-      }
     }
   ]
 }
