@@ -4970,6 +4970,17 @@
         "fileCount": "7",
         "fenKayitNo": "ANAMUR-2026/489,490,491,492,493-BOZYAZI 2026/128,129"
       }
+    },
+    {
+      "personnelName": "HİLMİ MÜFTÜOĞLU",
+      "minutes": 60,
+      "details": {
+        "fixedSlot": true,
+        "startTime": "17:00",
+        "endTime": "16:10",
+        "fileCount": "2",
+        "fenKayitNo": "ANAMUR-2026/489,491"
+      }
     }
   ],
   "2026-03-16": [
