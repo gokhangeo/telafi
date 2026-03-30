@@ -5119,5 +5119,18 @@
         "fenKayitNo": ""
       }
     }
+  ],
+  "2026-03-07": [
+    {
+      "personnelName": "MUSTAFA BICAK",
+      "minutes": 510,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "09:00",
+        "endTime": "17:30",
+        "fileCount": "7",
+        "fenKayitNo": "1151 İLA 1156"
+      }
+    }
   ]
 }
