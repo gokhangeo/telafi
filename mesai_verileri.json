@@ -5459,6 +5459,17 @@
         "fileCount": "",
         "fenKayitNo": "1174"
       }
+    },
+    {
+      "personnelName": "MAHMUT GÖK",
+      "minutes": 120,
+      "details": {
+        "fixedSlot": true,
+        "startTime": "17:00",
+        "endTime": "18:00",
+        "fileCount": "4",
+        "fenKayitNo": "ANAMUR-2026/539,540,541- BOZYAZI-2026/151"
+      }
     }
   ],
   "2026-03-07": [
