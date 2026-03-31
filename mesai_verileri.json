@@ -4822,17 +4822,6 @@
         "fileCount": "5",
         "fenKayitNo": "575"
       }
-    },
-    {
-      "personnelName": "MEHMET AKDENİZ",
-      "minutes": 300,
-      "details": {
-        "fixedSlot": true,
-        "startTime": "19:00",
-        "endTime": "23:00",
-        "fileCount": "4",
-        "fenKayitNo": "453-454-455-456"
-      }
     }
   ],
   "2026-03-06": [
@@ -5139,6 +5128,17 @@
         "endTime": "18:00",
         "fileCount": "",
         "fenKayitNo": ""
+      }
+    },
+    {
+      "personnelName": "SABAHATTİN YAMAN",
+      "minutes": 120,
+      "details": {
+        "fixedSlot": true,
+        "startTime": "17:00",
+        "endTime": "18:00",
+        "fileCount": "1",
+        "fenKayitNo": "149"
       }
     }
   ],
