@@ -3341,6 +3341,17 @@
         "fileCount": "1",
         "fenKayitNo": "12(aydıncık)"
       }
+    },
+    {
+      "personnelName": "EMİNE ALANLI KIRCILI",
+      "minutes": 60,
+      "details": {
+        "fixedSlot": true,
+        "startTime": "17:00",
+        "endTime": "",
+        "fileCount": "",
+        "fenKayitNo": "307"
+      }
     }
   ],
   "2026-01-09": [
