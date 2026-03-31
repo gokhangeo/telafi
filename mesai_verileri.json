@@ -5258,6 +5258,28 @@
         "fileCount": "2",
         "fenKayitNo": "537, 538"
       }
+    },
+    {
+      "personnelName": "ALİ BAŞKURT",
+      "minutes": 40,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "07:20",
+        "endTime": "08:00",
+        "fileCount": "",
+        "fenKayitNo": ""
+      }
+    },
+    {
+      "personnelName": "ALİ BAŞKURT",
+      "minutes": 40,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "07:20",
+        "endTime": "08:00",
+        "fileCount": "",
+        "fenKayitNo": ""
+      }
     }
   ]
 }
