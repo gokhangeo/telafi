@@ -3378,6 +3378,17 @@
         "fileCount": "7",
         "fenKayitNo": "ANAMUR-2026/88,89,90,91 - BOZYAZI- 2026/28,29,30"
       }
+    },
+    {
+      "personnelName": "EMİNE ALANLI KIRCILI",
+      "minutes": 60,
+      "details": {
+        "fixedSlot": true,
+        "startTime": "17:00",
+        "endTime": "",
+        "fileCount": "",
+        "fenKayitNo": "307"
+      }
     }
   ],
   "2026-01-23": [
