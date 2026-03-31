@@ -5561,6 +5561,17 @@
         "fileCount": "",
         "fenKayitNo": ""
       }
+    },
+    {
+      "personnelName": "CEMAL TİMUROĞLU",
+      "minutes": 60,
+      "details": {
+        "fixedSlot": true,
+        "startTime": "17:00",
+        "endTime": "",
+        "fileCount": "",
+        "fenKayitNo": "1101"
+      }
     }
   ]
 }
