@@ -4998,6 +4998,17 @@
         "fileCount": "",
         "fenKayitNo": "822"
       }
+    },
+    {
+      "personnelName": "MEHMET AKDENİZ",
+      "minutes": 360,
+      "details": {
+        "fixedSlot": true,
+        "startTime": "18:00",
+        "endTime": "23:00",
+        "fileCount": "4",
+        "fenKayitNo": "453-454-455-456"
+      }
     }
   ],
   "2026-03-06": [
@@ -5278,17 +5289,6 @@
         "fileCount": "",
         "fenKayitNo": "1101"
       }
-    },
-    {
-      "personnelName": "MÜMİN AKDOĞAN",
-      "minutes": 60,
-      "details": {
-        "fixedSlot": false,
-        "startTime": "17:00",
-        "endTime": "18:00",
-        "fileCount": "2",
-        "fenKayitNo": "1283,1284"
-      }
     }
   ],
   "2026-03-16": [
@@ -5491,17 +5491,6 @@
         "endTime": "18:00",
         "fileCount": "4",
         "fenKayitNo": "ANAMUR-2026/539,540,541- BOZYAZI-2026/151"
-      }
-    },
-    {
-      "personnelName": "MÜMİN AKDOĞAN",
-      "minutes": 300,
-      "details": {
-        "fixedSlot": true,
-        "startTime": "17:00",
-        "endTime": "21:00",
-        "fileCount": "3",
-        "fenKayitNo": "1417,1418,1419"
       }
     }
   ],
