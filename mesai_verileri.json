@@ -5492,6 +5492,17 @@
         "fileCount": "4",
         "fenKayitNo": "ANAMUR-2026/539,540,541- BOZYAZI-2026/151"
       }
+    },
+    {
+      "personnelName": "MÜMİN AKDOĞAN",
+      "minutes": 300,
+      "details": {
+        "fixedSlot": true,
+        "startTime": "17:00",
+        "endTime": "21:00",
+        "fileCount": "3",
+        "fenKayitNo": "1417,1418,1419"
+      }
     }
   ],
   "2026-03-07": [
