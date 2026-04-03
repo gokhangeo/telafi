@@ -5569,13 +5569,13 @@
     },
     {
       "personnelName": "EMİNE ALANLI KIRCILI",
-      "minutes": 31,
+      "minutes": 60,
       "details": {
-        "fixedSlot": false,
-        "startTime": "07:29",
-        "endTime": "08:00",
-        "fileCount": "",
-        "fenKayitNo": ""
+        "fixedSlot": true,
+        "startTime": "17:00",
+        "endTime": "",
+        "fileCount": "12",
+        "fenKayitNo": "1175"
       }
     }
   ],
@@ -5682,17 +5682,6 @@
     }
   ],
   "2026-04-01": [
-    {
-      "personnelName": "EMİNE ALANLI KIRCILI",
-      "minutes": 60,
-      "details": {
-        "fixedSlot": true,
-        "startTime": "17:00",
-        "endTime": "",
-        "fileCount": "",
-        "fenKayitNo": "1230"
-      }
-    },
     {
       "personnelName": "MURAT AKAYDIN",
       "minutes": 60,
