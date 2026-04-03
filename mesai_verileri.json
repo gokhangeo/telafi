@@ -5569,17 +5569,6 @@
     },
     {
       "personnelName": "EMİNE ALANLI KIRCILI",
-      "minutes": 60,
-      "details": {
-        "fixedSlot": true,
-        "startTime": "17:00",
-        "endTime": "",
-        "fileCount": "",
-        "fenKayitNo": ""
-      }
-    },
-    {
-      "personnelName": "EMİNE ALANLI KIRCILI",
       "minutes": 31,
       "details": {
         "fixedSlot": false,
