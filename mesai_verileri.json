@@ -5472,17 +5472,6 @@
       }
     },
     {
-      "personnelName": "EMİNE ALANLI KIRCILI",
-      "minutes": 60,
-      "details": {
-        "fixedSlot": true,
-        "startTime": "17:00",
-        "endTime": "",
-        "fileCount": "",
-        "fenKayitNo": "1174"
-      }
-    },
-    {
       "personnelName": "MAHMUT GÖK",
       "minutes": 120,
       "details": {
@@ -5502,6 +5491,17 @@
         "endTime": "21:00",
         "fileCount": "3",
         "fenKayitNo": "1417, 1418, 1419"
+      }
+    },
+    {
+      "personnelName": "EMİNE ALANLI KIRCILI",
+      "minutes": 60,
+      "details": {
+        "fixedSlot": true,
+        "startTime": "17:00",
+        "endTime": "",
+        "fileCount": "9",
+        "fenKayitNo": "1174"
       }
     }
   ],
@@ -5539,17 +5539,6 @@
         "endTime": "17:30",
         "fileCount": "3",
         "fenKayitNo": "1101"
-      }
-    },
-    {
-      "personnelName": "EMİNE ALANLI KIRCILI",
-      "minutes": 60,
-      "details": {
-        "fixedSlot": true,
-        "startTime": "17:00",
-        "endTime": "",
-        "fileCount": "",
-        "fenKayitNo": "1175"
       }
     }
   ],
