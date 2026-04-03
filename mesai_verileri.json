@@ -5339,6 +5339,17 @@
         "fileCount": "8",
         "fenKayitNo": "143, 144, 145, 522, 523, 524, 525, 526"
       }
+    },
+    {
+      "personnelName": "EMİNE ALANLI KIRCILI",
+      "minutes": 60,
+      "details": {
+        "fixedSlot": true,
+        "startTime": "17:00",
+        "endTime": "",
+        "fileCount": "6",
+        "fenKayitNo": "1172"
+      }
     }
   ],
   "2026-03-26": [
@@ -5423,17 +5434,6 @@
         "endTime": "18:00",
         "fileCount": "1",
         "fenKayitNo": "1397"
-      }
-    },
-    {
-      "personnelName": "EMİNE ALANLI KIRCILI",
-      "minutes": 60,
-      "details": {
-        "fixedSlot": true,
-        "startTime": "17:00",
-        "endTime": "",
-        "fileCount": "",
-        "fenKayitNo": "1173"
       }
     }
   ],
