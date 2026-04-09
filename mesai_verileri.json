@@ -5846,5 +5846,18 @@
         "fenKayitNo": "ANAMUR-2026/607,608"
       }
     }
+  ],
+  "2026-04-09": [
+    {
+      "personnelName": "MURAT AKAYDIN",
+      "minutes": 180,
+      "details": {
+        "fixedSlot": true,
+        "startTime": "17:00",
+        "endTime": "19:00",
+        "fileCount": "5",
+        "fenKayitNo": "173-174-175-176-177"
+      }
+    }
   ]
 }
