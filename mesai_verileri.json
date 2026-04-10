@@ -5862,14 +5862,14 @@
   ],
   "2026-04-10": [
     {
-      "personnelName": "SABAHATTİN YAMAN",
-      "minutes": 120,
+      "personnelName": "HALİL ÇETİNKAYA",
+      "minutes": 240,
       "details": {
         "fixedSlot": true,
         "startTime": "17:00",
-        "endTime": "18:00",
-        "fileCount": "1",
-        "fenKayitNo": "614"
+        "endTime": "20:00",
+        "fileCount": "6",
+        "fenKayitNo": "179,180,181,182,616,617"
       }
     },
     {
