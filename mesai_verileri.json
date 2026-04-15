@@ -5896,5 +5896,18 @@
         "fenKayitNo": "1334"
       }
     }
+  ],
+  "2026-04-15": [
+    {
+      "personnelName": "ÖZKAN AKBAŞ",
+      "minutes": 90,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "18:30",
+        "fileCount": "3",
+        "fenKayitNo": "1334"
+      }
+    }
   ]
 }
