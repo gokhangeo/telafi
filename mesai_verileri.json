@@ -5972,5 +5972,18 @@
         "fenKayitNo": "1402"
       }
     }
+  ],
+  "2026-04-14": [
+    {
+      "personnelName": "MAHMUT GÖK",
+      "minutes": 60,
+      "details": {
+        "fixedSlot": true,
+        "startTime": "17:00",
+        "endTime": "",
+        "fileCount": "3",
+        "fenKayitNo": "ANAMUR-707,708,709"
+      }
+    }
   ]
 }
