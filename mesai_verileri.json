@@ -6007,5 +6007,18 @@
         "fenKayitNo": "ANAMUR-707,708,709"
       }
     }
+  ],
+  "2026-04-22": [
+    {
+      "personnelName": "ÖZKAN AKBAŞ",
+      "minutes": 40,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "12:20",
+        "endTime": "13:00",
+        "fileCount": "1",
+        "fenKayitNo": "1403"
+      }
+    }
   ]
 }
