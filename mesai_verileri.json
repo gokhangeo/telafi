@@ -5945,6 +5945,28 @@
         "fileCount": "1",
         "fenKayitNo": "689"
       }
+    },
+    {
+      "personnelName": "MAHMUT GÖK",
+      "minutes": 150,
+      "details": {
+        "fixedSlot": true,
+        "startTime": "17:00",
+        "endTime": "18:30",
+        "fileCount": "9",
+        "fenKayitNo": "ANAMUR/2026/710,711,712,713,714,715,716,717-BOZYAZI 2026/212"
+      }
+    },
+    {
+      "personnelName": "MAHMUT GÖK",
+      "minutes": 150,
+      "details": {
+        "fixedSlot": true,
+        "startTime": "17:00",
+        "endTime": "18:30",
+        "fileCount": "9",
+        "fenKayitNo": "ANAMUR/2026/710,711,712,713,714,715,716,717-BOZYAZI 2026/212"
+      }
     }
   ],
   "2026-04-21": [
