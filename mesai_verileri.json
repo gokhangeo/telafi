@@ -6042,5 +6042,18 @@
         "fenKayitNo": "2026/695"
       }
     }
+  ],
+  "2026-04-24": [
+    {
+      "personnelName": "HİLMİ MÜFTÜOĞLU",
+      "minutes": 120,
+      "details": {
+        "fixedSlot": true,
+        "startTime": "17:00",
+        "endTime": "18:00",
+        "fileCount": "1",
+        "fenKayitNo": "2026/1778"
+      }
+    }
   ]
 }
