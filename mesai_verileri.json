@@ -5795,6 +5795,17 @@
         "fileCount": "5",
         "fenKayitNo": "159,554,555,556,557"
       }
+    },
+    {
+      "personnelName": "MEHMET AKDENİZ",
+      "minutes": 300,
+      "details": {
+        "fixedSlot": true,
+        "startTime": "18:00",
+        "endTime": "22:00",
+        "fileCount": "6",
+        "fenKayitNo": "597-598-599-600-601-602"
+      }
     }
   ],
   "2026-04-06": [
