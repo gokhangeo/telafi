@@ -6225,17 +6225,6 @@
         "fileCount": "3",
         "fenKayitNo": "628-629-630"
       }
-    },
-    {
-      "personnelName": "MEHMET AKDENİZ",
-      "minutes": 180,
-      "details": {
-        "fixedSlot": true,
-        "startTime": "17:00",
-        "endTime": "19:00",
-        "fileCount": "3",
-        "fenKayitNo": "628-629-630"
-      }
     }
   ]
 }
