@@ -5967,6 +5967,17 @@
         "fileCount": "9",
         "fenKayitNo": "ANAMUR/2026/710,711,712,713,714,715,716,717-BOZYAZI 2026/212"
       }
+    },
+    {
+      "personnelName": "KAYHAN KARTPAK",
+      "minutes": 60,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "18:00",
+        "fileCount": "1",
+        "fenKayitNo": "1723"
+      }
     }
   ],
   "2026-04-21": [
