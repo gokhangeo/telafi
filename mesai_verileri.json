@@ -6223,6 +6223,17 @@
         "fileCount": "1",
         "fenKayitNo": "2026/1886"
       }
+    },
+    {
+      "personnelName": "ABDULKADİR BOBUŞ",
+      "minutes": 120,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "19:00",
+        "fileCount": "2",
+        "fenKayitNo": "1724-1740"
+      }
     }
   ],
   "2026-04-29": [
