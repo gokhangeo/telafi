@@ -5941,6 +5941,17 @@
         "fileCount": "7",
         "fenKayitNo": "ANAMUR 2026/704,705,706-BOZYAZI 2026/208,209,210,211"
       }
+    },
+    {
+      "personnelName": "MEHMET AKDENİZ",
+      "minutes": 300,
+      "details": {
+        "fixedSlot": true,
+        "startTime": "17:00",
+        "endTime": "21:00",
+        "fileCount": "7",
+        "fenKayitNo": "610-611-615-616-617-618-619"
+      }
     }
   ],
   "2026-04-16": [
