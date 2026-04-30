@@ -6236,6 +6236,17 @@
         "fileCount": "3",
         "fenKayitNo": "628-629-630"
       }
+    },
+    {
+      "personnelName": "HİLMİ MÜFTÜOĞLU",
+      "minutes": 60,
+      "details": {
+        "fixedSlot": true,
+        "startTime": "17:00",
+        "endTime": "",
+        "fileCount": "1",
+        "fenKayitNo": "2026/1887"
+      }
     }
   ]
 }
