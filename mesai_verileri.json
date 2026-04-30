@@ -6272,5 +6272,18 @@
         "fenKayitNo": "2026/233"
       }
     }
+  ],
+  "2026-04-19": [
+    {
+      "personnelName": "MURAT SARI",
+      "minutes": 180,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "09:00",
+        "endTime": "12:00",
+        "fileCount": "3",
+        "fenKayitNo": "1591-1592-1593"
+      }
+    }
   ]
 }
