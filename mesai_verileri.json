@@ -5974,6 +5974,17 @@
         "fileCount": "7",
         "fenKayitNo": "610-611-615-616-617-618-619"
       }
+    },
+    {
+      "personnelName": "CANER OKAY",
+      "minutes": 210,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "20:30",
+        "fileCount": "4",
+        "fenKayitNo": "1666-1669 arası"
+      }
     }
   ],
   "2026-04-16": [
