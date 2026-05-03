@@ -6395,5 +6395,18 @@
         "fenKayitNo": "1621-1622-1623-1624-1625-1654"
       }
     }
+  ],
+  "2026-05-02": [
+    {
+      "personnelName": "CANER OKAY",
+      "minutes": 420,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "11:00",
+        "endTime": "18:00",
+        "fileCount": "23",
+        "fenKayitNo": "aydıncık 164 ile 186 arası"
+      }
+    }
   ]
 }
