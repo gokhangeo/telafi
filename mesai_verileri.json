@@ -5854,6 +5854,17 @@
         "fileCount": "1",
         "fenKayitNo": "ANAMUR2026/606"
       }
+    },
+    {
+      "personnelName": "CANER OKAY",
+      "minutes": 165,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:15",
+        "endTime": "20:00",
+        "fileCount": "1",
+        "fenKayitNo": "aydıncık 142"
+      }
     }
   ],
   "2026-04-08": [
