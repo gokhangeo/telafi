@@ -6581,17 +6581,6 @@
   "2026-05-06": [
     {
       "personnelName": "SABAHATTİN YAMAN",
-      "minutes": 165,
-      "details": {
-        "fixedSlot": true,
-        "startTime": "17:00",
-        "endTime": "18:45",
-        "fileCount": "1",
-        "fenKayitNo": "238"
-      }
-    },
-    {
-      "personnelName": "SABAHATTİN YAMAN",
       "minutes": 120,
       "details": {
         "fixedSlot": false,
