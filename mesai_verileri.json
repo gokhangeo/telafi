@@ -6689,6 +6689,17 @@
         "fileCount": "2",
         "fenKayitNo": "888,889"
       }
+    },
+    {
+      "personnelName": "SÜLEYMAN YILMAZ",
+      "minutes": 180,
+      "details": {
+        "fixedSlot": true,
+        "startTime": "17:00",
+        "endTime": "19:00",
+        "fileCount": "40",
+        "fenKayitNo": "893 ila 932"
+      }
     }
   ]
 }
