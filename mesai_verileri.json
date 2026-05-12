@@ -6700,6 +6700,17 @@
         "fileCount": "40",
         "fenKayitNo": "893 ila 932"
       }
+    },
+    {
+      "personnelName": "HÜSEYİN BÜYÜK",
+      "minutes": 180,
+      "details": {
+        "fixedSlot": true,
+        "startTime": "17:00",
+        "endTime": "19:00",
+        "fileCount": "40",
+        "fenKayitNo": "933 ila 972"
+      }
     }
   ]
 }
