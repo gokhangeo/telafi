@@ -6771,5 +6771,18 @@
         "fenKayitNo": "987-988-989-990-991-992-993"
       }
     }
+  ],
+  "2026-05-15": [
+    {
+      "personnelName": "SABAHATTİN YAMAN",
+      "minutes": 120,
+      "details": {
+        "fixedSlot": true,
+        "startTime": "17:00",
+        "endTime": "18:00",
+        "fileCount": "3",
+        "fenKayitNo": "247,248,1021"
+      }
+    }
   ]
 }
