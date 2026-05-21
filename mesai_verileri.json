@@ -6891,5 +6891,18 @@
         "fenKayitNo": "201-202-203-204-205"
       }
     }
+  ],
+  "2026-05-19": [
+    {
+      "personnelName": "ABDULKADİR BOBUŞ",
+      "minutes": 150,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "18:00",
+        "endTime": "20:30",
+        "fileCount": "6",
+        "fenKayitNo": "210-211-212-213-214-215"
+      }
+    }
   ]
 }
