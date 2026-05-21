@@ -6867,5 +6867,18 @@
         "fenKayitNo": "196-197-198-199-200"
       }
     }
+  ],
+  "2026-05-17": [
+    {
+      "personnelName": "CANER OKAY",
+      "minutes": 240,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "16:00",
+        "endTime": "20:00",
+        "fileCount": "5",
+        "fenKayitNo": "201-202-203-204-205"
+      }
+    }
   ]
 }
