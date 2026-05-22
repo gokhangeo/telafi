@@ -6904,5 +6904,18 @@
         "fenKayitNo": "209-210-211-212-213-214-215"
       }
     }
+  ],
+  "2026-05-22": [
+    {
+      "personnelName": "MUSTAFA BICAK",
+      "minutes": 170,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "19:50",
+        "fileCount": "5",
+        "fenKayitNo": "2216 ile 2220"
+      }
+    }
   ]
 }
