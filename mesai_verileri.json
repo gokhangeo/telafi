@@ -6703,6 +6703,17 @@
         "fileCount": "1",
         "fenKayitNo": "anamur/2026/708"
       }
+    },
+    {
+      "personnelName": "MÜMİN AKDOĞAN",
+      "minutes": 180,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "20:00",
+        "fileCount": "5",
+        "fenKayitNo": "2056,2055,2054,2053,2052"
+      }
     }
   ],
   "2026-04-11": [
