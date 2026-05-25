@@ -6972,6 +6972,17 @@
         "fileCount": "1",
         "fenKayitNo": "2015"
       }
+    },
+    {
+      "personnelName": "MÜMİN AKDOĞAN",
+      "minutes": 240,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "21:00",
+        "fileCount": "5",
+        "fenKayitNo": "2191,2192,2193,2194,2195"
+      }
     }
   ],
   "2026-05-21": [
