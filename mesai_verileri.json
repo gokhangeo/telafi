@@ -6609,6 +6609,17 @@
         "fileCount": "2",
         "fenKayitNo": "1906-1907"
       }
+    },
+    {
+      "personnelName": "MÜMİN AKDOĞAN",
+      "minutes": 60,
+      "details": {
+        "fixedSlot": true,
+        "startTime": "17:00",
+        "endTime": "",
+        "fileCount": "1",
+        "fenKayitNo": "1934"
+      }
     }
   ],
   "2026-05-06": [
