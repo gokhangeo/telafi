@@ -7007,5 +7007,18 @@
         "fenKayitNo": "2181 ila 2186"
       }
     }
+  ],
+  "2026-05-14": [
+    {
+      "personnelName": "MAHMUT GÖK",
+      "minutes": 120,
+      "details": {
+        "fixedSlot": true,
+        "startTime": "17:00",
+        "endTime": "18:00",
+        "fileCount": "7",
+        "fenKayitNo": "anamur 2026/1111,1112,1113,1114,1115,1116,1117"
+      }
+    }
   ]
 }
