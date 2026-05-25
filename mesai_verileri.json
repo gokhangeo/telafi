@@ -6882,6 +6882,17 @@
         "fileCount": "1",
         "fenKayitNo": "bozyazı_2026/537"
       }
+    },
+    {
+      "personnelName": "MAHMUT GÖK",
+      "minutes": 60,
+      "details": {
+        "fixedSlot": true,
+        "startTime": "17:00",
+        "endTime": "",
+        "fileCount": "1",
+        "fenKayitNo": "ANAMUR-2026/1118"
+      }
     }
   ],
   "2026-05-18": [
