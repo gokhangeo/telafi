@@ -6926,6 +6926,17 @@
         "fileCount": "1",
         "fenKayitNo": "ANAMUR-2026/1118"
       }
+    },
+    {
+      "personnelName": "MÜMİN AKDOĞAN",
+      "minutes": 60,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "18:00",
+        "fileCount": "1",
+        "fenKayitNo": "2190"
+      }
     }
   ],
   "2026-05-18": [
