@@ -6725,6 +6725,17 @@
         "fileCount": "5",
         "fenKayitNo": "2056,2055,2054,2053,2052"
       }
+    },
+    {
+      "personnelName": "SERDAR ŞAHİN",
+      "minutes": 180,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "20:00",
+        "fileCount": "3",
+        "fenKayitNo": "232-233-234"
+      }
     }
   ],
   "2026-04-11": [
