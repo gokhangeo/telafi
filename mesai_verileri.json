@@ -7299,5 +7299,18 @@
         "fenKayitNo": "854-855-856-857-859-860-861-865-866-"
       }
     }
+  ],
+  "2026-05-28": [
+    {
+      "personnelName": "MEHMET AKDENİZ",
+      "minutes": 180,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "10:00",
+        "endTime": "13:00",
+        "fileCount": "2",
+        "fenKayitNo": "867-870"
+      }
+    }
   ]
 }
