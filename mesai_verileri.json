@@ -7167,6 +7167,28 @@
         "fileCount": "2",
         "fenKayitNo": "2063-2064"
       }
+    },
+    {
+      "personnelName": "MEHMET AKDENİZ",
+      "minutes": 420,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "11:00",
+        "endTime": "18:00",
+        "fileCount": "9",
+        "fenKayitNo": "757-758-759-760-761-762-763-781-782"
+      }
+    },
+    {
+      "personnelName": "MEHMET AKDENİZ",
+      "minutes": 420,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "11:00",
+        "endTime": "18:00",
+        "fileCount": "9",
+        "fenKayitNo": "757-758-759-760-761-762-763-781-782"
+      }
     }
   ],
   "2026-05-22": [
