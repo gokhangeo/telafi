@@ -7453,5 +7453,18 @@
         "fenKayitNo": "302,303,304,1226"
       }
     }
+  ],
+  "2026-06-19": [
+    {
+      "personnelName": "SÜLEYMAN YILMAZ",
+      "minutes": 180,
+      "details": {
+        "fixedSlot": true,
+        "startTime": "17:00",
+        "endTime": "19:00",
+        "fileCount": "13",
+        "fenKayitNo": "1231 ila 1239, 314 ila 317"
+      }
+    }
   ]
 }
