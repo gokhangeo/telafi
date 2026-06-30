@@ -7645,6 +7645,17 @@
         "fileCount": "1",
         "fenKayitNo": "1749"
       }
+    },
+    {
+      "personnelName": "SERDAR ŞAHİN",
+      "minutes": 120,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "19:00",
+        "fileCount": "",
+        "fenKayitNo": "290-291(Aydıncık)"
+      }
     }
   ],
   "2026-06-23": [
