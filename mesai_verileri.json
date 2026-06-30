@@ -7771,6 +7771,17 @@
         "fileCount": "9",
         "fenKayitNo": "2353,2354,2355,2356,2357,2358,2359,2360,2361"
       }
+    },
+    {
+      "personnelName": "ABDULKADİR BOBUŞ",
+      "minutes": 180,
+      "details": {
+        "fixedSlot": true,
+        "startTime": "17:00",
+        "endTime": "19:00",
+        "fileCount": "4",
+        "fenKayitNo": "914-915-935-936"
+      }
     }
   ],
   "2026-06-08": [
