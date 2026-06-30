@@ -7934,5 +7934,18 @@
         "fenKayitNo": "aydıncık267 ile 272"
       }
     }
+  ],
+  "2026-06-20": [
+    {
+      "personnelName": "CANER OKAY",
+      "minutes": 300,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "10:00",
+        "endTime": "15:00",
+        "fileCount": "4",
+        "fenKayitNo": "2553-2554-2555-2556"
+      }
+    }
   ]
 }
