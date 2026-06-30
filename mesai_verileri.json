@@ -7887,6 +7887,17 @@
         "fileCount": "2",
         "fenKayitNo": "937-938"
       }
+    },
+    {
+      "personnelName": "SITKI KIZILOLUK",
+      "minutes": 360,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "09:00",
+        "endTime": "15:00",
+        "fileCount": "2",
+        "fenKayitNo": "877-878"
+      }
     }
   ]
 }
