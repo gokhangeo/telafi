@@ -7921,5 +7921,18 @@
         "fenKayitNo": "877-878"
       }
     }
+  ],
+  "2026-06-07": [
+    {
+      "personnelName": "CANER OKAY",
+      "minutes": 180,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "19:00",
+        "endTime": "22:00",
+        "fileCount": "6",
+        "fenKayitNo": "aydıncık267 ile 272"
+      }
+    }
   ]
 }
