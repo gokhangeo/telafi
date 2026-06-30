@@ -7842,5 +7842,29 @@
         "fenKayitNo": "937-938"
       }
     }
+  ],
+  "2026-06-06": [
+    {
+      "personnelName": "MEHMET AKDENİZ",
+      "minutes": 300,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "10:00",
+        "endTime": "15:00",
+        "fileCount": "2",
+        "fenKayitNo": "937-938"
+      }
+    },
+    {
+      "personnelName": "MEHMET AKDENİZ",
+      "minutes": 300,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "10:00",
+        "endTime": "15:00",
+        "fileCount": "2",
+        "fenKayitNo": "937-938"
+      }
+    }
   ]
 }
