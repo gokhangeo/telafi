@@ -7966,6 +7966,17 @@
         "fileCount": "6",
         "fenKayitNo": "aydıncık267 ile 272"
       }
+    },
+    {
+      "personnelName": "MURAT SARI",
+      "minutes": 300,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "14:00",
+        "endTime": "19:00",
+        "fileCount": "4",
+        "fenKayitNo": "2387,2388,2389,2390"
+      }
     }
   ],
   "2026-06-20": [
