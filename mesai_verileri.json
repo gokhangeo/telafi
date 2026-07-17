@@ -8078,5 +8078,18 @@
         "fenKayitNo": "1078-1079-1080"
       }
     }
+  ],
+  "2026-07-11": [
+    {
+      "personnelName": "MEHMET AKDENİZ",
+      "minutes": 300,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "10:00",
+        "endTime": "15:00",
+        "fileCount": "4",
+        "fenKayitNo": "1081-1082-1083-1084"
+      }
+    }
   ]
 }
