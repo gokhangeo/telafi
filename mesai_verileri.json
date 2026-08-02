@@ -8038,6 +8038,17 @@
         "fileCount": "3",
         "fenKayitNo": "332,333,1295"
       }
+    },
+    {
+      "personnelName": "CANER OKAY",
+      "minutes": 120,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "19:00",
+        "fileCount": "1",
+        "fenKayitNo": "1038 gülnar"
+      }
     }
   ],
   "2026-07-08": [
