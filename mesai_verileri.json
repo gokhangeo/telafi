@@ -8160,6 +8160,17 @@
         "fileCount": "2",
         "fenKayitNo": "367-368"
       }
+    },
+    {
+      "personnelName": "CANER OKAY",
+      "minutes": 300,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "09:00",
+        "endTime": "14:00",
+        "fileCount": "5",
+        "fenKayitNo": "303-304-305-306-307 aydıncık"
+      }
     }
   ],
   "2026-07-13": [
