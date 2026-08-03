@@ -8259,5 +8259,18 @@
         "fenKayitNo": "2738"
       }
     }
+  ],
+  "2026-07-31": [
+    {
+      "personnelName": "SERDAR ŞAHİN",
+      "minutes": 180,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "20:00",
+        "fileCount": "1",
+        "fenKayitNo": "3051"
+      }
+    }
   ]
 }
