@@ -8211,5 +8211,18 @@
         "fenKayitNo": "297-298-299-300 aydıncık"
       }
     }
+  ],
+  "2026-07-02": [
+    {
+      "personnelName": "KAYHAN KARTPAK",
+      "minutes": 60,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "12:00",
+        "endTime": "13:00",
+        "fileCount": "1",
+        "fenKayitNo": "2645"
+      }
+    }
   ]
 }
