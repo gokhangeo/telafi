@@ -8110,6 +8110,17 @@
         "fileCount": "3",
         "fenKayitNo": "1078-1079-1080"
       }
+    },
+    {
+      "personnelName": "SERDAR ŞAHİN",
+      "minutes": 90,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "18:30",
+        "fileCount": "1",
+        "fenKayitNo": "2735"
+      }
     }
   ],
   "2026-07-11": [
