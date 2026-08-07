@@ -8011,6 +8011,28 @@
         "fileCount": "3",
         "fenKayitNo": "911-912-913"
       }
+    },
+    {
+      "personnelName": "EMİNE ALANLI KIRCILI",
+      "minutes": 60,
+      "details": {
+        "fixedSlot": true,
+        "startTime": "17:00",
+        "endTime": "",
+        "fileCount": "1",
+        "fenKayitNo": "1573"
+      }
+    },
+    {
+      "personnelName": "EMİNE ALANLI KIRCILI",
+      "minutes": 60,
+      "details": {
+        "fixedSlot": true,
+        "startTime": "17:00",
+        "endTime": "",
+        "fileCount": "1",
+        "fenKayitNo": "1573"
+      }
     }
   ],
   "2026-06-02": [
