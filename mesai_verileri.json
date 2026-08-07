@@ -8496,6 +8496,17 @@
         "fileCount": "4",
         "fenKayitNo": "297-298-299-300 aydıncık"
       }
+    },
+    {
+      "personnelName": "SITKI KIZILOLUK",
+      "minutes": 420,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "09:00",
+        "endTime": "16:00",
+        "fileCount": "14",
+        "fenKayitNo": "1022 ila1035"
+      }
     }
   ],
   "2026-07-02": [
