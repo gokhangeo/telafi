@@ -6522,6 +6522,17 @@
         "fileCount": "4",
         "fenKayitNo": "222-791-797-798"
       }
+    },
+    {
+      "personnelName": "EMİNE ALANLI KIRCILI",
+      "minutes": 60,
+      "details": {
+        "fixedSlot": true,
+        "startTime": "17:00",
+        "endTime": "",
+        "fileCount": "2",
+        "fenKayitNo": "1525"
+      }
     }
   ],
   "2026-04-30": [
