@@ -8647,5 +8647,29 @@
         "fenKayitNo": "334-335-336-337-338"
       }
     }
+  ],
+  "2026-08-30": [
+    {
+      "personnelName": "CANER OKAY",
+      "minutes": 360,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "11:00",
+        "endTime": "17:00",
+        "fileCount": "6",
+        "fenKayitNo": "343-344-345-346-347-348"
+      }
+    },
+    {
+      "personnelName": "CANER OKAY",
+      "minutes": 360,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "11:00",
+        "endTime": "17:00",
+        "fileCount": "6",
+        "fenKayitNo": "343-344-345-346-347-348"
+      }
+    }
   ]
 }
