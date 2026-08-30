@@ -8622,6 +8622,17 @@
         "fileCount": "3",
         "fenKayitNo": "330-331-332"
       }
+    },
+    {
+      "personnelName": "CANER OKAY",
+      "minutes": 180,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "20:00",
+        "fileCount": "3",
+        "fenKayitNo": "330-331-332"
+      }
     }
   ]
 }
