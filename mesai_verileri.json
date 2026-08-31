@@ -8671,5 +8671,18 @@
         "fenKayitNo": "343-344-345-346-347-348"
       }
     }
+  ],
+  "2026-08-13": [
+    {
+      "personnelName": "MÜMİN AKDOĞAN",
+      "minutes": 180,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "20:00",
+        "fileCount": "3",
+        "fenKayitNo": "3137,3138,3139"
+      }
+    }
   ]
 }
