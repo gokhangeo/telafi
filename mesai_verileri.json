@@ -8862,5 +8862,18 @@
         "fenKayitNo": "3321"
       }
     }
+  ],
+  "2026-09-18": [
+    {
+      "personnelName": "SABAHATTİN YAMAN",
+      "minutes": 120,
+      "details": {
+        "fixedSlot": true,
+        "startTime": "17:00",
+        "endTime": "18:00",
+        "fileCount": "3",
+        "fenKayitNo": "1703,1704,1705"
+      }
+    }
   ]
 }
