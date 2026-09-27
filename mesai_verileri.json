@@ -8901,5 +8901,18 @@
         "fenKayitNo": "423,1722"
       }
     }
+  ],
+  "2026-09-05": [
+    {
+      "personnelName": "MEHMET AKDENİZ",
+      "minutes": 240,
+      "details": {
+        "fixedSlot": true,
+        "startTime": "10:00",
+        "endTime": "13:00",
+        "fileCount": "9",
+        "fenKayitNo": "1325-1326-1327-1328-1329-1340-1341-1342-1343"
+      }
+    }
   ]
 }
