@@ -9014,5 +9014,18 @@
         "fenKayitNo": "aydıncık 385 ile 409 arası"
       }
     }
+  ],
+  "2026-09-11": [
+    {
+      "personnelName": "CANER OKAY",
+      "minutes": 90,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:30",
+        "endTime": "19:00",
+        "fileCount": "1",
+        "fenKayitNo": "silifke 3511"
+      }
+    }
   ]
 }
