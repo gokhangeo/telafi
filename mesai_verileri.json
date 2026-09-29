@@ -8990,5 +8990,18 @@
         "fenKayitNo": "436,1786,1787,1788,1789,1790,1791"
       }
     }
+  ],
+  "2026-09-20": [
+    {
+      "personnelName": "CANER OKAY",
+      "minutes": 420,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "15:00",
+        "endTime": "22:00",
+        "fileCount": "25",
+        "fenKayitNo": "aydıncık 385 ile 409 arası"
+      }
+    }
   ]
 }
