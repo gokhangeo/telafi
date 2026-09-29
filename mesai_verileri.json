@@ -9000,6 +9000,17 @@
         "fileCount": "7",
         "fenKayitNo": "436,1786,1787,1788,1789,1790,1791"
       }
+    },
+    {
+      "personnelName": "CANER OKAY",
+      "minutes": 240,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "18:00",
+        "endTime": "22:00",
+        "fileCount": "4",
+        "fenKayitNo": "silifke 3802-3803-3804-3805"
+      }
     }
   ],
   "2026-09-20": [
