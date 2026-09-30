@@ -9121,6 +9121,17 @@
         "fileCount": "4",
         "fenKayitNo": "silifke 3802-3803-3804-3805"
       }
+    },
+    {
+      "personnelName": "SITKI KIZILOLUK",
+      "minutes": 240,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "21:00",
+        "fileCount": "1",
+        "fenKayitNo": "1415"
+      }
     }
   ],
   "2026-09-20": [
