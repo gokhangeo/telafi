@@ -8883,6 +8883,17 @@
         "fileCount": "1",
         "fenKayitNo": "silifke 3572"
       }
+    },
+    {
+      "personnelName": "KAYHAN KARTPAK",
+      "minutes": 180,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "20:00",
+        "fileCount": "3",
+        "fenKayitNo": "3555ila3558"
+      }
     }
   ],
   "2026-09-18": [
