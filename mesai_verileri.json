@@ -8907,6 +8907,17 @@
         "fileCount": "4",
         "fenKayitNo": "aydıncık 379-380-381-382"
       }
+    },
+    {
+      "personnelName": "KAYHAN KARTPAK",
+      "minutes": 60,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "18:00",
+        "fileCount": "1",
+        "fenKayitNo": "3571"
+      }
     }
   ],
   "2026-09-21": [
