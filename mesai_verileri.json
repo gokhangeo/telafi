@@ -9043,6 +9043,17 @@
         "fileCount": "1",
         "fenKayitNo": "3623"
       }
+    },
+    {
+      "personnelName": "MEHTAP AKDOĞAN",
+      "minutes": 60,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "18:00",
+        "fileCount": "1",
+        "fenKayitNo": "3623"
+      }
     }
   ],
   "2026-09-05": [
