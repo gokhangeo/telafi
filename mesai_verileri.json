@@ -8868,6 +8868,17 @@
         "fileCount": "1",
         "fenKayitNo": "3453"
       }
+    },
+    {
+      "personnelName": "HİKMET GÜLCAN",
+      "minutes": 120,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "19:00",
+        "fileCount": "3",
+        "fenKayitNo": "406-407-1613"
+      }
     }
   ],
   "2026-09-10": [
