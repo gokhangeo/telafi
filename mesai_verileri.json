@@ -9283,5 +9283,18 @@
         "fenKayitNo": "3749-3750-3751-3752-3753-3754"
       }
     }
+  ],
+  "2026-09-03": [
+    {
+      "personnelName": "HİKMET GÜLCAN",
+      "minutes": 180,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "20:00",
+        "fileCount": "5",
+        "fenKayitNo": "400-401-402-403-404"
+      }
+    }
   ]
 }
