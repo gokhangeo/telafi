@@ -9386,5 +9386,18 @@
         "fenKayitNo": "3470"
       }
     }
+  ],
+  "2026-09-30": [
+    {
+      "personnelName": "MEHTAP AKDOĞAN",
+      "minutes": 180,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "20:00",
+        "fileCount": "1",
+        "fenKayitNo": "3840"
+      }
+    }
   ]
 }
