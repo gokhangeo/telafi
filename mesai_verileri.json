@@ -9329,5 +9329,18 @@
         "fenKayitNo": "400-401-402-403-404"
       }
     }
+  ],
+  "2026-09-08": [
+    {
+      "personnelName": "MEHTAP AKDOĞAN",
+      "minutes": 120,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "19:00",
+        "fileCount": "1",
+        "fenKayitNo": "3470"
+      }
+    }
   ]
 }
