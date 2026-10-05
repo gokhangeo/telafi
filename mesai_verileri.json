@@ -9446,6 +9446,28 @@
         "fileCount": "1",
         "fenKayitNo": "3112"
       }
+    },
+    {
+      "personnelName": "HALİL ÇETİNKAYA",
+      "minutes": 240,
+      "details": {
+        "fixedSlot": true,
+        "startTime": "17:00",
+        "endTime": "20:00",
+        "fileCount": "2",
+        "fenKayitNo": "1862,1863"
+      }
+    },
+    {
+      "personnelName": "HALİL ÇETİNKAYA",
+      "minutes": 240,
+      "details": {
+        "fixedSlot": true,
+        "startTime": "17:00",
+        "endTime": "20:00",
+        "fileCount": "2",
+        "fenKayitNo": "1862,1863"
+      }
     }
   ]
 }
