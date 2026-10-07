@@ -9554,6 +9554,17 @@
         "fileCount": "4",
         "fenKayitNo": "367-368-369-370"
       }
+    },
+    {
+      "personnelName": "EMİNE ALANLI KIRCILI",
+      "minutes": 60,
+      "details": {
+        "fixedSlot": true,
+        "startTime": "17:00",
+        "endTime": "",
+        "fileCount": "1",
+        "fenKayitNo": "3388"
+      }
     }
   ],
   "2026-10-05": [
