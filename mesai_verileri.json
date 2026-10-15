@@ -9853,17 +9853,6 @@
   "2026-07-23": [
     {
       "personnelName": "ÖZKAN AKBAŞ",
-      "minutes": 3,
-      "details": {
-        "fixedSlot": false,
-        "startTime": "17:00",
-        "endTime": "17:03",
-        "fileCount": "",
-        "fenKayitNo": ""
-      }
-    },
-    {
-      "personnelName": "ÖZKAN AKBAŞ",
       "minutes": 30,
       "details": {
         "fixedSlot": false,
