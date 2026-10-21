@@ -9457,6 +9457,17 @@
         "fileCount": "1",
         "fenKayitNo": "3111"
       }
+    },
+    {
+      "personnelName": "ÖZKAN AKBAŞ",
+      "minutes": 20,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "12:00",
+        "endTime": "12:20",
+        "fileCount": "1",
+        "fenKayitNo": "3112"
+      }
     }
   ],
   "2026-09-02": [
