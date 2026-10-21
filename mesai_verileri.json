@@ -9947,17 +9947,6 @@
   "2026-10-02": [
     {
       "personnelName": "EMİNE ALANLI KIRCILI",
-      "minutes": 60,
-      "details": {
-        "fixedSlot": true,
-        "startTime": "17:00",
-        "endTime": "",
-        "fileCount": "1",
-        "fenKayitNo": "3389"
-      }
-    },
-    {
-      "personnelName": "EMİNE ALANLI KIRCILI",
       "minutes": 50,
       "details": {
         "fixedSlot": false,
