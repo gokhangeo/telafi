@@ -10215,5 +10215,18 @@
         "fenKayitNo": "3636"
       }
     }
+  ],
+  "2026-10-08": [
+    {
+      "personnelName": "SERDAR ARSLAN",
+      "minutes": 45,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "17:45",
+        "fileCount": "1",
+        "fenKayitNo": "3637"
+      }
+    }
   ]
 }
