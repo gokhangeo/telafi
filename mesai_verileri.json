@@ -10320,5 +10320,18 @@
         "fenKayitNo": "2219"
       }
     }
+  ],
+  "2026-10-22": [
+    {
+      "personnelName": "MURAT AKAYDIN",
+      "minutes": 120,
+      "details": {
+        "fixedSlot": true,
+        "startTime": "17:00",
+        "endTime": "18:00",
+        "fileCount": "3",
+        "fenKayitNo": "1941-1942-1943"
+      }
+    }
   ]
 }
