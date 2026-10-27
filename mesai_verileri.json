@@ -10357,5 +10357,18 @@
         "fenKayitNo": "444-445-446-447-448"
       }
     }
+  ],
+  "2026-10-14": [
+    {
+      "personnelName": "CANER OKAY",
+      "minutes": 60,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "18:00",
+        "fileCount": "1",
+        "fenKayitNo": "4101"
+      }
+    }
   ]
 }
