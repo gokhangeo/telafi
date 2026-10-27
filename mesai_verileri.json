@@ -10344,5 +10344,18 @@
         "fenKayitNo": "1941-1942-1943"
       }
     }
+  ],
+  "2026-10-10": [
+    {
+      "personnelName": "CANER OKAY",
+      "minutes": 300,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "13:00",
+        "endTime": "18:00",
+        "fileCount": "5",
+        "fenKayitNo": "444-445-446-447-448"
+      }
+    }
   ]
 }
