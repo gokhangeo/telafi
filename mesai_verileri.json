@@ -10453,6 +10453,17 @@
         "fileCount": "3",
         "fenKayitNo": "4113,4114,4136"
       }
+    },
+    {
+      "personnelName": "MURAT SARI",
+      "minutes": 270,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "21:30",
+        "fileCount": "3",
+        "fenKayitNo": "4113,4114,4136"
+      }
     }
   ],
   "2026-10-10": [
@@ -10541,6 +10552,17 @@
         "endTime": "22:00",
         "fileCount": "5",
         "fenKayitNo": "4256-4257-4258-4259-4260"
+      }
+    },
+    {
+      "personnelName": "MURAT SARI",
+      "minutes": 240,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "21:00",
+        "fileCount": "4",
+        "fenKayitNo": "4219,4251,4218,4219"
       }
     }
   ],
