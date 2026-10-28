@@ -10431,6 +10431,17 @@
         "fileCount": "3",
         "fenKayitNo": "1941-1942-1943"
       }
+    },
+    {
+      "personnelName": "MÜMİN AKDOĞAN",
+      "minutes": 300,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "22:00",
+        "fileCount": "2",
+        "fenKayitNo": "4220-4221"
+      }
     }
   ],
   "2026-10-10": [
