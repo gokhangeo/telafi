@@ -10161,6 +10161,17 @@
         "fileCount": "1",
         "fenKayitNo": "3637"
       }
+    },
+    {
+      "personnelName": "MAHMUT GÖK",
+      "minutes": 120,
+      "details": {
+        "fixedSlot": true,
+        "startTime": "17:00",
+        "endTime": "18:00",
+        "fileCount": "2",
+        "fenKayitNo": "1986,1988"
+      }
     }
   ],
   "2026-07-20": [
