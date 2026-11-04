@@ -10749,5 +10749,18 @@
         "fenKayitNo": "1998"
       }
     }
+  ],
+  "2026-11-01": [
+    {
+      "personnelName": "SERDAR ŞAHİN",
+      "minutes": 360,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "09:00",
+        "endTime": "15:00",
+        "fileCount": "5",
+        "fenKayitNo": "Aydıncık-371-372-373-374-Silifke3470"
+      }
+    }
   ]
 }
