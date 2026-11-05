@@ -10811,6 +10811,17 @@
         "fileCount": "3",
         "fenKayitNo": "841-842-843"
       }
+    },
+    {
+      "personnelName": "HALİL ÇETİNKAYA",
+      "minutes": 120,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "19:00",
+        "fileCount": "2",
+        "fenKayitNo": "2012,2013"
+      }
     }
   ]
 }
