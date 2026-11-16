@@ -10910,5 +10910,18 @@
         "fenKayitNo": "4515-4516-4517-4518"
       }
     }
+  ],
+  "2026-11-14": [
+    {
+      "personnelName": "MUSTAFA BICAK",
+      "minutes": 540,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "09:00",
+        "endTime": "18:00",
+        "fileCount": "13",
+        "fenKayitNo": "4206  ila 4215 ve 4491 ila 4493"
+      }
+    }
   ]
 }
