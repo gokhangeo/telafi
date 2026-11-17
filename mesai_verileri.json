@@ -10894,17 +10894,6 @@
         "fileCount": "1",
         "fenKayitNo": "2282"
       }
-    },
-    {
-      "personnelName": "ÖZKAN AKBAŞ",
-      "minutes": 60,
-      "details": {
-        "fixedSlot": false,
-        "startTime": "17:00",
-        "endTime": "18:00",
-        "fileCount": "1",
-        "fenKayitNo": "2282"
-      }
     }
   ],
   "2026-11-12": [
@@ -10917,17 +10906,6 @@
         "endTime": "",
         "fileCount": "1",
         "fenKayitNo": "2046"
-      }
-    },
-    {
-      "personnelName": "ÖZKAN AKBAŞ",
-      "minutes": 75,
-      "details": {
-        "fixedSlot": false,
-        "startTime": "17:00",
-        "endTime": "18:15",
-        "fileCount": "1",
-        "fenKayitNo": "4291"
       }
     }
   ],
@@ -10980,6 +10958,17 @@
         "endTime": "13:00",
         "fileCount": "1",
         "fenKayitNo": "4458"
+      }
+    },
+    {
+      "personnelName": "HALİL ÇETİNKAYA",
+      "minutes": 180,
+      "details": {
+        "fixedSlot": false,
+        "startTime": "17:00",
+        "endTime": "20:00",
+        "fileCount": "1",
+        "fenKayitNo": "499"
       }
     }
   ],
