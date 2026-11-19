@@ -11041,5 +11041,18 @@
         "fenKayitNo": "2282"
       }
     }
+  ],
+  "2026-11-19": [
+    {
+      "personnelName": "HALİL ÇETİNKAYA",
+      "minutes": 240,
+      "details": {
+        "fixedSlot": true,
+        "startTime": "17:00",
+        "endTime": "20:00",
+        "fileCount": "6",
+        "fenKayitNo": "504,505,2109,2110,2111,2112"
+      }
+    }
   ]
 }
